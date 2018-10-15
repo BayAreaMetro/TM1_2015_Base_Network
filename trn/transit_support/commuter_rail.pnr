@@ -1,0 +1,83 @@
+; Amtrak.PNR  
+; Conversion of PNR connectors from 1099 to 1454 zone system. SI. 8/22/2003
+; Service for 2000 RVAL00
+; Includes ACE service
+
+;**********************
+; Read AMTRAK PNR's   *
+;**********************
+
+PNR NODE=14841-14641 TIME=1.00 ZONES=1-1454                   	  ; San Jose AMTRAK Depot
+PNR NODE=14842-14642 TIME=1.00 ZONES=1-1454                   	  ; Santa Clara
+PNR NODE=14843-14643 TIME=1.00 ZONES=1-1454                   	  ; Great America
+PNR NODE=14844-14644 TIME=2.00 ZONES=1-1454                  	  ; Fremont
+PNR NODE=14846-14646 TIME=2.00 ZONES=1-1454                   	  ; Hayward
+PNR NODE=14847-14647 TIME=2.00 ZONES=1-1454   	                  ; Coliseum BART
+PNR NODE=14848-14648 COST=0.78 TIME=1.00 ZONES=1-1454 	          ; Jack London Square
+PNR NODE=14849-14649 TIME=1.00 ZONES=1-1454                	  ; Emeryville         
+PNR NODE=14850-14650 TIME=1.00 ZONES=1-1454                       ; Berkeley
+PNR NODE=14851-14651 TIME=2.00 ZONES=1-1454                   	  ; Richmond AMTRAK
+PNR NODE=14854-14654 TIME=1.00 ZONES=1-1454                   	  ; Martinez
+PNR NODE=14855-14655 TIME=4.00 ZONES=1-1454                	  ; Suisun City
+PNR NODE=14858-14658 TIME=2.00 ZONES=1-1454                 	  ; Antioch
+PNR NODE=14862-14706 TIME=2.00 ZONES=1-1454                    	  ; Pleasanton
+PNR NODE=14863-14707 TIME=2.00 ZONES=1-1454                    	  ; Livermore
+PNR NODE=14864-14708 TIME=2.00 ZONES=1-1454              	  ; Vasco Road
+;PNR NODE=14729-14529 TIME=2.00 ZONES=1-1454                   	  ; Central Valley
+PNR NODE=14852-14652 TIME=2.00 ZONES=1-1454                       ; Hercules
+PNR NODE=14856-14656 TIME=3.00 ZONES=1-1454                       ; Fairfield/Vacaville
+
+;**********************
+; Read CALTRAIN PNR's *
+;**********************
+
+PNR NODE=15559-13659 COST=0.70 TIME=2.00 ZONES=1-1454         ; South San Francisco Caltrain
+PNR NODE=15560-13660 COST=0.70 TIME=2.00 ZONES=1-1454         ; San Bruno Caltrain
+PNR NODE=15561-13661 COST=0.70 TIME=1.00 ZONES=1-1454         ; Millbrae Caltrain
+PNR NODE=15562-13662 COST=0.70 TIME=1.00 ZONES=1-1454         ; Broadway Caltrain
+PNR NODE=15563-13663 COST=0.70 TIME=1.00 ZONES=1-1454         ; Burlingame Caltrain
+PNR NODE=15564-13664 COST=0.70 TIME=2.00 ZONES=1-1454         ; San Mateo Caltrain
+PNR NODE=15567-13667 COST=0.70 TIME=2.00 ZONES=1-1454         ; Hillsdale Caltrain
+PNR NODE=15568-13668 COST=0.70 TIME=2.00 ZONES=1-1454         ; Belmont Caltrain
+PNR NODE=15569-13669 COST=0.70 TIME=2.00 ZONES=1-1454         ; San Carlos Caltrain
+PNR NODE=15570-13670 COST=0.70 TIME=2.00 ZONES=1-1454         ; Redwood City Caltrain
+PNR NODE=15571-13671 COST=0.70 TIME=2.00 ZONES=1-1454         ; Atherton Caltrain
+PNR NODE=15572-13672 COST=0.70 TIME=2.00 ZONES=1-1454         ; Menlo Park Caltrain
+PNR NODE=15573-13673 COST=0.70 TIME=2.00 ZONES=1-1454         ; Palo Alto Caltrain 
+PNR NODE=15575-13675 COST=0.70 TIME=4.00 ZONES=1-1454         ; California Avenue Caltrain
+PNR NODE=15577-13677 COST=0.70 TIME=3.00 ZONES=1-1454         ; Mountain View Caltrain 
+PNR NODE=15578-13678 COST=0.70 TIME=3.00 ZONES=1-1454         ; Sunnyvale Caltrain
+PNR NODE=15579-13679 COST=0.70 TIME=2.00 ZONES=1-1454         ; Lawrence Caltrain 
+PNR NODE=15580-13680 COST=0.70 TIME=2.00 ZONES=1-1454         ; Santa Clara Caltrain 
+PNR NODE=15582-13682 COST=0.70 TIME=2.00 ZONES=1-1454         ; San Jose Caltrain 
+PNR NODE=15583-13683 COST=0.70 TIME=2.00 ZONES=1-1454         ; Tamien Caltrain 
+PNR NODE=15584-13684 COST=0.70 TIME=4.00 ZONES=1-1454         ; Capitol Caltrain 
+PNR NODE=15585-13685 COST=0.70 TIME=2.00 ZONES=1-1454         ; Blossom Hill CalTrain
+PNR NODE=15586-13686 COST=0.70 TIME=2.00 ZONES=1-1454         ; Morgan Hill CalTrain
+PNR NODE=15587-13687 COST=0.70 TIME=2.00 ZONES=1-1454         ; San Martin CalTrain
+PNR NODE=15588-13688 COST=0.70 TIME=2.00 ZONES=1-1454         ; Gilroy CalTrain
+PNR NODE=15736-15735 COST=0.70 TIME=2.00 ZONES=1-1454         ; Union City DB Rail
+PNR NODE=15741-15740 COST=0.70 TIME=2.00 ZONES=1-1454         ; Newark DB Rail
+PNR NODE=15746-15745 COST=0.70 TIME=2.00 ZONES=1-1454         ; Chilco Rd. DB Rail
+PNR NODE=15751-15750 COST=0.70 TIME=2.00 ZONES=1-1454         ; Fremont
+
+;**********************
+; Read SMART PNR's    *
+;**********************
+
+;PNR NODE=15802-15800 TIME=2.00 ZONES=1-1454	 ; Cloverdale
+;PNR NODE=13460-10460 TIME=2.00 ZONES=1-1454	 ; Healdsburg
+;PNR NODE=13461-10461 TIME=2.00 ZONES=1-1454	 ; Windsor
+PNR NODE=15873-15870 TIME=1.00 ZONES=1-1454	 ; Airport Blvd
+;PNR NODE=15807-15805 TIME=1.00 ZONES=1-1454 	 ; Guerneville Rd
+;PNR NODE=13463-10463 TIME=1.00 ZONES=1-1454	 ; Railroad Square
+PNR NODE=15814-15812 TIME=1.00 ZONES=1-1454	 ; Rohnert Park
+PNR NODE=13466-10466 TIME=1.00 ZONES=1-1454	 ; Cotati
+;PNR NODE=15832-15830 TIME=1.00 ZONES=1-1454	 ; North Petaluma
+;PNR NODE=13467-10467 TIME=1.00 ZONES=1-1454	 ; Dowontown Petaluma
+PNR NODE=15827-15825 TIME=1.00 ZONES=1-1454	 ; Atherton
+PNR NODE=13469-10469 TIME=1.00 ZONES=1-1454	 ; Hamilton
+;PNR NODE=13470-10470 TIME=1.00 ZONES=1-1454	 ; Marin Civic Center
+;PNR NODE=13471-10471 TIME=1.00 ZONES=1-1454	 ; San Rafael
+
+

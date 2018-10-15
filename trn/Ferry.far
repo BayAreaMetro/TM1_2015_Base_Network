@@ -1,0 +1,19 @@
+14502	14600	455	;	Larkspur to	Ferry Building
+14503	14600	385	;	Sausalito to	Ferry Building
+14503	14601	804	;	Sausalito to	Fisherman's Wharf
+14608	14600	804	;	Tiburon to	Ferry Building
+14608	14601	804	;	Tiburon to	Fisherman's Wharf
+14612	14600	350	;	Harbor Bay to	Ferry Building
+14604	14600	336	;	Alameda to	Ferry Building
+14605	14600	336	;	Oakland to	Ferry Building
+14604	14601	336	;	Alameda to	Fisherman's Wharf
+14605	14601	336	;	Oakland to	Fisherman's Wharf
+14604	14605	105	;	Alameda to	Oakland
+14600	14601	105	;	Ferry Building to	Fisherman's Wharf
+14606	14600	706	;	Vallejo to	Ferry Building
+14557	14600	350	;	Berkeley to	Ferry Building
+14577	14600	350	;	Richmond to	Ferry Building
+14100	14600	630	;	Hercules to	Ferry Building
+14567	14600	504	;	South San Francisco to	Ferry Building
+14567	14612	504	;	South San Francisco to	Harbor Bay
+14567	14605	504	;	South San Francisco to	Oakland

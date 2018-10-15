@@ -1,0 +1,406 @@
+13655	13656	221	;	Fourth/Townsend to	22nd St.
+13655	13658	221	;	Fourth/Townsend to	Bayshore
+13655	13659	221	;	Fourth/Townsend to	South San Francisco
+13655	13660	221	;	Fourth/Townsend to	San Bruno
+13655	13661	359	;	Fourth/Townsend to	Millbrae
+13655	13663	359	;	Fourth/Townsend to	Burlingame
+13655	13664	359	;	Fourth/Townsend to	San Mateo
+13655	13665	359	;	Fourth/Townsend to	Hayward Park
+13655	13667	359	;	Fourth/Townsend to	Hillsdale
+13655	13668	359	;	Fourth/Townsend to	Belmont
+13655	13669	359	;	Fourth/Townsend to	San Carlos
+13655	13670	359	;	Fourth/Townsend to	Redwood City
+13655	13672	497	;	Fourth/Townsend to	Menlo Park
+13655	13673	497	;	Fourth/Townsend to	Palo Alto
+13655	13675	497	;	Fourth/Townsend to	California Avenue
+13655	13676	497	;	Fourth/Townsend to	San Antonio
+13655	13677	497	;	Fourth/Townsend to	Mountain View
+13655	13678	497	;	Fourth/Townsend to	Sunnyvale
+13655	13679	635	;	Fourth/Townsend to	Lawrence
+13655	13680	635	;	Fourth/Townsend to	Santa Clara
+13655	13681	635	;	Fourth/Townsend to	College Park
+13655	13682	635	;	Fourth/Townsend to	San Jose Diridon
+13655	13683	635	;	Fourth/Townsend to	Tamien
+13655	13684	773	;	Fourth/Townsend to	Capitol
+13655	13685	773	;	Fourth/Townsend to	Blossom Hill
+13655	13686	911	;	Fourth/Townsend to	Morgan Hill
+13655	13687	911	;	Fourth/Townsend to	San Martin
+13655	13688	911	;	Fourth/Townsend to	Gilroy
+13656	13658	221	;	22nd St. to	Bayshore
+13656	13659	221	;	22nd St. to	South San Francisco
+13656	13660	221	;	22nd St. to	San Bruno
+13656	13661	359	;	22nd St. to	Millbrae
+13656	13663	359	;	22nd St. to	Burlingame
+13656	13664	359	;	22nd St. to	San Mateo
+13656	13665	359	;	22nd St. to	Hayward Park
+13656	13667	359	;	22nd St. to	Hillsdale
+13656	13668	359	;	22nd St. to	Belmont
+13656	13669	359	;	22nd St. to	San Carlos
+13656	13670	359	;	22nd St. to	Redwood City
+13656	13672	497	;	22nd St. to	Menlo Park
+13656	13673	497	;	22nd St. to	Palo Alto
+13656	13675	497	;	22nd St. to	California Avenue
+13656	13676	497	;	22nd St. to	San Antonio
+13656	13677	497	;	22nd St. to	Mountain View
+13656	13678	497	;	22nd St. to	Sunnyvale
+13656	13679	635	;	22nd St. to	Lawrence
+13656	13680	635	;	22nd St. to	Santa Clara
+13656	13681	635	;	22nd St. to	College Park
+13656	13682	635	;	22nd St. to	San Jose Diridon
+13656	13683	635	;	22nd St. to	Tamien
+13656	13684	773	;	22nd St. to	Capitol
+13656	13685	773	;	22nd St. to	Blossom Hill
+13656	13686	911	;	22nd St. to	Morgan Hill
+13656	13687	911	;	22nd St. to	San Martin
+13656	13688	911	;	22nd St. to	Gilroy
+13658	13659	221	;	Bayshore to	South San Francisco
+13658	13660	221	;	Bayshore to	San Bruno
+13658	13661	359	;	Bayshore to	Millbrae
+13658	13663	359	;	Bayshore to	Burlingame
+13658	13664	359	;	Bayshore to	San Mateo
+13658	13665	359	;	Bayshore to	Hayward Park
+13658	13667	359	;	Bayshore to	Hillsdale
+13658	13668	359	;	Bayshore to	Belmont
+13658	13669	359	;	Bayshore to	San Carlos
+13658	13670	359	;	Bayshore to	Redwood City
+13658	13672	497	;	Bayshore to	Menlo Park
+13658	13673	497	;	Bayshore to	Palo Alto
+13658	13675	497	;	Bayshore to	California Avenue
+13658	13676	497	;	Bayshore to	San Antonio
+13658	13677	497	;	Bayshore to	Mountain View
+13658	13678	497	;	Bayshore to	Sunnyvale
+13658	13679	635	;	Bayshore to	Lawrence
+13658	13680	635	;	Bayshore to	Santa Clara
+13658	13681	635	;	Bayshore to	College Park
+13658	13682	635	;	Bayshore to	San Jose Diridon
+13658	13683	635	;	Bayshore to	Tamien
+13658	13684	773	;	Bayshore to	Capitol
+13658	13685	773	;	Bayshore to	Blossom Hill
+13658	13686	911	;	Bayshore to	Morgan Hill
+13658	13687	911	;	Bayshore to	San Martin
+13658	13688	911	;	Bayshore to	Gilroy
+13659	13660	221	;	South San Francisco to	San Bruno
+13659	13661	359	;	South San Francisco to	Millbrae
+13659	13663	359	;	South San Francisco to	Burlingame
+13659	13664	359	;	South San Francisco to	San Mateo
+13659	13665	359	;	South San Francisco to	Hayward Park
+13659	13667	359	;	South San Francisco to	Hillsdale
+13659	13668	359	;	South San Francisco to	Belmont
+13659	13669	359	;	South San Francisco to	San Carlos
+13659	13670	359	;	South San Francisco to	Redwood City
+13659	13672	497	;	South San Francisco to	Menlo Park
+13659	13673	497	;	South San Francisco to	Palo Alto
+13659	13675	497	;	South San Francisco to	California Avenue
+13659	13676	497	;	South San Francisco to	San Antonio
+13659	13677	497	;	South San Francisco to	Mountain View
+13659	13678	497	;	South San Francisco to	Sunnyvale
+13659	13679	635	;	South San Francisco to	Lawrence
+13659	13680	635	;	South San Francisco to	Santa Clara
+13659	13681	635	;	South San Francisco to	College Park
+13659	13682	635	;	South San Francisco to	San Jose Diridon
+13659	13683	635	;	South San Francisco to	Tamien
+13659	13684	773	;	South San Francisco to	Capitol
+13659	13685	773	;	South San Francisco to	Blossom Hill
+13659	13686	911	;	South San Francisco to	Morgan Hill
+13659	13687	911	;	South San Francisco to	San Martin
+13659	13688	911	;	South San Francisco to	Gilroy
+13660	13661	359	;	San Bruno to	Millbrae
+13660	13663	359	;	San Bruno to	Burlingame
+13660	13664	359	;	San Bruno to	San Mateo
+13660	13665	359	;	San Bruno to	Hayward Park
+13660	13667	359	;	San Bruno to	Hillsdale
+13660	13668	359	;	San Bruno to	Belmont
+13660	13669	359	;	San Bruno to	San Carlos
+13660	13670	359	;	San Bruno to	Redwood City
+13660	13672	497	;	San Bruno to	Menlo Park
+13660	13673	497	;	San Bruno to	Palo Alto
+13660	13675	497	;	San Bruno to	California Avenue
+13660	13676	497	;	San Bruno to	San Antonio
+13660	13677	497	;	San Bruno to	Mountain View
+13660	13678	497	;	San Bruno to	Sunnyvale
+13660	13679	635	;	San Bruno to	Lawrence
+13660	13680	635	;	San Bruno to	Santa Clara
+13660	13681	635	;	San Bruno to	College Park
+13660	13682	635	;	San Bruno to	San Jose Diridon
+13660	13683	635	;	San Bruno to	Tamien
+13660	13684	773	;	San Bruno to	Capitol
+13660	13685	773	;	San Bruno to	Blossom Hill
+13660	13686	911	;	San Bruno to	Morgan Hill
+13660	13687	911	;	San Bruno to	San Martin
+13660	13688	911	;	San Bruno to	Gilroy
+13661	13663	221	;	Millbrae to	Burlingame
+13661	13664	221	;	Millbrae to	San Mateo
+13661	13665	221	;	Millbrae to	Hayward Park
+13661	13667	221	;	Millbrae to	Hillsdale
+13661	13668	221	;	Millbrae to	Belmont
+13661	13669	221	;	Millbrae to	San Carlos
+13661	13670	221	;	Millbrae to	Redwood City
+13661	13672	359	;	Millbrae to	Menlo Park
+13661	13673	359	;	Millbrae to	Palo Alto
+13661	13675	359	;	Millbrae to	California Avenue
+13661	13676	359	;	Millbrae to	San Antonio
+13661	13677	359	;	Millbrae to	Mountain View
+13661	13678	359	;	Millbrae to	Sunnyvale
+13661	13679	497	;	Millbrae to	Lawrence
+13661	13680	497	;	Millbrae to	Santa Clara
+13661	13681	497	;	Millbrae to	College Park
+13661	13682	497	;	Millbrae to	San Jose Diridon
+13661	13683	497	;	Millbrae to	Tamien
+13661	13684	635	;	Millbrae to	Capitol
+13661	13685	635	;	Millbrae to	Blossom Hill
+13661	13686	773	;	Millbrae to	Morgan Hill
+13661	13687	773	;	Millbrae to	San Martin
+13661	13688	773	;	Millbrae to	Gilroy
+13663	13664	221	;	Burlingame to	San Mateo
+13663	13665	221	;	Burlingame to	Hayward Park
+13663	13667	221	;	Burlingame to	Hillsdale
+13663	13668	221	;	Burlingame to	Belmont
+13663	13669	221	;	Burlingame to	San Carlos
+13663	13670	221	;	Burlingame to	Redwood City
+13663	13672	359	;	Burlingame to	Menlo Park
+13663	13673	359	;	Burlingame to	Palo Alto
+13663	13675	359	;	Burlingame to	California Avenue
+13663	13676	359	;	Burlingame to	San Antonio
+13663	13677	359	;	Burlingame to	Mountain View
+13663	13678	359	;	Burlingame to	Sunnyvale
+13663	13679	497	;	Burlingame to	Lawrence
+13663	13680	497	;	Burlingame to	Santa Clara
+13663	13681	497	;	Burlingame to	College Park
+13663	13682	497	;	Burlingame to	San Jose Diridon
+13663	13683	497	;	Burlingame to	Tamien
+13663	13684	635	;	Burlingame to	Capitol
+13663	13685	635	;	Burlingame to	Blossom Hill
+13663	13686	773	;	Burlingame to	Morgan Hill
+13663	13687	773	;	Burlingame to	San Martin
+13663	13688	773	;	Burlingame to	Gilroy
+13664	13665	221	;	San Mateo to	Hayward Park
+13664	13667	221	;	San Mateo to	Hillsdale
+13664	13668	221	;	San Mateo to	Belmont
+13664	13669	221	;	San Mateo to	San Carlos
+13664	13670	221	;	San Mateo to	Redwood City
+13664	13672	359	;	San Mateo to	Menlo Park
+13664	13673	359	;	San Mateo to	Palo Alto
+13664	13675	359	;	San Mateo to	California Avenue
+13664	13676	359	;	San Mateo to	San Antonio
+13664	13677	359	;	San Mateo to	Mountain View
+13664	13678	359	;	San Mateo to	Sunnyvale
+13664	13679	497	;	San Mateo to	Lawrence
+13664	13680	497	;	San Mateo to	Santa Clara
+13664	13681	497	;	San Mateo to	College Park
+13664	13682	497	;	San Mateo to	San Jose Diridon
+13664	13683	497	;	San Mateo to	Tamien
+13664	13684	635	;	San Mateo to	Capitol
+13664	13685	635	;	San Mateo to	Blossom Hill
+13664	13686	773	;	San Mateo to	Morgan Hill
+13664	13687	773	;	San Mateo to	San Martin
+13664	13688	773	;	San Mateo to	Gilroy
+13665	13667	221	;	Hayward Park to	Hillsdale
+13665	13668	221	;	Hayward Park to	Belmont
+13665	13669	221	;	Hayward Park to	San Carlos
+13665	13670	221	;	Hayward Park to	Redwood City
+13665	13672	359	;	Hayward Park to	Menlo Park
+13665	13673	359	;	Hayward Park to	Palo Alto
+13665	13675	359	;	Hayward Park to	California Avenue
+13665	13676	359	;	Hayward Park to	San Antonio
+13665	13677	359	;	Hayward Park to	Mountain View
+13665	13678	359	;	Hayward Park to	Sunnyvale
+13665	13679	497	;	Hayward Park to	Lawrence
+13665	13680	497	;	Hayward Park to	Santa Clara
+13665	13681	497	;	Hayward Park to	College Park
+13665	13682	497	;	Hayward Park to	San Jose Diridon
+13665	13683	497	;	Hayward Park to	Tamien
+13665	13684	635	;	Hayward Park to	Capitol
+13665	13685	635	;	Hayward Park to	Blossom Hill
+13665	13686	773	;	Hayward Park to	Morgan Hill
+13665	13687	773	;	Hayward Park to	San Martin
+13665	13688	773	;	Hayward Park to	Gilroy
+13667	13668	221	;	Hillsdale to	Belmont
+13667	13669	221	;	Hillsdale to	San Carlos
+13667	13670	221	;	Hillsdale to	Redwood City
+13667	13672	359	;	Hillsdale to	Menlo Park
+13667	13673	359	;	Hillsdale to	Palo Alto
+13667	13675	359	;	Hillsdale to	California Avenue
+13667	13676	359	;	Hillsdale to	San Antonio
+13667	13677	359	;	Hillsdale to	Mountain View
+13667	13678	359	;	Hillsdale to	Sunnyvale
+13667	13679	497	;	Hillsdale to	Lawrence
+13667	13680	497	;	Hillsdale to	Santa Clara
+13667	13681	497	;	Hillsdale to	College Park
+13667	13682	497	;	Hillsdale to	San Jose Diridon
+13667	13683	497	;	Hillsdale to	Tamien
+13667	13684	635	;	Hillsdale to	Capitol
+13667	13685	635	;	Hillsdale to	Blossom Hill
+13667	13686	773	;	Hillsdale to	Morgan Hill
+13667	13687	773	;	Hillsdale to	San Martin
+13667	13688	773	;	Hillsdale to	Gilroy
+13668	13669	221	;	Belmont to	San Carlos
+13668	13670	221	;	Belmont to	Redwood City
+13668	13672	359	;	Belmont to	Menlo Park
+13668	13673	359	;	Belmont to	Palo Alto
+13668	13675	359	;	Belmont to	California Avenue
+13668	13676	359	;	Belmont to	San Antonio
+13668	13677	359	;	Belmont to	Mountain View
+13668	13678	359	;	Belmont to	Sunnyvale
+13668	13679	497	;	Belmont to	Lawrence
+13668	13680	497	;	Belmont to	Santa Clara
+13668	13681	497	;	Belmont to	College Park
+13668	13682	497	;	Belmont to	San Jose Diridon
+13668	13683	497	;	Belmont to	Tamien
+13668	13684	635	;	Belmont to	Capitol
+13668	13685	635	;	Belmont to	Blossom Hill
+13668	13686	773	;	Belmont to	Morgan Hill
+13668	13687	773	;	Belmont to	San Martin
+13668	13688	773	;	Belmont to	Gilroy
+13669	13670	221	;	San Carlos to	Redwood City
+13669	13672	359	;	San Carlos to	Menlo Park
+13669	13673	359	;	San Carlos to	Palo Alto
+13669	13675	359	;	San Carlos to	California Avenue
+13669	13676	359	;	San Carlos to	San Antonio
+13669	13677	359	;	San Carlos to	Mountain View
+13669	13678	359	;	San Carlos to	Sunnyvale
+13669	13679	497	;	San Carlos to	Lawrence
+13669	13680	497	;	San Carlos to	Santa Clara
+13669	13681	497	;	San Carlos to	College Park
+13669	13682	497	;	San Carlos to	San Jose Diridon
+13669	13683	497	;	San Carlos to	Tamien
+13669	13684	635	;	San Carlos to	Capitol
+13669	13685	635	;	San Carlos to	Blossom Hill
+13669	13686	773	;	San Carlos to	Morgan Hill
+13669	13687	773	;	San Carlos to	San Martin
+13669	13688	773	;	San Carlos to	Gilroy
+13670	13672	359	;	Redwood City to	Menlo Park
+13670	13673	359	;	Redwood City to	Palo Alto
+13670	13675	359	;	Redwood City to	California Avenue
+13670	13676	359	;	Redwood City to	San Antonio
+13670	13677	359	;	Redwood City to	Mountain View
+13670	13678	359	;	Redwood City to	Sunnyvale
+13670	13679	497	;	Redwood City to	Lawrence
+13670	13680	497	;	Redwood City to	Santa Clara
+13670	13681	497	;	Redwood City to	College Park
+13670	13682	497	;	Redwood City to	San Jose Diridon
+13670	13683	497	;	Redwood City to	Tamien
+13670	13684	635	;	Redwood City to	Capitol
+13670	13685	635	;	Redwood City to	Blossom Hill
+13670	13686	773	;	Redwood City to	Morgan Hill
+13670	13687	773	;	Redwood City to	San Martin
+13670	13688	773	;	Redwood City to	Gilroy
+13672	13673	221	;	Menlo Park to	Palo Alto
+13672	13675	221	;	Menlo Park to	California Avenue
+13672	13676	221	;	Menlo Park to	San Antonio
+13672	13677	221	;	Menlo Park to	Mountain View
+13672	13678	221	;	Menlo Park to	Sunnyvale
+13672	13679	359	;	Menlo Park to	Lawrence
+13672	13680	359	;	Menlo Park to	Santa Clara
+13672	13681	359	;	Menlo Park to	College Park
+13672	13682	359	;	Menlo Park to	San Jose Diridon
+13672	13683	359	;	Menlo Park to	Tamien
+13672	13684	497	;	Menlo Park to	Capitol
+13672	13685	497	;	Menlo Park to	Blossom Hill
+13672	13686	635	;	Menlo Park to	Morgan Hill
+13672	13687	635	;	Menlo Park to	San Martin
+13672	13688	635	;	Menlo Park to	Gilroy
+13673	13675	221	;	Palo Alto to	California Avenue
+13673	13676	221	;	Palo Alto to	San Antonio
+13673	13677	221	;	Palo Alto to	Mountain View
+13673	13678	221	;	Palo Alto to	Sunnyvale
+13673	13679	359	;	Palo Alto to	Lawrence
+13673	13680	359	;	Palo Alto to	Santa Clara
+13673	13681	359	;	Palo Alto to	College Park
+13673	13682	359	;	Palo Alto to	San Jose Diridon
+13673	13683	359	;	Palo Alto to	Tamien
+13673	13684	497	;	Palo Alto to	Capitol
+13673	13685	497	;	Palo Alto to	Blossom Hill
+13673	13686	635	;	Palo Alto to	Morgan Hill
+13673	13687	635	;	Palo Alto to	San Martin
+13673	13688	635	;	Palo Alto to	Gilroy
+13675	13676	221	;	California Avenue to	San Antonio
+13675	13677	221	;	California Avenue to	Mountain View
+13675	13678	221	;	California Avenue to	Sunnyvale
+13675	13679	359	;	California Avenue to	Lawrence
+13675	13680	359	;	California Avenue to	Santa Clara
+13675	13681	359	;	California Avenue to	College Park
+13675	13682	359	;	California Avenue to	San Jose Diridon
+13675	13683	359	;	California Avenue to	Tamien
+13675	13684	497	;	California Avenue to	Capitol
+13675	13685	497	;	California Avenue to	Blossom Hill
+13675	13686	635	;	California Avenue to	Morgan Hill
+13675	13687	635	;	California Avenue to	San Martin
+13675	13688	635	;	California Avenue to	Gilroy
+13676	13677	221	;	San Antonio to	Mountain View
+13676	13678	221	;	San Antonio to	Sunnyvale
+13676	13679	359	;	San Antonio to	Lawrence
+13676	13680	359	;	San Antonio to	Santa Clara
+13676	13681	359	;	San Antonio to	College Park
+13676	13682	359	;	San Antonio to	San Jose Diridon
+13676	13683	359	;	San Antonio to	Tamien
+13676	13684	497	;	San Antonio to	Capitol
+13676	13685	497	;	San Antonio to	Blossom Hill
+13676	13686	635	;	San Antonio to	Morgan Hill
+13676	13687	635	;	San Antonio to	San Martin
+13676	13688	635	;	San Antonio to	Gilroy
+13677	13678	221	;	Mountain View to	Sunnyvale
+13677	13679	359	;	Mountain View to	Lawrence
+13677	13680	359	;	Mountain View to	Santa Clara
+13677	13681	359	;	Mountain View to	College Park
+13677	13682	359	;	Mountain View to	San Jose Diridon
+13677	13683	359	;	Mountain View to	Tamien
+13677	13684	497	;	Mountain View to	Capitol
+13677	13685	497	;	Mountain View to	Blossom Hill
+13677	13686	635	;	Mountain View to	Morgan Hill
+13677	13687	635	;	Mountain View to	San Martin
+13677	13688	635	;	Mountain View to	Gilroy
+13678	13679	359	;	Sunnyvale to	Lawrence
+13678	13680	359	;	Sunnyvale to	Santa Clara
+13678	13681	359	;	Sunnyvale to	College Park
+13678	13682	359	;	Sunnyvale to	San Jose Diridon
+13678	13683	359	;	Sunnyvale to	Tamien
+13678	13684	497	;	Sunnyvale to	Capitol
+13678	13685	497	;	Sunnyvale to	Blossom Hill
+13678	13686	635	;	Sunnyvale to	Morgan Hill
+13678	13687	635	;	Sunnyvale to	San Martin
+13678	13688	635	;	Sunnyvale to	Gilroy
+13679	13680	221	;	Lawrence to	Santa Clara
+13679	13681	221	;	Lawrence to	College Park
+13679	13682	221	;	Lawrence to	San Jose Diridon
+13679	13683	221	;	Lawrence to	Tamien
+13679	13684	359	;	Lawrence to	Capitol
+13679	13685	359	;	Lawrence to	Blossom Hill
+13679	13686	497	;	Lawrence to	Morgan Hill
+13679	13687	497	;	Lawrence to	San Martin
+13679	13688	497	;	Lawrence to	Gilroy
+13680	13681	221	;	Santa Clara to	College Park
+13680	13682	221	;	Santa Clara to	San Jose Diridon
+13680	13683	221	;	Santa Clara to	Tamien
+13680	13684	359	;	Santa Clara to	Capitol
+13680	13685	359	;	Santa Clara to	Blossom Hill
+13680	13686	497	;	Santa Clara to	Morgan Hill
+13680	13687	497	;	Santa Clara to	San Martin
+13680	13688	497	;	Santa Clara to	Gilroy
+13681	13682	221	;	College Park to	San Jose Diridon
+13681	13683	221	;	College Park to	Tamien
+13681	13684	359	;	College Park to	Capitol
+13681	13685	359	;	College Park to	Blossom Hill
+13681	13686	497	;	College Park to	Morgan Hill
+13681	13687	497	;	College Park to	San Martin
+13681	13688	497	;	College Park to	Gilroy
+13682	13683	221	;	San Jose Diridon to	Tamien
+13682	13684	359	;	San Jose Diridon to	Capitol
+13682	13685	359	;	San Jose Diridon to	Blossom Hill
+13682	13686	497	;	San Jose Diridon to	Morgan Hill
+13682	13687	497	;	San Jose Diridon to	San Martin
+13682	13688	497	;	San Jose Diridon to	Gilroy
+13683	13684	359	;	Tamien to	Capitol
+13683	13685	359	;	Tamien to	Blossom Hill
+13683	13686	497	;	Tamien to	Morgan Hill
+13683	13687	497	;	Tamien to	San Martin
+13683	13688	497	;	Tamien to	Gilroy
+13684	13685	221	;	Capitol to	Blossom Hill
+13684	13686	359	;	Capitol to	Morgan Hill
+13684	13687	359	;	Capitol to	San Martin
+13684	13688	359	;	Capitol to	Gilroy
+13685	13686	359	;	Blossom Hill to	Morgan Hill
+13685	13687	359	;	Blossom Hill to	San Martin
+13685	13688	359	;	Blossom Hill to	Gilroy
+13686	13687	221	;	Morgan Hill to	San Martin
+13686	13688	221	;	Morgan Hill to	Gilroy
+13687	13688	221	;	San Martin to	Gilroy

@@ -1,0 +1,143 @@
+; Amtrak
+
+5175  14941       ; San Jose Depot
+5175  14841	       
+5336  14942       ; Santa Clara
+5336  14842
+5679  14943       ; Great America
+5679  14843
+3785  14944       ; Fremont
+3785  14844
+3609  14946       ; Hayward
+3609  14846
+2816  14948       ; Jack London Square
+2816  14848
+2639  14949       ; Emeryville
+2639  14849
+2510  14950       ; Berkeley
+2510  14850
+2329  14951       ; Richmond AMTRAK
+2329  14851
+2390  14951
+2192  14954       ; Martinez
+2192  14854
+11040 14955       ; Suisun City
+11040 14855
+7783  14958       ; Antioch
+7783  14858
+12159 14862       ;Pleasanton ACE
+12159 14962
+4067  14863       ;Livermore ACE
+4067  14963
+12170 14864       ;Vasco Road ACE
+12170 14964
+2225  14952       ; Hercules
+2225  14852
+11122 14956       ; Fairfield
+11122 14856 
+
+; Caltrain
+
+7599 14454     ; TRANSBAY TERMINAL          **This file updated with new nodes for RVAL 2000. 8/22. SI.
+7612 14454
+6989 14455     ; Fourth/Townsend Caltrain   **note - stations added for 1998, 32 station system**
+6939 14456     ; 23rd Street Caltrain
+6785 14457     ; Paul Avenue Caltrain
+6738 14458     ; Bayshore Caltrain
+6585 14459     ; South San Francisco Caltrain
+6585 15559
+6519 14460     ; San Bruno Caltrain
+6519 15560
+6530 14461     ; Millbrae Caltrain
+6530 15561
+6536 14462     ; Broadway Caltrain
+6536 15562
+6410 14463     ; Burlingame Caltrain
+6410 15563
+6326 14464     ; San Mateo Caltrain
+6326 15564
+6342 14465     ; Hayward Park Caltrain
+6366 14467     ; Hillsdale Caltrain
+6366 15567
+6186 14468     ; Belmont Caltrain
+6186 15568
+6165 14469     ; San Carlos Caltrain
+6165 15569
+6134 14470     ; Redwood City Caltrain
+6134 15570
+5992 14471     ; Atherton Caltrain
+5992 15571
+5976 14472     ; Menlo Park Caltrain
+5976 15572
+5886 14473     ; Palo Alto Caltrain 
+5886 15573
+5878 14475     ; California Avenue Caltrain
+5878 15575
+5619 14476     ; San Antonio Caltrain
+5639 14477     ; Mountain View Caltrain
+5639 15577
+5485 14478     ; Sunnyvale Caltrain
+5485 15578
+5456 14479     ; Lawrence Caltrain
+5456 15579
+5296 14480     ; Santa Clara Caltrain
+5296 15580
+5110 14481     ; College Park Caltrain
+5106 14481
+5175 14482     ; San Jose Caltrain 
+5175 15582
+4930  14483    ; Tamien Caltrain 
+4930  15583
+4446  14484    ; Capitol Caltrain 
+4446  15584
+5494  14485    ; Blossom Hill CalTrain
+5494  15585
+4212  14486    ; Morgan Hill CalTrain
+4212  15586
+4201  14487    ; San Martin CalTrain
+4201  15587
+4157  14488    ; Gilroy CalTrain
+4157  15588
+2931  15736    ; Union City
+2931  15737   
+3917  15741    ; Newark
+3917  15742
+5928  15746    ; Chilco Rd.
+5928  15747
+3785  15751    ; Fremont
+3785  15752
+6784  16005    ; Oakdale
+
+; SMART
+
+;8480  15801       ;Cloverdale
+;8480  15802
+;8784  11460       ;Healdsburg
+;8784  13460
+;8592  11461       ;Windsor
+;8592  13461
+8795   15872      ;Airport Blvd
+8795   15873
+8560  15806       ;Guerneville Rd.
+;8560  15807
+8061  11463       ;Railroad Square
+;8061  13463
+8288  15813       ;Rohnert Park
+8288  15814
+8518  11466       ;Cotati
+8518  13466
+8582  15831       ;North Petaluma
+;8582  15832
+8212  11467       ;Downtown Petaluma
+;8212  13467
+8112  15826       ;Atherton
+8112  15827
+7969  11469       ;Hamilton
+7969  13469
+7938  11470       ;Marin Civic Center
+;7938  13470
+7905  11471       ;San Rafael
+;7905  13471
+7889  11471
+;7889  13471
+;7855  11472       ;Larkspur

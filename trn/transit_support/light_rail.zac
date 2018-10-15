@@ -1,0 +1,541 @@
+;  SCLRT.ZAC
+;
+; Updated for year 2000 by VTA
+/*
+Use ZONEACCESS control to create mode 5 walk access walk funnel links
+*/
+
+;-------------------------------------------
+; Mountain View to Winchester
+;-------------------------------------------
+
+; Mtn View SCLRT Station
+ZONEACCESS link=11489-13689 mode=5
+
+; Evelyn SCLRT Station
+ZONEACCESS link=11390-13690 mode=5
+
+; Whisman  SCLRT Station
+ZONEACCESS link=11391-13691 mode=5
+
+; Middlefield SCLRT Station
+ZONEACCESS link=11392-13692 mode=5
+
+; Bayshore/NASA SCLRT Station
+ZONEACCESS link=11393-13693 mode=5
+
+; Moffet Park SCLRT Station
+ZONEACCESS link=13806-13805 mode=5
+
+; Lockheed Martin SCLRT Station
+ZONEACCESS link=11394-13694 mode=5
+
+; Borregas SCLRT Station
+ZONEACCESS link=11395-13695 mode=5
+
+; Crossman SCLRT Station
+ZONEACCESS link=11396-13696 mode=5
+
+; Fair Oaks SCLRT Station
+ZONEACCESS link=11397-13697 mode=5
+
+; Vienna SCLRT Station
+ZONEACCESS link=11398-13698 mode=5
+
+; Reamwood SCLRT Station
+ZONEACCESS link=11399-13699 mode=5
+
+; Old Ironsides SCLRT Station
+ZONEACCESS link=11400-13700 mode=5
+
+; Great America SCLRT Station
+ZONEACCESS link=11401-13701 mode=5
+
+; Lick Mill SCLRT Station
+ZONEACCESS link=11402-13702 mode=5
+
+; Champion SCLRT Station
+ZONEACCESS link=10503-13789 mode=5
+
+; Tasman SCLRT Station
+ZONEACCESS link=11403-13703 mode=5
+
+; River Oaks SCLRT Station
+ZONEACCESS link=11404-13704 mode=5
+
+; Orchard SCLRT Station
+ZONEACCESS link=11405-13705 mode=5
+
+; Bonaventura SCLRT Station
+ZONEACCESS link=11406-13706 mode=5
+
+; Component SCLRT Station
+ZONEACCESS link=11407-13707 mode=5
+
+; Karina SCLRT Station
+ZONEACCESS link=11408-13708 mode=5
+
+; Metro/Airport SCLRT Station
+ZONEACCESS link=11409-13709 mode=5
+
+; Gish SCLRT Station
+ZONEACCESS link=11410-13710 mode=5
+
+; Civic Center SCLRT Station
+ZONEACCESS link=11411-13711 mode=5
+
+; Japantown/Ayer SCLRT Station
+ZONEACCESS link=11412-13712 mode=5
+
+; St. James SCLRT Station
+ZONEACCESS link=11413-13713 mode=5
+
+; Santa Clara SCLRT Station
+ZONEACCESS link=11414-13714 mode=5
+
+; Paseo de San Antonio SCLRT Station
+ZONEACCESS link=11415-13715 mode=5
+
+; Convention Center SCLRT Station
+ZONEACCESS link=11416-13716 mode=5
+
+; San Fernando
+ZONEACCESS link=10920-10900 mode=5
+
+; San Jose Diridon
+ZONEACCESS link=10921-10901 mode=5
+
+; Race Street
+ZONEACCESS link=10923-10903 mode=5
+
+; Fruitdale
+ZONEACCESS link=10924-10904 mode=5
+
+; Bascom   
+ZONEACCESS link=10925-10905 mode=5
+
+; Hamilton 
+ZONEACCESS link=10926-10906 mode=5
+
+; Downtown Campbell  
+ZONEACCESS link=10927-10907 mode=5
+
+; Winchester  
+ZONEACCESS link=10928-10911 mode=5
+
+
+;-------------------------------------------
+; Alum Rock to Santa Teresa
+;-------------------------------------------
+
+; Alum Rock
+ZONEACCESS link=10940-10910 mode=5
+
+; McKee
+ZONEACCESS link=10939-10909 mode=5
+
+; Penitencia Creek
+ZONEACCESS link=10938-10908 mode=5
+
+; Berryessa
+ZONEACCESS link=11288-13782 mode=5
+
+; Hostetter
+ZONEACCESS link=11388-13788 mode=5
+
+; Cropley
+ZONEACCESS link=11387-13787 mode=5
+
+; Montague Station
+ZONEACCESS link=11386-13786 mode=5
+
+; Great Mall/Main St. Station
+ZONEACCESS link=11385-13785 mode=5
+
+; I-880/Milpitas Station
+ZONEACCESS link=11384-13784 mode=5
+
+; Cisco Way Station
+ZONEACCESS link=13801-13800 mode=5
+
+; Baypointe SCLRT Station
+ZONEACCESS link=11383-13783 mode=5
+
+; Children's Discovery Museum SCLRT Station
+ZONEACCESS link=11417-13717 mode=5
+
+; Virginia SCLRT Station
+ZONEACCESS link=11418-13718 mode=5
+
+; Tamien SCLRT Light Rail/Caltrain Station
+ZONEACCESS link=11419-13719 mode=5
+
+; Curtner SCLRT Station
+ZONEACCESS link=11420-13720 mode=5
+
+; Capitol SCLRT Station
+ZONEACCESS link=11421-13721 mode=5
+
+; Branham SCLRT Station
+ZONEACCESS link=11422-13722 mode=5
+
+; Ohlone/Chynoweth SCLRT Station
+ZONEACCESS link=11423-13723 mode=5
+
+; Blossom Hill SCLRT Station
+ZONEACCESS link=11426-13726 mode=5
+
+; Snell SCLRT Station
+ZONEACCESS link=11427-13727 mode=5
+
+; Cottle SCLRT Station
+ZONEACCESS link=11428-13728 mode=5
+
+; Santa Teresa SCLRT Station
+ZONEACCESS link=11429-13729 mode=5
+
+;-------------------------------------------
+; Almaden to Ohlone/Chynoweth
+;-------------------------------------------
+
+; Oakridge SCLRT Station
+ZONEACCESS link=11424-13724 mode=5
+
+; Almaden SCLRT Station
+ZONEACCESS link=11425-13725 mode=5
+
+;-------------------------------------------
+; Vasona Extension
+;-------------------------------------------
+
+; Hacienda Station      
+ZONEACCESS link=15595-10912 mode=5
+
+; Vasona Junction Station     
+ZONEACCESS link=15593-10913 mode=5
+
+;-------------------------------------------
+; Capitol Extension
+;-------------------------------------------
+
+;SCVTA LRT Story
+ZONEACCESS link=14795-13795 mode=5
+
+;SCVTA LRT Ocala
+ZONEACCESS link=14796-13796 mode=5
+
+;SCVTA LRT Eastridge
+ZONEACCESS link=14798-13798 mode=5
+
+;-------------------------------------------
+; SJC People Mover SC Caltrain to Metro LRT 
+;-------------------------------------------
+
+; SJ Airport Terminal  
+ZONEACCESS link=10930-14561 mode=5
+
+; Downtown Santa Clara  
+ZONEACCESS link=15591-15590 mode=5
+
+;  MUNIMET.ZAC
+;
+/*
+Use ZONEACCESS control to create mode 5 walk access walk funnel links
+
+RTP01 NP 2025 added Third Street Extension
+*/
+
+; Embarcadero Muni Metro
+ZONEACCESS link=14056-12401 mode=5
+
+; Montgomery Street Muni Metro
+ZONEACCESS link=14055-12402 mode=5
+
+; Powell Street Muni Metro
+ZONEACCESS link=14054-12403 mode=5
+
+; Civic Center Muni Metro
+ZONEACCESS link=14053-12404 mode=5
+
+; Van Ness Muni Metro
+ZONEACCESS link=14035-12405 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINES J and N                          ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Duboce/Church Muni Metro
+ZONEACCESS link=15460-12460 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINE J                                 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Church/Market Muni Metro
+ZONEACCESS link=15484-12484 mode=5
+
+; Church/16th Muni Metro
+ZONEACCESS link=15485-12485 mode=5
+
+; ROW/18th Street Muni Metro
+ZONEACCESS link=15487-12487 mode=5
+
+; ROW/21st Street Muni Metro
+ZONEACCESS link=15490-12490 mode=5
+
+; Church/24th Street Muni Metro
+ZONEACCESS link=15495-12495 mode=5
+
+; Church/Clipper Muni Metro
+ZONEACCESS link=15491-12491 mode=5
+
+; Church/27th Street Muni Metro
+ZONEACCESS link=15492-12492 mode=5
+
+; Church/29th Street Muni Metro
+ZONEACCESS link=15493-12493 mode=5
+
+; Church/30th Street Muni Metro
+ZONEACCESS link=15494-12494 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINES K, L, M                          ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Church Street Muni Metro Station
+ZONEACCESS link=15406-12406 mode=5
+
+; Castro Street Muni Metro Station
+ZONEACCESS link=15407-12407 mode=5
+
+; Forest Hill Muni Metro Station
+ZONEACCESS link=15408-12408 mode=5
+
+; West Portal/Ulloa Muni Metro Station
+ZONEACCESS link=15409-12409 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINES K and M                          ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; West Portal/14th Avenue Muni Metro Stop
+ZONEACCESS link=15410-12410 mode=5
+
+; St. Francis Circle Muni Metro Stop
+ZONEACCESS link=15411-12411 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINE K                                 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Junipero Serra/Ocean Ave. Muni Metro Stop
+ZONEACCESS link=15428-12428 mode=5
+
+; Ocean Avenue/Cerritos Muni Metro Stop
+ZONEACCESS link=15431-12431 mode=5
+
+; Ocean Avenue/Victoria Muni Metro Stop
+ZONEACCESS link=15432-12432 mode=5
+
+; (Western) Ocean/Plymouth Muni Metro Stop
+ZONEACCESS link=15434-12434 mode=5
+
+; (Eastern) Ocean/Plymouth Muni Metro Stop
+ZONEACCESS link=15435-12435 mode=5
+
+; Ocean/Phelan Muni Metro Stop
+ZONEACCESS link=15436-12436 mode=5
+
+; Ocean/San Jose Muni Metro Stop
+ZONEACCESS link=15437-12437 mode=5
+
+; Balboa Park Muni Metro Stop (/BART Stn)
+ZONEACCESS link=14049-12438 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINE M                                 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; ROW/Sloat Muni Metro Stop
+ZONEACCESS link=15415-12415 mode=5
+
+; ROW/Ocean Muni Metro Stop
+ZONEACCESS link=15416-12416 mode=5
+
+; 19th Avenue/Winston Muni Metro Stop
+ZONEACCESS link=15417-12417 mode=5
+
+; 19th Avenue/Holloway Muni Metro Stop
+ZONEACCESS link=15419-12419 mode=5
+
+; 19th Avenue/Junipero Serra Muni Metro Stop
+ZONEACCESS link=15421-12421 mode=5
+
+; Randolph/Arch Muni Metro Stop
+ZONEACCESS link=15423-12423 mode=5
+
+; Broad/Orizaba Muni Metro Stop
+ZONEACCESS link=15424-12424 mode=5
+
+; Broad/Plymouth Muni Metro Stop
+ZONEACCESS link=15427-12427 mode=5
+
+; San Jose/Farallones Muni Metro Stop
+ZONEACCESS link=15425-12425 mode=5
+
+; San Jose/Ocean Avenue Muni Metro Stop
+ZONEACCESS link=15426-12426 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINE L                                 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Uloa/Forestside Muni Metro Stop
+ZONEACCESS link=15439-12439 mode=5
+
+; 19th Avenue/Vicente Muni Metro Stop
+ZONEACCESS link=15440-12440 mode=5
+
+; Taraval/19th Avenue Muni Metro Stop
+ZONEACCESS link=15441-12441 mode=5
+
+; Taraval/24th Avenue Muni Metro Stop
+ZONEACCESS link=15442-12442 mode=5
+
+; Taraval/28th Avenue Muni Metro Stop
+ZONEACCESS link=15443-12443 mode=5
+
+; Taraval/32nd Avenue Muni Metro Stop
+ZONEACCESS link=15444-12444 mode=5
+
+; Taraval/Sunset Blvd Muni Metro Stop
+ZONEACCESS link=15445-12445 mode=5
+
+; Taraval/40th Muni Metro Stop
+ZONEACCESS link=15446-12446 mode=5
+
+; Taraval/46th Avenue Muni Metro Stop
+ZONEACCESS link=15447-12447 mode=5
+
+; Wawona/46th Avenue Muni Metro Stop
+ZONEACCESS link=15448-12448 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       MUNI METRO STREETCAR LINE N                                 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Folsom & Embarcadero Stop
+ZONEACCESS link=15449-12398 mode=5
+
+; Brannan & Embarcadero Stop
+ZONEACCESS link=15450-12396 mode=5
+
+; Second & King Stop
+ZONEACCESS link=15451-12394 mode=5
+
+; Fourth $ King Stop
+ZONEACCESS link=14455-12392 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;          Third Street Extension added for RTP01 NP2025
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ZONEACCESS link=14541-12710 mode=5 ; Mission Bay
+ZONEACCESS link=14542-12711 mode=5 ; UCSF
+ZONEACCESS link=14543-12712 mode=5 ; Mariposa
+ZONEACCESS link=14544-12713 mode=5 ; 20th Street
+ZONEACCESS link=14545-12714 mode=5 ; 23th Street
+ZONEACCESS link=14546-12715 mode=5 ; Cesar Chavez
+ZONEACCESS link=14547-12716 mode=5 ; Evans
+ZONEACCESS link=14548-12717 mode=5 ; Hudson/Lasalle (2 station stops)
+ZONEACCESS link=14549-12718 mode=5 ; Palou
+ZONEACCESS link=14550-12719 mode=5 ; Williams/Van Dyke
+ZONEACCESS link=14551-12720 mode=5 ; Carroll
+ZONEACCESS link=14552-12721 mode=5 ; Gillman/Paul Ave
+ZONEACCESS link=14553-12722 mode=5 ; Jamestown
+ZONEACCESS link=14554-12723 mode=5 ; Arleta
+ZONEACCESS link=14555-12724 mode=5 ; Sunnydale
+ZONEACCESS link=14458-12725 mode=5 ; Bayshore CalTrain - terminus
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Tunnel East Muni Metro Stop
+ZONEACCESS link=15461-12461 mode=5
+
+; Carl/Cole Muni Metro Stop
+ZONEACCESS link=15462-12462 mode=5
+
+; Carl/Stanyan Muni Metro Stop
+ZONEACCESS link=15463-12463 mode=5
+
+; Carl/Hillway Muni Metro Stop
+ZONEACCESS link=15466-12466 mode=5
+
+; Irving/7th Avenue Muni Metro Stop
+ZONEACCESS link=15469-12469 mode=5
+
+; Judah/16th Avenue Muni Metro Stop
+ZONEACCESS link=15472-12472 mode=5
+
+; Judah/19th Avenue Muni Metro Stop
+ZONEACCESS link=15473-12473 mode=5
+
+; Judah/23rd Avenue Muni Metro Stop
+ZONEACCESS link=15475-12475 mode=5
+
+; Judah/28th Avenue Muni Metro Stop
+ZONEACCESS link=15476-12476 mode=5
+
+; Judah/Sunset Blvd. Muni Metro Stop
+ZONEACCESS link=15478-12478 mode=5
+
+; Judah/40th Avenue Muni Metro Stop
+ZONEACCESS link=15480-12480 mode=5
+
+; Judah/46th Avenue Muni Metro Stop
+ZONEACCESS link=15482-12482 mode=5
+
+; Judah/La Playa Muni Metro Stop
+ZONEACCESS link=15483-12483 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       ACCESS TO TRANSBAY TERMINAL                                 ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Transbay Terminal
+ZONEACCESS link=14888-8888 mode=5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;       ACCESS TO NEW P LINE FROM PORTSMOUTH SQ TO HUNTERS POINT    ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;3RD & BRANNAN
+;ZONEACCESS link=13747-12727 mode=5
+
+;3RD & FOLSOM 
+;ZONEACCESS link=13749-12729 mode=5
+
+;3RD & MISSION
+;ZONEACCESS link=13751-12731 mode=5
+
+;MARKET & GEARY
+;ZONEACCESS link=13753-12733 mode=5
+
+;KEARNY & SUTTER    
+;ZONEACCESS link=13755-12735 mode=5
+
+;KEARNY & SACRAMENTO
+;ZONEACCESS link=13757-12737 mode=5
+
+;PORTSMOUTH SQ
+;ZONEACCESS link=13759-12739 mode=5
+
+
+
+;Moscone Center
+ZONEACCESS link=12730-12729 mode=5
+
+;Union Square/Market St.
+ZONEACCESS link=12736-12735 mode=5
+
+;Chinatown
+ZONEACCESS link=12740-12739 mode=5

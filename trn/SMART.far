@@ -1,0 +1,105 @@
+15800	10460	271	;	Cloverdale to	Healdsburg
+15800	10461	271	;	Cloverdale to	Windsor
+15800	15870	271	;	Cloverdale to	Airport Blvd
+15800	15805	406	;	Cloverdale to	Guerneville Rd
+15800	10463	406	;	Cloverdale to	Railroad Square
+15800	15812	542	;	Cloverdale to	Rohnert Park
+15800	10466	542	;	Cloverdale to	Cotati
+15800	15830	542	;	Cloverdale to	North Petaluma
+15800	10467	542	;	Cloverdale to	Downtown Petaluma
+15800	15825	677	;	Cloverdale to	Atherton
+15800	10469	677	;	Cloverdale to	Hamilton
+15800	10470	813	;	Cloverdale to	Marin Civic Center
+15800	10471	813	;	Cloverdale to	San Rafael
+15800	10072	813	;	Cloverdale to	Larkspur
+10460	10461	271	;	Healdsburg to	Windsor
+10460	15870	271	;	Healdsburg to	Airport Blvd
+10460	15805	406	;	Healdsburg to	Guerneville Rd
+10460	10463	406	;	Healdsburg to	Railroad Square
+10460	15812	542	;	Healdsburg to	Rohnert Park
+10460	10466	542	;	Healdsburg to	Cotati
+10460	15830	542	;	Healdsburg to	North Petaluma
+10460	10467	542	;	Healdsburg to	Downtown Petaluma
+10460	15825	677	;	Healdsburg to	Atherton
+10460	10469	677	;	Healdsburg to	Hamilton
+10460	10470	813	;	Healdsburg to	Marin Civic Center
+10460	10471	813	;	Healdsburg to	San Rafael
+10460	10072	813	;	Healdsburg to	Larkspur
+10461	15870	271	;	Windsor to	Airport Blvd
+10461	15805	406	;	Windsor to	Guerneville Rd
+10461	10463	406	;	Windsor to	Railroad Square
+10461	15812	542	;	Windsor to	Rohnert Park
+10461	10466	542	;	Windsor to	Cotati
+10461	15830	542	;	Windsor to	North Petaluma
+10461	10467	542	;	Windsor to	Downtown Petaluma
+10461	15825	677	;	Windsor to	Atherton
+10461	10469	677	;	Windsor to	Hamilton
+10461	10470	813	;	Windsor to	Marin Civic Center
+10461	10471	813	;	Windsor to	San Rafael
+10461	10072	813	;	Windsor to	Larkspur
+15870	15805	406	;	Airport Blvd to	Guerneville Rd
+15870	10463	406	;	Airport Blvd to	Railroad Square
+15870	15812	542	;	Airport Blvd to	Rohnert Park
+15870	10466	542	;	Airport Blvd to	Cotati
+15870	15830	542	;	Airport Blvd to	North Petaluma
+15870	10467	542	;	Airport Blvd to	Downtown Petaluma
+15870	15825	677	;	Airport Blvd to	Atherton
+15870	10469	677	;	Airport Blvd to	Hamilton
+15870	10470	813	;	Airport Blvd to	Marin Civic Center
+15870	10471	813	;	Airport Blvd to	San Rafael
+15870	10072	813	;	Airport Blvd to	Larkspur
+15805	10463	271	;	Guerneville Rd to	Railroad Square
+15805	15812	406	;	Guerneville Rd to	Rohnert Park
+15805	10466	406	;	Guerneville Rd to	Cotati
+15805	15830	406	;	Guerneville Rd to	North Petaluma
+15805	10467	406	;	Guerneville Rd to	Downtown Petaluma
+15805	15825	542	;	Guerneville Rd to	Atherton
+15805	10469	542	;	Guerneville Rd to	Hamilton
+15805	10470	677	;	Guerneville Rd to	Marin Civic Center
+15805	10471	677	;	Guerneville Rd to	San Rafael
+15805	10072	677	;	Guerneville Rd to	Larkspur
+10463	15812	406	;	Railroad Square to	Rohnert Park
+10463	10466	406	;	Railroad Square to	Cotati
+10463	15830	406	;	Railroad Square to	North Petaluma
+10463	10467	406	;	Railroad Square to	Downtown Petaluma
+10463	15825	542	;	Railroad Square to	Atherton
+10463	10469	542	;	Railroad Square to	Hamilton
+10463	10470	677	;	Railroad Square to	Marin Civic Center
+10463	10471	677	;	Railroad Square to	San Rafael
+10463	10072	677	;	Railroad Square to	Larkspur
+15812	10466	271	;	Rohnert Park to	Cotati
+15812	15830	271	;	Rohnert Park to	North Petaluma
+15812	10467	271	;	Rohnert Park to	Downtown Petaluma
+15812	15825	406	;	Rohnert Park to	Atherton
+15812	10469	406	;	Rohnert Park to	Hamilton
+15812	10470	542	;	Rohnert Park to	Marin Civic Center
+15812	10471	542	;	Rohnert Park to	San Rafael
+15812	10072	542	;	Rohnert Park to	Larkspur
+10466	15830	271	;	Cotati to	North Petaluma
+10466	10467	271	;	Cotati to	Downtown Petaluma
+10466	15825	406	;	Cotati to	Atherton
+10466	10469	406	;	Cotati to	Hamilton
+10466	10470	542	;	Cotati to	Marin Civic Center
+10466	10471	542	;	Cotati to	San Rafael
+10466	10072	542	;	Cotati to	Larkspur
+15830	10467	271	;	North Petaluma to	Downtown Petaluma
+15830	15825	406	;	North Petaluma to	Atherton
+15830	10469	406	;	North Petaluma to	Hamilton
+15830	10470	542	;	North Petaluma to	Marin Civic Center
+15830	10471	542	;	North Petaluma to	San Rafael
+15830	10072	542	;	North Petaluma to	Larkspur
+10467	15825	406	;	Downtown Petaluma to	Atherton
+10467	10469	406	;	Downtown Petaluma to	Hamilton
+10467	10470	542	;	Downtown Petaluma to	Marin Civic Center
+10467	10471	542	;	Downtown Petaluma to	San Rafael
+10467	10072	542	;	Downtown Petaluma to	Larkspur
+15825	10469	271	;	Atherton to	Hamilton
+15825	10470	406	;	Atherton to	Marin Civic Center
+15825	10471	406	;	Atherton to	San Rafael
+15825	10072	406	;	Atherton to	Larkspur
+10469	10470	406	;	Hamilton to	Marin Civic Center
+10469	10471	406	;	Hamilton to	San Rafael
+10469	10072	406	;	Hamilton to	Larkspur
+10470	10471	271	;	Marin Civic Center to	San Rafael
+10470	10072	271	;	Marin Civic Center to	Larkspur
+10471	10072	271	;	San Rafael to	Larkspur

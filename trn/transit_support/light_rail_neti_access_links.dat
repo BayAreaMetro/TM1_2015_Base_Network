@@ -1,0 +1,195 @@
+12567 11400   ; Old Ironsides LRT Access node   
+5437 11401    ; Great America LRT Access node   **This file updated with new nodes for RVAL 2000. 8/23. SI.
+5679 11402    ; Lick Mill LRT Access node
+5793 10503    ; Champion LRT Access node
+5793 11403    ; Tasman LRT Access node
+4257 11304    ; River Oaks LRT PNR
+4257 11404    ; River Oaks LRT Access node
+4258 11405    ; Orchard LRT Access node
+5705 11406    ; Bonaventura LRT Access node
+4277 11407    ; Component LRT Access node
+5693 11408    ; Karina LRT Access node
+5267 11409    ; Metro/Airport LRT Access node
+5289 11410    ; Gish LRT Access node
+5067 11411    ; Civic Center LRT Access node
+5069 11412    ; Ayer Street/Japantown LRT Access node
+4982 11413    ; St. James LRT Access node
+4968 11414    ; Santa Clara LRT Access node
+4956 11415    ; Paseo de San Antonio LRT Access node
+5171 11416    ; Convention Center LRT Access node
+5188 11417    ; Children's Discovery Museum LRT Access node
+4912 11418    ; Virginia LRT Access node
+4930 11419    ; Tamien LRT Light Rail/Caltrain Access node
+4930 10519    ; Tamien LRT Light Rail/Caltrain PNR
+4490 11420    ; Curtner LRT Access node
+4490 10580    ; Curtner LRT PNR
+4352 11421    ; Capitol LRT Access node
+4352 10581    ; Capitol LRT PNR
+5554 11422    ; Branham LRT Access node
+5554 10582    ; Branham LRT PNR
+4656 11423    ; Ohlone/Chynoweth LRT Access node
+4656 10583    ; Ohlone/Chynoweth LRT PNR
+4709 11424    ; Oakridge LRT Access node
+;4709 10584    ; Oakridge LRT PNR
+5375 11425    ; Almaden LRT Access node
+5375 10585    ; Almaden LRT PNR
+4427 11426    ; Blossom Hill LRT Access node
+4427 10586    ; Blossom Hill LRT PNR
+4312 11427    ; Snell LRT Access node
+4312 10587    ; Snell LRT PNR
+4628 11428    ; Cottle LRT Access node
+4628 10588    ; Cottle LRT PNR
+6033 11429    ; Santa Teresa LRT Access node
+6033 10589    ; Santa Teresa LRT PNR 
+5097 11384    ; I-880/Milpitas Station Access node
+5097 11484    ; I-880/Milpitas Station PNR
+4251 11383    ; Baypointe LRT Access node
+4195 11399    ; Reamwood LRT Access node
+5651 11398    ; Vienna LRT Access node
+5652 11397    ; Fair Oaks LRT Access node
+4190 11396    ; Crossman LRT Access node
+4191 11395    ; Borregas LRT Access node
+5833 11394    ; Lockheed LRT Access node
+4148 11393    ; Bayshore/NASA LRT Access node
+5509 11392    ; Middlefield LRT Access node
+5582 11391    ; Whisman LRT Access node
+5582 11291    ; Whisman PNR
+5593 11390    ; Evelyn LRT Access node
+5524 11390    ; Evelyn LRT Access node
+5593 11490    ; Evelyn PNR
+5524 11490    ; Evelyn PNR
+5639 11489    ; Mtn. View LRT Access node 
+10077 11489    ; Mtn. View LRT PNR 
+5828 13806    ; Moffett Park LRT Access node
+;5828 13807    ; Moffett Park PNR
+12550 15595   ; Hacienda LRT Access Node
+4805 15593   ; Vasona Junction LRT Access Node
+4805 15594   ; Vason Junction PNR
+5208 14795    ; Story LRT Access node
+4740 14796    ; Ocala LRT Access node
+4385 14798    ; Eastridge LRT Access node
+4385 12798    ; Eastrdige PNR
+10311 10930   ; San Jose Airport LRT Access node
+5296 15591    ; Downtown Santa Clara Access Node
+5296 15592    ; Downtown Santa Clara PNR
+5179 10920    ; San Fernando Access Node
+5175 10921    ; San Jose Diridon Access Node
+5175 10801    ; San Jose Diridon PNR
+4895 10923    ; Race St. Access Node
+4859 10924    ; Fruitdale Access Node
+4855 10925    ; Bascom Access Node
+4855 10805    ; Bascom PNR
+4828 10926    ; Hamilton Access Node
+4788 10927    ; Campbell Access Node
+4786 10928    ; Winchester Access Node
+4786 10811    ; Winchester PNR
+4253 13801    ; Cisco Way Access Node
+4371 11385    ; Great Mall/Main Access Node
+4371 11485    ; Great Mall/Main PNR
+5784 11386    ; Montague Access Node
+5758 11387    ; Cropley Access Node
+5742 11388    ; Hostetter Access Node
+5742 11488    ; Hostetter PNR
+5745 11288    ; Berryessa Access Node
+5221 10938    ; Penitencia Creek Access Node
+5221 10808    ; Penitencia Creek PNR
+5232 10939    ; McKee Access Node
+5234 10940    ; Alum Rock Access Node
+5234 10810    ; Alum Rock PNR
+
+7488 14056       ; Embarcadero  ---- MUNI METRO STREETCAR LINES J, K, L, M, N  ** 4 stops added to N line for 1998 extension to 4th and King
+7499 14056       ; **This file updated with new nodes for RVAL 2000. 8/22. SI.
+7507 14055       ; Montgomery Street
+7509 14055       
+7518 14054       ; Powell Street
+7628 14053       ; Civic Center
+7556 14035       ; Van Ness Muni Metro
+7199 15460       ; Duboce/Church Muni Metro  ---- MUNI METRO STREETCAR LINES J and N
+13561 15484      ; Church/Market Muni Metro  ---- MUNI METRO STREETCAR LINE J
+13562 15485      ; Church/16th Muni Metro
+13563 15487      ; ROW/18th Street Muni Metro
+13564 15490      ; ROW/21st Street Muni Metro
+7152 15495       ; Church/24th Street Muni Metro
+7150 15491       ; Church/Clipper Muni Metro
+7308 15492       ; Church/27th Street Muni Metro
+13582 15493      ; Church/29th Street Muni Metro
+7159 15494       ; Church/30th Street Muni Metro
+13561 15406      ; Church Street Muni Metro Station  ---- MUNI METRO STREETCAR LINES K, L, M
+7201 15407       ; Castro Street Muni Metro Station
+7238 15408       ; Forest Hill Muni Metro Station
+7242 15409       ; West Portal/Ulloa Muni Metro Station
+7243 15410       ; West Portal/14th Avenue Muni Metro Stop  ---- MUNI METRO STREETCAR LINES K and M
+7244 15411       ; St. Francis Circle Muni Metro Stop
+6898 15428       ; Junipero Serra/Ocean Ave. Muni Metro Stop  ---- MUNI METRO STREETCAR LINE K
+6888 15431       ; Ocean Avenue/Cerritos Muni Metro Stop
+7230 15432       ; Ocean Avenue/Victoria Muni Metro Stop
+7225 15434       ; (Western) Ocean/Plymouth Muni Metro Stop
+6884 15435       ; (Eastern) Ocean/Plymouth Muni Metro Stop
+6883 15436       ; Ocean/Phelan Muni Metro Stop
+6846 15437       ; Ocean/San Jose Muni Metro Stop
+6847 14049       ; Balboa Park Muni Metro Stop (/BART Stn)
+7248 15415       ; ROW/Sloat Muni Metro Stop  ---- MUNI METRO STREETCAR LINE M
+7229 15416       ; ROW/Ocean Muni Metro Stop
+6897 15417       ; 19th Avenue/Winston Muni Metro Stop
+6901 15419       ; 19th Avenue/Holloway Muni Metro Stop
+6894 15421       ; 19th Avenue/Junipero Serra Muni Metro Stop
+7236 15423       ; Randolph/Arch Muni Metro Stop
+7235 15424       ; Broad/Orizaba Muni Metro Stop
+13647 15427      ; Broad/Plymouth Muni Metro Stop
+13648 15425      ; San Jose/Farallones Muni Metro Stop
+6847 15426       ; San Jose/Ocean Avenue Muni Metro Stop
+7243 15439       ; Uloa/Forestside Muni Metro Stop  ---- MUNI METRO STREETCAR LINE L
+7247 15440       ; 19th Avenue/Vicente Muni Metro Stop
+7249 15441       ; Taraval/19th Avenue Muni Metro Stop
+7448 15442       ; Taraval/24th Avenue Muni Metro Stop
+13538 15443      ; Taraval/28th Avenue Muni Metro Stop
+7250 15444       ; Taraval/32nd Avenue Muni Metro Stop
+7263 15445       ; Taraval/Sunset Blvd Muni Metro Stop
+7271 15446       ; Taraval/40th Muni Metro Stop
+7269 15447       ; Taraval/46th Avenue Muni Metro Stop
+7266 15448       ; Wawona/46th Avenue Muni Metro Stop
+6982 15449       ; Folsom & Embarcadero Stop   added for 98  ---- MUNI METRO STREETCAR LINE N
+7446 15450       ; Brannan & Embarcadero Stop  added for 98
+7409 15451       ; Second & King Stop          added for 98
+6963 14455       ; Fourth $ King Stop          added for 98
+6952 14541       ; Mission Bay                        added 2025 NP RTP01
+6953 14542       ; UCSF                               added 2025 NP RTP01
+6936 14543       ; Mariposa                           added 2025 NP RTP01
+6941 14544       ; 20th Street                        added 2025 NP RTP01
+6937 14545       ; 23th Street                        added 2025 NP RTP01
+6753 14546       ; Cesar Chavez                       added 2025 NP RTP01
+6755 14547       ; Evans                              added 2025 NP RTP01
+13510 14548      ; Hudson/Lasalle (2 station stops)   added 2025 NP RTP01
+6758 14549       ; Palou                              added 2025 NP RTP01
+6795 14550       ; Williams/Van Dyke                  added 2025 NP RTP01
+13632 14551      ; Carroll                            added 2025 NP RTP01
+6785 14552       ; Gillman/Paul Ave                   added 2025 NP RTP01
+6782 14553       ; Jamestown                          added 2025 NP RTP01
+6738 14554       ; Arleta                             added 2025 NP RTP01
+6740 14555       ; Sunnydale                          added 2025 NP RTP01
+6738 14458       ; Bayshore CalTrain - terminus       added 2025 NP RTP01
+7200 15461       ; Tunnel East Muni Metro Stop
+13553 15462      ; Carl/Cole Muni Metro Stop
+7175 15463       ; Carl/Stanyan Muni Metro Stop
+7176 15466       ; Carl/Hillway Muni Metro Stop
+7233 15469       ; Irving/7th Avenue Muni Metro Stop
+7232 15472       ; Judah/16th Avenue Muni Metro Stop
+7257 15473       ; Judah/19th Avenue Muni Metro Stop
+13519 15475      ; Judah/23rd Avenue Muni Metro Stop
+13536 15476      ; Judah/28th Avenue Muni Metro Stop
+13520 15478      ; Judah/Sunset Blvd. Muni Metro Stop
+13524 15480      ; Judah/40th Avenue Muni Metro Stop
+13521 15482      ; Judah/46th Avenue Muni Metro Stop
+13522 15483      ; Judah/La Playa Muni Metro Stop
+7599 14888       ; Transbay Terminal
+7612 14888       ; Transbay Terminal
+;7636 13759       ; Portsmouth SQ     
+;13639 13757      ; Kearny & Sacramento
+;7526 13755       ; Kearny & Sutter
+;7510 13753       ; Market & Geary
+;7585 13751       ; 3rd & Mission
+;7065 13749       ; 3rd & Folsom
+;7051 13747       ; 3rd & Brannan
+7544  12740     ; Chinatown
+7513  12736     ; Union Square
+7064  12730     ; Moscone

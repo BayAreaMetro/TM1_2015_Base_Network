@@ -1,0 +1,43 @@
+; Light Rail PNR
+;**********************
+; Read SCLRT PNR's    *
+;**********************
+PNR NODE=11304-13704 TIME=2.00 ZONES=1-1454             ; River Oaks (formerly Tasman) LRT Station
+PNR NODE=10519-13719 TIME=2.00 ZONES=1-1454             ; Tamien SCLRT Light Rail/Caltrain Station
+PNR NODE=10580-13720 TIME=2.00 ZONES=1-1454             ; Curtner SCLRT Station
+PNR NODE=10581-13721 TIME=2.00 ZONES=1-1454             ; Capitol SCLRT Station
+PNR NODE=10582-13722 TIME=2.00 ZONES=1-1454             ; Branham SCLRT Station
+PNR NODE=10583-13723 TIME=2.00 ZONES=1-1454             ; Ohlone/Chynoweth SCLRT Station
+;PNR NODE=10584-13724 TIME=2.00 ZONES=1-1454             ; Oakridge SCLRT Station
+PNR NODE=10585-13725 TIME=2.00 ZONES=1-1454             ; Almaden SCLRT Station
+PNR NODE=10586-13726 TIME=2.00 ZONES=1-1454             ; Blossom Hill SCLRT Station
+PNR NODE=10587-13727 TIME=2.00 ZONES=1-1454             ; Snell SCLRT Station
+PNR NODE=10588-13728 TIME=2.00 ZONES=1-1454             ; Cottle SCLRT Station
+PNR NODE=10589-13729 TIME=2.00 ZONES=1-1454             ; Santa Teresa SCLRT Station
+PNR NODE=11291-13691 TIME=2.00 ZONES=1-1454             ; Whisman SCLRT Station
+;PNR NODE=13807-13805 TIME=2.00 ZONES=1-1454             ; Moffett Park SCLRT Station
+PNR NODE=11490-13690 TIME=2.00 ZONES=1-1454             ; Evelyn SCLRT Station
+;PNR NODE=11490-13690 TIME=2.00 ZONES=1-1454             ; Mtn. View SCLRT Station
+PNR NODE=11484-13784 TIME=2.00 ZONES=1-1454             ; I-880 @ Tasman Station
+PNR NODE=11485-13785 TIME=2.00 ZONES=1-1454             ; Milpitas-Main St. Station
+;PNR NODE=11486-13786 TIME=2.00 ZONES=1-1454             ; Montague Station
+PNR NODE=11488-13788 TIME=2.00 ZONES=1-1454             ; Hostetter
+PNR NODE=10808-10908 TIME=2.00 ZONES=1-1454             ; Glenfirth
+;PNR NODE=10809-10909 TIME=2.00 ZONES=1-1454             ; McKee
+PNR NODE=10810-10910 TIME=2.00 ZONES=1-1454             ; Alum Rock 
+PNR NODE=10801-10901 TIME=2.00 ZONES=1-1454             ; San Jose Amtrak Depot
+;PNR NODE=10802-10902 TIME=2.00 ZONES=1-1454             ; San Carlos
+;PNR NODE=10804-10904 TIME=2.00 ZONES=1-1454             ; Fruitdale
+PNR NODE=10805-10905 TIME=2.00 ZONES=1-1454             ; Bascom   
+PNR NODE=10811-10911 TIME=2.00 ZONES=1-1454             ; Winchester   
+PNR NODE=15592-15590 TIME=2.00 ZONES=1-1454             ; Downtown Santa Clara
+;PNR NODE=12793-13793 TIME=2.00 ZONES=1-1454             ; Alum Rock @ King       
+;PNR NODE=12794-13794 TIME=2.00 ZONES=1-1454             ; Alum Rock @ Jackson Ave
+;PNR NODE=12795-13795 TIME=2.00 ZONES=1-1454             ; Story      
+;PNR NODE=12796-13796 TIME=2.00 ZONES=1-1454             ; Ocala 
+;PNR NODE=12797-13797 TIME=2.00 ZONES=1-1454             ; Capitol Exp@Tully      
+PNR NODE=12798-13798 TIME=2.00 ZONES=1-1454             ; Eastridge
+PNR NODE=15594-10913 TIME=2.00 ZONES=1-1454             ; Vasona Junction
+PNR NODE=10077-13689 TIME=2.00 ZONES=1-1454             ; Mountain View
+
+

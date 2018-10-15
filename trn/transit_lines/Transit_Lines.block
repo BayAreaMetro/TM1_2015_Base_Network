@@ -1,0 +1,63 @@
+;------------------------------------------------------------------------
+; Read in Line (Route) Files from a BLOCK
+;------------------------------------------------------------------------
+    read  file = trn\AC_Local.tpl
+    read  file = trn\AC_TransBay.tpl
+    read  file = trn\San_Leandro_Links.TPL
+    read  file = trn\american_canyon.tpl
+    read  file = trn\amtrak.tpl
+    read  file = trn\ace.TPL
+    read  file = trn\Bart.tpl
+    read  file = trn\CALTRAIN.tpl
+    read  file = trn\CALTRAIN_Shuttle.tpl
+    read  file = trn\CCCTA_EXP.tpl
+    read  file = trn\CCCTA_local.tpl
+    read  file = trn\Dbx.tpl
+    read  file = trn\Emery.tpl
+    read  file = trn\Fairfield.tpl
+    read  file = trn\Ferry.tpl
+    read  file = trn\Ggt_Express.tpl
+    read  file = trn\GGT_Local.tpl
+    read  file = trn\menlopark_midday.tpl
+    read  file = trn\Muni_CableCars.tpl
+    read  file = trn\MUNI_Local.tpl
+    read  file = trn\Munimetro.tpl
+    read  file = trn\Napa_Local.tpl
+    read  file = trn\palo_alto.tpl
+    read  file = trn\Petaluma.tpl
+    read  file = trn\SAM_EXP.tpl
+    read  file = trn\SamTrans_Local.tpl
+    read  file = trn\SANTA_ROSA.tpl
+    read  file = trn\SCVTA_EXP.tpl
+    read  file = trn\SCVTA_Limited.tpl
+    read  file = trn\SCVTA_Local.tpl
+    read  file = trn\SCVTA_LRT.tpl
+    read  file = trn\SCVTA_Shuttle.TPL
+    read  file = trn\SMART.tpl
+    read  file = trn\Sonoma_Local.tpl
+    read  file = trn\STANFORD_Shuttle.tpl
+    read  file = trn\Tridelta.tpl
+    read  file = trn\Unioncty.tpl
+    read  file = trn\Vacaville.tpl
+    read  file = trn\SOLTRANS_Link.tpl
+    read  file = trn\SOLTRANS_Local.tpl
+    read  file = trn\WestBerkeley.tpl
+    read  file = trn\WESTCAT.tpl
+    read  file = trn\Wheels_ACE_Shuttles.tpl
+    read  file = trn\WHEELS_Local.tpl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

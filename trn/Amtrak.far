@@ -1,0 +1,105 @@
+14641	14643	453	;	San Jose to	Great America
+14641	14644	639	;	San Jose to	Fremont
+14641	14646	799	;	San Jose to	Hayward
+14641	14647	853	;	San Jose to	Coliseum
+14641	14648	906	;	San Jose to	Jack London Square
+14641	14649	983	;	San Jose to	Emeryville
+14641	14650	983	;	San Jose to	Berkeley
+14641	14651	1066	;	San Jose to	Richmond
+14641	14654	1419	;	San Jose to	Martinez
+14641	14655	1652	;	San Jose to	Suisun City
+14641	14658	2063	;	San Jose to	Antioch
+14643	14644	533	;	Great America to	Fremont
+14643	14646	650	;	Great America to	Hayward
+14643	14647	799	;	Great America to	Coliseum
+14643	14648	853	;	Great America to	Jack London Square
+14643	14649	926	;	Great America to	Emeryville
+14643	14650	926	;	Great America to	Berkeley
+14643	14651	983	;	Great America to	Richmond
+14643	14654	1256	;	Great America to	Martinez
+14643	14655	1546	;	Great America to	Suisun City
+14643	14658	2028	;	Great America to	Antioch
+14644	14646	533	;	Fremont to	Hayward
+14644	14647	639	;	Fremont to	Coliseum
+14644	14648	692	;	Fremont to	Jack London Square
+14644	14649	746	;	Fremont to	Emeryville
+14644	14650	799	;	Fremont to	Berkeley
+14644	14651	853	;	Fremont to	Richmond
+14644	14654	1066	;	Fremont to	Martinez
+14644	14655	1386	;	Fremont to	Suisun City
+14644	14658	1714	;	Fremont to	Antioch
+14646	14647	480	;	Hayward to	Coliseum
+14646	14648	533	;	Hayward to	Jack London Square
+14646	14649	639	;	Hayward to	Emeryville
+14646	14650	639	;	Hayward to	Berkeley
+14646	14651	692	;	Hayward to	Richmond
+14646	14654	959	;	Hayward to	Martinez
+14646	14655	1256	;	Hayward to	Suisun City
+14646	14658	1399	;	Hayward to	Antioch
+14647	14648	399	;	Coliseum to	Jack London Square
+14647	14649	480	;	Coliseum to	Emeryville
+14647	14650	533	;	Coliseum to	Berkeley
+14647	14651	639	;	Coliseum to	Richmond
+14647	14654	853	;	Coliseum to	Martinez
+14647	14655	983	;	Coliseum to	Suisun City
+14647	14658	1224	;	Coliseum to	Antioch
+14648	14649	373	;	Jack London Square to	Emeryville
+14648	14650	480	;	Jack London Square to	Berkeley
+14648	14651	533	;	Jack London Square to	Richmond
+14648	14654	746	;	Jack London Square to	Martinez
+14648	14655	983	;	Jack London Square to	Suisun City
+14648	14658	699	;	Jack London Square to	Antioch
+14649	14650	399	;	Emeryville To 	Berkeley
+14649	14651	480	;	Emeryville To 	Richmond
+14649	14654	692	;	Emeryville To 	Martinez
+14649	14655	926	;	Emeryville To 	Suisun City
+14649	14658	699	;	Emeryville To 	Antioch
+14650	14651	480	;	Berkeley to	Richmond
+14650	14654	692	;	Berkeley to	Martinez
+14650	14655	926	;	Berkeley to	Suisun City
+14650	14658	1364	;	Berkeley to	Antioch
+14651	14654	639	;	Richmond to	Martinez
+14651	14655	853	;	Richmond to	Suisun City
+14651	14658	630	;	Richmond to	Antioch
+14654	14655	639	;	Martinez to	Suisun City
+14654	14658	455	;	Martinez to	Antioch
+14655	14658	1224	;	Suisun City to	Antioch
+14655	14652	769	;	Suisun/Fairfield  to	Hercules
+14654	14652	399	;	Martinez to	Hercules
+14652	14651	346	;	Hercules to	Richmond
+14652	14650	427	;	Hercules to	Berkeley
+14652	14649	480	;	Hercules to	Emeryville
+14652	14648	497	;	Hercules to	Oakland Jack London
+14652	14647	586	;	Hercules to	Oakland Coliseum
+14652	14646	616	;	Hercules to	Hayward
+14652	14644	799	;	Hercules to	Fremont
+14652	14643	853	;	Hercules to	Great America
+14652	14641	906	;	Hercules to	San Jose Diridon
+14652	14658	560	;	Hercules to	Antioch
+14656	14655	453	;	Farifield/Vacaville to	Suisun/Fairfield
+14656	14654	803	;	Farifield/Vacaville to	Martinez
+14656	14652	19	;	Farifield/Vacaville to	Hercules
+14656	14651	936	;	Farifield/Vacaville to	Richmond
+14656	14650	983	;	Farifield/Vacaville to	Berkeley
+14656	14649	983	;	Farifield/Vacaville to	Emeryville
+14656	14648	1036	;	Farifield/Vacaville to	Oakland Jack London
+14656	14647	1036	;	Farifield/Vacaville to	Oakland Coliseum
+14656	14646	1406	;	Farifield/Vacaville to	Hayward
+14656	14644	1492	;	Farifield/Vacaville to	Fremont
+14656	14643	1556	;	Farifield/Vacaville to	Great America
+14656	14641	1665	;	Farifield/Vacaville to	San Jose Diridon
+14656	14658	1259	;	Farifield/Vacaville to	Antioch
+14642	14656	1652	;	Santa Clara to	Farifield/Vacaville
+14642	14655	1652	;	Santa Clara to	Suisun/Fairfield  to
+14642	14654	1332	;	Santa Clara to	Martinez to
+14642	14652	842	;	Santa Clara to	Hercules
+14642	14651	1036	;	Santa Clara to	Richmond
+14642	14650	983	;	Santa Clara to	Berkeley
+14642	14649	983	;	Santa Clara to	Emeryville
+14642	14648	906	;	Santa Clara to	Oakland Jack London
+14642	14647	853	;	Santa Clara to	Oakland Coliseum
+14642	14646	746	;	Santa Clara to	Hayward
+14642	14644	586	;	Santa Clara to	Fremont
+14642	14643	320	;	Santa Clara to	Great America
+14642	14641	320	;	Santa Clara to	San Jose Diridon
+14642	14658	2063	;	Santa Clara to	Antioch

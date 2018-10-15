@@ -1,0 +1,63 @@
+; bart.PNR
+; Conversion of PNR connectors from 1099 to 1454 zone system. SI. 8/22/2003
+; Service for 2000 RVAL00
+;**********************
+; Read BART PNR's     *
+;**********************
+
+PNR NODE=15090-15543 TIME=2.00 ZONES=1-1454          ;  Millbrae BART
+PNR NODE=15088-15541 TIME=2.00 ZONES=1-1454          ;  Tanforan BART
+PNR NODE=15087-15540 TIME=2.00 ZONES=1-1454	     ;  South SF BART
+PNR NODE=15086-15539 TIME=2.00 ZONES=1-1454          ;  Colma BART
+PNR NODE=15048-15519 TIME=6.00 ZONES=1-1454          ;  Daly City BART
+PNR NODE=15057-15534 TIME=3.00 ZONES=1-1454          ;  Lake Merritt BART
+PNR NODE=15058-15510 TIME=1.00 ZONES=1-1454          ;  West Oakland BART
+PNR NODE=15061-15507 TIME=3.00 ZONES=1-1454          ;  MacArthur BART
+PNR NODE=15062-15525 TIME=3.00 ZONES=1-1454          ;  Ashby BART
+PNR NODE=15064-15524 TIME=2.00 ZONES=1-1454          ;  North Berkeley BART
+PNR NODE=15065-15522 TIME=2.00 ZONES=1-1454          ;  El Cerrito Plaza BART
+PNR NODE=15066-15521 TIME=5.00 ZONES=1-1454          ;  El Cerrito Del Norte BART
+PNR NODE=15066-15521 TIME=8.00 ZONES=1-1454          ;  El Cerrito Del Norte BART
+                                                     ;  Bridge toll converted to cost
+PNR NODE=15067-15520 TIME=2.00 ZONES=1-1454          ;  Richmond BART
+PNR NODE=15068-15533 TIME=3.00 ZONES=1-1454          ;  Fruitvale BART
+PNR NODE=15069-15532 TIME=3.00 ZONES=1-1454          ;  Coliseum BART
+PNR NODE=15070-15531 TIME=1.00 ZONES=1-1454          ;  San Leandro BART
+PNR NODE=15071-15530 TIME=2.00 ZONES=1-1454          ;  Bay Fair BART
+PNR NODE=15084-15537 TIME=2.00 ZONES=1-1454          ;  Castro Valley BART
+PNR NODE=15085-15538 TIME=5.00 ZONES=1-1454          ;  Dublin/Pleasanton BART
+PNR NODE=15072-15529 TIME=1.00 ZONES=1-1454          ;  Hayward BART
+PNR NODE=15073-15528 TIME=1.00 ZONES=1-1454          ;  South Hayward BART
+PNR NODE=15074-15527 TIME=1.00 ZONES=1-1454          ;  Union City BART
+PNR NODE=15075-15526 TIME=1.00 ZONES=1-1454          ;  Fremont BART
+; Warm Springs not in NP
+;PNR NODE=15075-15526 TIME=1.00 ZONES=1-1454          ;  Fremont BART w/ Warm Springs
+PNR NODE=15098-15549 TIME=1.00 ZONES=1-1454          ;  Irvington BART
+PNR NODE=15092-15544 TIME=1.00 ZONES=1-1454          ;  Warm Springs BART
+PNR NODE=15076-15506 TIME=1.00 ZONES=1-1454          ;  Rockridge BART
+PNR NODE=15077-15505 TIME=2.00 ZONES=1-1454          ;  Orinda BART
+PNR NODE=15078-15504 TIME=2.00 ZONES=1-1454          ;  Lafayette BART
+PNR NODE=15079-15503 TIME=4.00 ZONES=1-1454          ;  Walnut Creek BART
+PNR NODE=15080-15502 TIME=2.00 ZONES=1-1454          ;  Pleasant Hill BART
+PNR NODE=15080-15502 TIME=5.00 ZONES=1-1454          ;  Pleasant Hill BART
+                                                     ;  Bridge toll converted to cost
+PNR NODE=15081-15501 TIME=2.00 ZONES=1-1454          ;  Concord BART
+PNR NODE=15082-15535 TIME=2.00 ZONES=1-1454          ;  North Concord BART
+PNR NODE=15082-15535 TIME=5.00 ZONES=1-1454          ;  North Concord BART
+                                                     ;  Bridge toll converted to cost
+PNR NODE=15083-15536 TIME=2.00 ZONES=1-1454          ;  Pittsburg/Baypoint BART
+PNR NODE=15093-15545 TIME=2.00 ZONES=1-1454          ;  West Dublin BART
+
+PNR NODE=16222-14202 TIME=1.00 ZONES=1-1454          ;  Milpitas Capitol/Montague Rd BART
+PNR NODE=16223-14203 TIME=1.00 ZONES=1-1454          ;  Berryessa BART
+PNR NODE=16224-14204 TIME=1.00 ZONES=1-1454          ;  Alum Rock BART
+PNR NODE=16227-14207 TIME=2.00 ZONES=1-1454          ;  Diridon BART
+PNR NODE=14228-14208 TIME=1.00 ZONES=1-1454          ;  Santa Clara BART
+
+;PNR NODE=14250-14230 TIME=2.00 ZONES=1-1454          ;  E-BART Somersville Road Antioch [6/4/07]
+PNR NODE=14247-14245 TIME=2.00 ZONES=1-1454          ;  E-BART Railroad Ave.
+PNR NODE=14251-14231 TIME=2.00 ZONES=1-1454          ;  E-BART Hillcrest Avenue Antioch 
+
+;PNR NODE=14252-14232 TIME=2.00 ZONES=1-1454          ;  E-BART Empire Avenue Oakley [6/4/07]
+;PNR NODE=14253-14233 TIME=2.00 ZONES=1-1454          ;  E-BART Central Avenue Brentwood [6/4/07]
+;PNR NODE=14254-14234 TIME=2.00 ZONES=1-1454          ;  E-BART Downtown Byron  [6/4/07]

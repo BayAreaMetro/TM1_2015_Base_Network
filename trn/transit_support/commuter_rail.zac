@@ -1,0 +1,243 @@
+;  AMTRAK.ZAC
+;
+; 
+
+/*
+Use ZONEACCESS control to create mode 5 walk access walk funnel links
+*/
+
+; San Jose AMTRAK Depot
+ZONEACCESS link=14941-14641 mode=5
+
+; Santa Clara AMTRAK Depot
+ZONEACCESS link=14942-14642 mode=5
+
+;Great America
+ZONEACCESS link=14943-14643 mode=5
+
+;Fremont
+ZONEACCESS link=14944-14644 mode=5
+
+;Union City
+;ZONEACCESS link=14945-14645 mode=5
+
+;Hayward
+ZONEACCESS link=14946-14646 mode=5
+
+; Coliseum BART - not in 1998
+;ZONEACCESS link=14947-14647 mode=5
+
+;Jack London Square
+ZONEACCESS link=14948-14648 mode=5
+
+;Emeryville         
+ZONEACCESS link=14949-14649 mode=5
+
+;Berkeley
+ZONEACCESS link=14950-14650 mode=5
+
+;Richmond AMTRAK
+ZONEACCESS link=14951-14651 mode=5
+
+;Hercules
+ZONEACCESS link=14952-14652 mode=5
+
+;Martinez
+ZONEACCESS link=14954-14654 mode=5
+
+;Suisun City
+ZONEACCESS link=14955-14655 mode=5
+
+;Fairfield  
+ZONEACCESS link=14956-14656 mode=5
+
+;Antioch
+ZONEACCESS link=14958-14658 mode=5
+;
+;Pleasanton
+ZONEACCESS link=14962-14706 mode=5
+
+;Livermore-Junction
+ZONEACCESS link=14963-14707 mode=5
+
+;Livermore-LLL @ Vasco Rd
+ZONEACCESS link=14964-14708 mode=5
+
+;ALA/SJQ County Lines (Central Valley)- for VTA use
+;ZONEACCESS link=14929-14529 mode=5
+
+/*
+Caltrain
+Use ZONEACCESS control to create mode 5 walk access walk funnel links
+*/
+
+; TRANSBAY TERMINAL Caltrain
+ZONEACCESS link=14454-13654 mode=5
+
+; Fourth/Townsend Caltrain
+ZONEACCESS link=14455-13655 mode=5
+
+; 23rd Street Caltrain
+ZONEACCESS link=14456-13656 mode=5
+
+; Paul Avenue Caltrain
+ZONEACCESS link=14457-13657 mode=5
+
+; Bayshore Caltrain
+ZONEACCESS link=14458-13658 mode=5
+
+; South San Francisco Caltrain
+ZONEACCESS link=14459-13659 mode=5
+
+; San Bruno Caltrain
+ZONEACCESS link=14460-13660 mode=5
+
+; Millbrae Caltrain
+ZONEACCESS link=14461-13661 mode=5
+
+; Broadway Caltrain
+ZONEACCESS link=14462-13662 mode=5
+
+; Burlingame Caltrain
+ZONEACCESS link=14463-13663 mode=5
+
+; San Mateo Caltrain
+ZONEACCESS link=14464-13664 mode=5
+
+; Hayward Park Caltrain
+ZONEACCESS link=14465-13665 mode=5
+
+; Bay Meadows Caltrain
+
+; Hillsdale Caltrain
+ZONEACCESS link=14467-13667 mode=5
+
+; Belmont Caltrain
+ZONEACCESS link=14468-13668 mode=5
+
+; San Carlos Caltrain
+ZONEACCESS link=14469-13669 mode=5
+
+; Redwood City Caltrain
+ZONEACCESS link=14470-13670 mode=5
+
+; Atherton Caltrain
+ZONEACCESS link=14471-13671 mode=5
+
+; Menlo Park Caltrain
+ZONEACCESS link=14472-13672 mode=5
+
+; Palo Alto Caltrain 
+ZONEACCESS link=14473-13673 mode=5
+
+; Stanford Stadium Caltrain
+
+; California Avenue Caltrain
+ZONEACCESS link=14475-13675 mode=5
+
+; San Antonio Caltrain
+ZONEACCESS link=14476-13676 mode=5
+
+; Mountain View Caltrain 
+ZONEACCESS link=14477-13677 mode=5
+
+; Sunnyvale Caltrain
+ZONEACCESS link=14478-13678 mode=5
+
+; Lawrence Caltrain
+ZONEACCESS link=14479-13679 mode=5
+
+; Santa Clara Caltrain 
+ZONEACCESS link=14480-13680 mode=5
+
+; College Park Caltrain 
+ZONEACCESS link=14481-13681 mode=5
+
+; San Jose Caltrain 
+ZONEACCESS link=14482-13682 mode=5
+
+; Tamien Caltrain 
+ZONEACCESS link=14483-13683 mode=5
+
+; Capitol Caltrain 
+ZONEACCESS link=14484-13684 mode=5
+
+; Blossom Hill CalTrain
+ZONEACCESS link=14485-13685 mode=5
+
+; Morgan Hill CalTrain
+ZONEACCESS link=14486-13686 mode=5
+
+; San Martin CalTrain
+ZONEACCESS link=14487-13687 mode=5
+
+; Gilroy CalTrain
+ZONEACCESS link=14488-13688 mode=5
+
+; Union City DB Rail
+ZONEACCESS link=15737-15735 mode=5
+
+; Newark DB Rail
+ZONEACCESS link=15742-15740 mode=5
+
+; Chilco Rd. DB Rail
+ZONEACCESS link=15747-15745 mode=5
+
+; Fremont DB Rail
+ZONEACCESS link=15752-15750 mode=5
+
+; Oakdale Caltrain 
+ZONEACCESS link=16005-16000 mode=5
+
+;  SMART.ZAC
+;
+
+/*
+Use ZONEACCESS control to create mode 5 walk access walk funnel links
+*/
+
+; Cloverdale
+;ZONEACCESS link=15801-15800 mode=5
+
+; Healdsburg
+;ZONEACCESS link=11460-10460 mode=5
+
+; Windsor
+;ZONEACCESS link=11461-10461 mode=5
+
+; Airport Blvd
+ZONEACCESS link=15872-15870 mode=5
+
+; Guerneville Rd
+ZONEACCESS link=15806-15805 mode=5
+
+; Railroad Square
+ZONEACCESS link=11463-10463 mode=5
+
+; Rohnert Park
+;ZONEACCESS link=15811-15810 mode=5
+ZONEACCESS link=15813-15812 mode=5
+
+; Cotati
+ZONEACCESS link=11466-10466 mode=5
+
+; North Petaluma
+ZONEACCESS link=15831-15830 mode=5
+
+; Downtown Petaluma
+ZONEACCESS link=11467-10467 mode=5
+
+; Atherton
+ZONEACCESS link=15826-15825 mode=5
+
+; Hamilton
+ZONEACCESS link=11469-10469 mode=5
+
+; Marin Civic Center
+ZONEACCESS link=11470-10470 mode=5
+
+; San Rafael
+ZONEACCESS link=11471-10471 mode=5
+
+; Larkspur	
+;ZONEACCESS link=11472-10072 mode=5

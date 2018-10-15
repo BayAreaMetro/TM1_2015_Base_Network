@@ -1,0 +1,74 @@
+12831 	3807 0.05  ; Fremont: Mission @ I-580 ** Service for 2000 RVAL00. SI. 8/23/03  
+12832 	3557 0.05  ; Fremont: Rte 84 @ Newark
+12834 	8323 0.05  ; Livermore: Airway @ Ruttan
+12885 	4075 0.05  ; Livermore: Portola @ P St.
+12835 	3147 0.05  ; Oakland: I-580 @ Fruitvale
+12839 	1700 0.05  ; Antioch: SR 4 @ Hillcrest
+12840 	8134 0.05  ; Walnut Creek: Mitchell @ Oak Grove
+12841 	2213 0.05  ; Herclues: I-80 @ Willow
+12842 	1720 0.05  ; Brentwood: Dainty @ Walnut
+12886 	1779 0.05  ; Danville: I-680 @ Sycamore Valley
+12843 	2283 0.05  ; Richmond: I-80 @ Hilltop
+12883 	8471 0.05  ; Healdsburg: Healdsburg and Grant Ave.
+12844 	7821 0.05  ; Mill Valley: Manzanitas Bus Pad
+12844 	7823 0.05  ; Mill Valley: Manzanitas Bus Pad
+12880 	7834 0.05  ; Mill Valley: Strawberry & Seminary
+12880  20244 0.05  ; Mill Valley: Strawberry & Seminary
+12871 	8065 0.05  ; Novato: Atherton Bus Pad
+12872 	7982 0.05  ; Novato: Rowland Blvd
+;12845 	8189 0.05  ; Novato: Alameda del Prado Bus Pad
+12845 	7969 0.05  ; Novato: Alameda del Prado Bus Pad
+16320 	7891 0.05  ; San Rafael: Hetherton & Irwin
+12847 	7889 0.05  ; San Rafael: 4th and Heatherton
+12847 	7905 0.05  ; San Rafael: 4th and Heatherton
+12848 	7967 0.05  ; San Rafael: Lucas Valley Road Bus Pad 
+;12848 	7955 0.05  ; San Rafael: Lucas Valley Road Bus Pad 
+12874 	8201 0.05  ; Petaluma: Fairgrounds Drive
+12882 	8200 0.05  ; Petaluma: US 101 & Rte 116 @ Lakeville
+12849 	8260 0.05  ; Cotati: US 101 @ Gravenstein
+12881 	8260 0.05  ; Cotati: Old Redwood Hwy @ St. Josephs
+12851  20320 0.05  ; Rohnert Park: Roberts Lake and Golf Course Drive
+12852 	8526 0.05  ; Rohnert Park: Rohnert Park Expressway
+12852 	8418 0.05  ; Rohnert Park: Rohnert Park Expressway
+12853 	8407 0.05  ; Santa Rosa: Rte 12 @ Brookwood
+12873 	8369 0.05  ; Santa Rosa: GGT Piner & Industrial
+12854 	6691 0.05  ; Colma: D St. @ Junipero Serra Blvd.
+12855 	6465 0.05  ; Pacifica: Rte 1 @ Linda Mar
+12856 	6356 0.05  ; San Mateo: US 101 @ SR 92
+12876 	6082 0.05  ; Crystal Springs Reservoir: Hwy 92 @ Ralston
+12877 	6116 0.05  ; Redwood City: US 101 @ Whipple
+12878 	5894 0.05  ; Palo Alto: Oregon Expwy @ El Camino Real
+12879 	6718 0.05  ; Brisbane: Bayshore Blvd. @ Tunnel Ave.
+12857 	4299 0.05  ; Milpitas: Weller @ Main
+12858 	4295 0.05  ; San Jose: Almaden @ Camden
+12859 	4522 0.05  ; San Jose: Camden @ Branham
+12860 	4402 0.05  ; San Jose: Eastridge Mall
+12884	11934 0.05 ; Dixon: B St. and Jefferson St.
+12865	11926 0.05  ; Vallejo: Curtola @ Lemon
+15902   11792 0.05  ; Vallejo: Waterfront Parking
+12867	11789 0.05  ; Vacaville: Marshall @ Alamo
+12875 	8839 0.05  ; Vacaville: Davis St.
+12868	11042 0.05 ; Fairfield: Solano Mall
+12869	11870 0.05  ; Fairfield: Magellan Rd
+12870	11040 0.05 ; Suisun: Florida @ Main
+15731 	2225  0.05 ; Hercules: San Pablo, Sycamore & John Muir Pkwy
+12838	11507 0.05 ; Richmond PNR: I-80 @ Richmond Parkway
+12887	11430 0.05 ; Dixon: Merchant St.
+12889   7806  0.05 ; Sausalito Spencer Ave. PNR
+12889   7807  0.05 ; Sausalito Spencer Ave. PNR
+16500   2146  0.05 ; Pacheco Blvd. Transit Hub
+17000   8847  0.05 ; Vacaville Transportation Center
+15989   2447  0.05 ; Oakley PNR
+15999   8645  0.05 ; Trancas Intermodal
+16010   1633  0.05 ; Pittsburg PNR
+16015   1713  0.05 ; Byron PNR
+16300   8109  0.05 ; Delong Ave. Bus Pad
+16305   7969  0.05 ; Hamilton Theater PNR
+16310   7869  0.05 ; Greenbrae PNR's
+16315   7996  0.05 ; San Rafael: Lincoln & Prospect
+16325   7852  0.05 ; Corte Madera: Redwood & Montecito PNR
+17010  11631  0.05 ; Benicia Bus Hub
+17020   2223  0.05 ; Hercules Transit Center
+17030   7870  0.05 ; Greenbrae Sir Francis Drake Blvd at Drakes Lading Office Park
+17035   7828  0.05 ; Mill Valley: Miller Ave at Evergreen Ave
+17040   8239  0.05 ; Petaluma: South Petaluma Blvd at Hwy 101

@@ -1,0 +1,30 @@
+;;<<Trnbuild>>;;
+;
+;  Service as of 11/22/10
+;  Lines coded 1/6/11 by BE
+;
+LINE NAME="12_WATEXPWB", RUNTIME=8, ONEWAY=T,
+     MODE=12, OWNER="15", COLOR=9,  
+     FREQ[1]=0, FREQ[2]=15 ,
+     FREQ[3]=0, FREQ[4]=15, FREQ[5]=0,
+     N=2688, -2690, -2694, -2643, -2641, -2638, -2772,
+     -2773, -2777, -2778, -8994, -8992, -2632, -2635, 2608
+LINE NAME="12_WATEXPEB", RUNTIME=12, ONEWAY=T, MODE=12, OWNER="15",
+     COLOR=9, 
+     FREQ[1]=0, FREQ[2]=15 ,
+     FREQ[3]=0, FREQ[4]=15, FREQ[5]=0,
+     N=2608, -2631, -2764, -2765, -2769, -2771, -2638, -2641, -2643,
+     -2694, -2690, 2688
+LINE NAME="12_Hollis", RUNTIME=11, ONEWAY=F, MODE=12, OWNER="15",
+     COLOR=9, 
+     FREQ[1]=0, FREQ[2]=10 ,
+     FREQ[3]=20, FREQ[4]=10, FREQ[5]=20,
+     N=2689, -2691, -2695, -2644, -2643, 2642, 2768, 2640, 2639,
+     2576, 2524
+LINE NAME="12_ShellPow", RUNTIME=10, ONEWAY=F, MODE=12, OWNER="15",
+     COLOR=9, 
+     FREQ[1]=0, FREQ[2]=15 ,
+     FREQ[3]=15, FREQ[4]=15, FREQ[5]=20,
+     N=2689, -2691,
+     -2695, -2644, -2643, 2642, -2768, -2640, 2639, -2635, 2608,
+     2635, 2461

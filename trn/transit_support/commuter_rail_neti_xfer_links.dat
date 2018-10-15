@@ -1,0 +1,82 @@
+;Amtrak
+
+5175 14641 0.05      ; San Jose AMTRAK Depot  **15 Stations Updated for RTP01 NP25 with ACE**
+5336 14642 0.05      ; Santa Clara
+5679 14643 0.05      ; Great America **This file updated with new nodes for RVAL 2000. 8/22. SI.
+3785 14644 0.05      ; Fremont
+3609 14646 0.05      ; Hayward
+2816 14648 0.05      ; Jack London Square
+2639 14649 0.05      ; Emeryville         
+2510 14650 0.05      ; Berkeley
+2329 14651 0.05      ; Richmond AMTRAK
+2192 14654 0.05      ; Martinez
+11040 14655 0.05     ; Suisun City
+7783 14658 0.05      ; Antioch
+12159 14706 0.05     ; Pleasanton
+4067 14707 0.05      ; Livermore
+12170 14708 0.05      ; Vasco Road
+2225 14652 0.05      ; Hercules
+11122 14656 0.05     ; Fairfield/Vacaville
+
+; Caltrain
+
+7599 13654 0.05 ; TRANSBAY TERMINAL  **This file updated with new nodes for RVAL 2000. 8/22. SI.
+7612 13654 0.05 ;
+6989 13655 0.05 ; Fourth/Townsend Caltrain **note - stations added for 1998, 32 station system**
+6939 13656 0.05 ; 23rd Street Caltrain
+6785 13657 0.05 ; Paul Avenue Caltrain
+6738 13658 0.05 ; Bayshore Caltrain
+6585 13659 0.05 ; South San Francisco Caltrain
+6519 13660 0.05 ; San Bruno Caltrain
+6530 13661 0.05 ; Millbrae Caltrain
+6536 13662 0.05 ; Broadway Caltrain
+6410 13663 0.05 ; Burlingame Caltrain
+6326 13664 0.05 ; San Mateo Caltrain
+6342 13665 0.05 ; Hayward Park Caltrain
+6366 13667 0.05 ; Hillsdale Caltrain
+6186 13668 0.05 ; Belmont Caltrain
+6165 13669 0.05 ; San Carlos Caltrain
+6134 13670 0.05 ; Redwood City Caltrain
+5992 13671 0.05 ; Atherton Caltrain
+5976 13672 0.05 ; Menlo Park Caltrain
+5886 13673 0.05 ; Palo Alto Caltrain 
+5887 13674 0.05 ; Stanford Stadium Caltrain
+5878 13675 0.05 ; California Avenue Caltrain
+5619 13676 0.05 ; San Antonio Caltrain
+5639 13677 0.05 ; Mountain View Caltrain
+5485 13678 0.05 ; Sunnyvale Caltrain
+5456 13679 0.05 ; Lawrence Caltrain
+5296 13680 0.05 ; Santa Clara Caltrain
+5110 13681 0.05 ; College Park Caltrain
+5106 13681 0.05 ; 
+5175 13682 0.05 ; San Jose Caltrain 
+4930 13683 0.05 ; Tamien Caltrain 
+4446 13684 0.05 ; Capitol Caltrain 
+5494 13685 0.05 ; Blossom Hill CalTrain
+4212 13686 0.05 ; Morgan Hill CalTrain
+4201 13687 0.05 ; San Martin CalTrain
+4157 13688 0.05 ; Gilroy CalTrain
+2931 15735 0.05 ; Union City
+3917 15740 0.05 ; Newark
+5928 15745 0.05 ; Chilco Rd.
+3785 15750 0.05 ; Fremont
+6784 16000 0.05 ; Oakdale
+
+; SMART
+
+;8480 15800 0.05      ; Cloverdale
+;8784 10460 0.05      ; Healdsburg
+;8592 10461 0.05      ; Windsor
+8795  15870 0.05     ; irport Blvd
+8560 15805 0.05      ; Guerneville Road
+8061 10463 0.05      ; Railroad Square
+8288 15812 0.05      ; Rohnert Park
+8518 10466 0.05      ; Cotati
+8582 15830 0.05      ; North Petaluma
+8212 10467 0.05      ; Downtown Petaluma
+8112 15825 0.05      ; Atherton
+7969 10469 0.05      ; Hamilton
+7938 10470 0.05      ; Marin Civic Center
+7905 10471 0.05      ; San Rafael
+7889 10471 0.05
+;7855 10072 0.05      ; Larkspur

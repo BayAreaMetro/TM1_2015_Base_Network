@@ -1,0 +1,183 @@
+;  BART.ZAC
+;
+; RTP 2001 - NP 2025 added SF extension
+/*
+Use ZONEACCESS control to create mode 5 walk access walk funnel links
+*/
+
+; Millbrae BART
+ZONEACCESS link=14461-15543 mode=5
+
+; SFO BART
+ZONEACCESS link=14089-15542 mode=5
+
+; Tanforan BART
+ZONEACCESS link=14088-15541 mode=5
+
+; South SF BART
+ZONEACCESS link=14087-15540 mode=5
+
+; Colma BART
+ZONEACCESS link=14086-15539 mode=5
+
+; Daly City BART
+ZONEACCESS link=14048-15519 mode=5
+
+; Balboa Park BART
+ZONEACCESS link=14049-15518 mode=5
+
+;  Glen Park BART
+ZONEACCESS link=14050-15517 mode=5
+
+; 24th/Mission BART
+ZONEACCESS link=14051-15516 mode=5
+
+; 16th/Mission BART
+ZONEACCESS link=14052-15515 mode=5
+
+; Civic Center BART
+ZONEACCESS link=14053-15514 mode=5
+
+;  Powell Street BART
+ZONEACCESS link=14054-15513 mode=5
+
+; Montgomery Street BART
+ZONEACCESS link=14055-15512 mode=5
+
+; Embarcadero BART
+ZONEACCESS link=14056-15511 mode=5
+
+; Lake Merritt BART
+ZONEACCESS link=14057-15534 mode=5
+
+; West Oakland BART
+ZONEACCESS link=14058-15510 mode=5
+
+; 12th Street/Broadway BART
+ZONEACCESS link=14059-15509 mode=5
+
+; 19th Street/Broadway BART
+ZONEACCESS link=14060-15508 mode=5
+
+; MacArthur BART
+ZONEACCESS link=14061-15507 mode=5
+
+; Ashby BART
+ZONEACCESS link=14062-15525 mode=5
+
+; Berkeley BART
+ZONEACCESS link=14063-15523 mode=5
+
+; North Berkeley BART
+ZONEACCESS link=14064-15524 mode=5
+
+; El Cerrito Plaza BART
+ZONEACCESS link=14065-15522 mode=5
+
+; El Cerrito Del Norte BART
+ZONEACCESS link=14066-15521 mode=5
+
+; Richmond BART
+ZONEACCESS link=14067-15520 mode=5
+
+; Fruitvale BART
+ZONEACCESS link=14068-15533 mode=5
+
+; Coliseum BART
+ZONEACCESS link=14069-15532 mode=5
+
+; Oakland Airport BART
+ZONEACCESS link=15100-15000 mode=5
+
+; San Leandro BART
+ZONEACCESS link=14070-15531 mode=5
+
+; Bay Fair BART
+ZONEACCESS link=14071-15530 mode=5
+
+; Castro Valley BART
+ZONEACCESS link=14084-15537 mode=5
+
+; Dublin/Pleasanton BART
+ZONEACCESS link=14085-15538 mode=5
+
+; West Dublin BART
+ZONEACCESS link=13091-15545 mode=5
+
+; Hayward BART
+ZONEACCESS link=14072-15529 mode=5
+
+; South Hayward BART
+ZONEACCESS link=14073-15528 mode=5
+
+; Union City BART
+ZONEACCESS link=14074-15527 mode=5
+
+; Fremont BART
+ZONEACCESS link=14075-15526 mode=5
+
+; Irvington BART
+ZONEACCESS link=13098-15549 mode=5
+
+; Warm Springs BART
+ZONEACCESS link=13090-15544 mode=5
+
+; South Warm Springs / Kato Road BART
+;ZONEACCESS link=10931-10548 mode=5
+
+; Milpitas SR237 BART
+;ZONEACCESS link=10932-10549 mode=5
+
+; Milpitas Capital/Montague BART
+ZONEACCESS link=16212-14202 mode=5
+
+; Hostetter BART
+;ZONEACCESS link=10570-10563 mode=5
+
+; Berryessa BART
+ZONEACCESS link=16213-14203 mode=5
+
+; Alum Rock BART
+ZONEACCESS link=16214-14204 mode=5
+
+; San Jose State Univ BART
+ZONEACCESS link=16215-14205 mode=5
+
+; San Jose Transit Mall BART
+ZONEACCESS link=16216-14206 mode=5
+
+; San Jose-Diridon BART
+ZONEACCESS link=16217-14207 mode=5
+
+; Santa Clara BART
+ZONEACCESS link=14217-14208 mode=5
+
+; Rockridge BART
+ZONEACCESS link=14076-15506 mode=5
+
+; Orinda BART
+ZONEACCESS link=14077-15505 mode=5
+
+; Lafayette BART
+ZONEACCESS link=14078-15504 mode=5
+
+; Walnut Creek BART
+ZONEACCESS link=14079-15503 mode=5
+
+; Pleasant Hill BART
+ZONEACCESS link=14080-15502 mode=5
+
+; Concord BART
+ZONEACCESS link=14081-15501 mode=5
+
+; North Concord BART
+ZONEACCESS link=14082-15535 mode=5
+
+; Pittsburg/Baypoint BART
+ZONEACCESS link=14083-15536 mode=5
+
+; E-BART Railroad Ave.
+ZONEACCESS link=14246-14245 mode=5
+
+; E-BART Hillcrest Avenue Antioch
+ZONEACCESS link=14241-14231 mode=5
