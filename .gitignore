@@ -1,1 +1,8 @@
 hwy/*.0??
+shapefile/ImportLog
+shapefile/Index
+shapefile/*.gdb
+shapefile/*.aprx
+shapefile/*.tbx
+TPPL.PRJ
+TPPL.VAR
