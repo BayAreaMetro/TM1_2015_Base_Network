@@ -1,0 +1,282 @@
+Page 1  (VOYAGER PILOT) 
+Metropolitan Transportation Commission
+--------------------------------------
+PILOT (v.06/18/2018 [6.4.4 x64]) Wed Oct 17 17:44:03 2018
+
+Args: logs\add_routedir.s
+Input:   M:...Model One\Networks\TM1_2015_Base_Network\logs\add_routedir.s
+
+RUN PGM=NETWORK,0
+
+PILOT Stack Size = 42 bytes.
+................................................................................
+Page 2  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+NETWORK (v.06/18/2018 [6.4.4 x64])  Wed Oct 17 17:44:03 2018
+
+  NETI[1] =hwy\FREEFLOW.NET
+  NETO    =hwy\FREEFLOW_OUT.NET, exclude=_LANES,_FT,_ROUTENUM,_ROUTEDIR
+  LINKI[2]="logs\links_with_routedir.csv" VAR=A,B,_LANES,_FT,_ROUTENUM,_ROUTEDIR(C) START=(substr(record,1,4)='A,B,')
+  ; This file was developed in ArcGIS based on coordinates and the following methods, and then the results were visualized
+  ; and manually updated since a lot of the directions were wrong as 80E is actually westbound for parts, etc. etc.
+  ;
+  ; def calc_dir(myshape):
+  ;     if myshape.firstPoint.Y < myshape.lastPoint.Y:
+  ;         return "N"
+  ;     return "S"
+  ;
+  ; def calc_dir(myshape):
+  ;     if myshape.firstPoint.X < myshape.lastPoint.X:
+  ;         return "E"
+  ;     return "W"
+  ;
+  ; def calc_dir(routenum,dir_ns,dir_ew):
+  ;     if routenum==0:
+  ;         return ""
+  ;     if routenum in [4,12,24,37,38,80,84,92,116,128,130,131,152,156,205,220,237,380,580,780,980]:
+  ;         return dir_ew
+  ;     elif routenum in [1,9,13,17,25,29,35,61,77,82,85,87,101,109,112,113,114,121,123,160,185,221,238,242,260,262,280,505,680,880,948]:
+  ;         return dir_ns
+  ;     return "X"
+
+  PHASE=LINKMERGE
+    ; make sure we're not introducing new links
+    IF (LI.1.A == 0)
+      PRINT LIST="NEW Link coded: ",LI.2.A,"-",LI.2.B
+      ABORT MSG="Unexpected new link"
+    ENDIF
+
+    ; log routenum change
+    IF ((LI.2.A > 0) && (LI.1.ROUTENUM <> LI.2._ROUTENUM))
+        PRINT LIST="ROUTENUM update: ",LI.1.A,"-",LI.1.B,": ",LI.1.ROUTENUM," -> ",LI.2._ROUTENUM
+        ROUTENUM = LI.2._ROUTENUM
+    ENDIF
+
+    ; log lanes change
+    IF ((LI.2.A > 0) && (LI.1.LANES <> LI.2._LANES))
+        PRINT LIST="LANES    update: ",LI.1.A,"-",LI.1.B,": ",LI.1.LANES," -> ",LI.2._LANES
+        LANES = LI.2._LANES
+    ENDIF
+
+    ; log ft change
+    IF ((LI.2.A > 0) && (LI.1.FT <> LI.2._FT))
+        PRINT LIST="FT       update: ",LI.1.A,"-",LI.1.B,": ",LI.1.FT," -> ",LI.2._FT
+        LANES = LI.2._FT
+    ENDIF
+
+    ; ROUTEDIR should be set for links with ROUTENUM > 0
+    IF ((LI.2.A > 0) && (ROUTENUM > 0))Page 3  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+      ROUTEDIR = LI.2._ROUTEDIR
+    ENDIF
+
+  ENDPHASE
+
+
+NETWORK Stack Size = 2244 bytes.
+................................................................................
+
+
+
+
+hwy\FREEFLOW.NET   (VOYAGER):
+
+NET PGM=NETWORK (v.06/18/2018 [6.4.4 x64]) DATE=Mon Oct 15 17:14:43 2018
+ID= 
+PAR Zones=1475 Nodes=20539 Links=33612 NodeRecs=14113 
+NVR 4    N    X    Y    GGFARE
+LVR 63    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=033
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG
+
+
+logs\links_with_routedir.csv:
+A            B            _LANES       _FT          _ROUTENUM    _ROUTEDIR(C) 
+
+
+Begin PROCESS PHASE INPUT
+
+
+Reading LINKI[2]: logs\links_with_routedir.csv
+      0         1         2         3          
+      0....+....0....+....0....+....0....+....
+
+     1:A,B,_LANES,_FT,_ROUTENUM,_ROUTEDIR
+W(626):A B 
+W     4767 records read from LINKI[2]: logs\links_with_routedir.csv
+W        1 records contained errors
+         2 field errors
+End   PROCESS PHASE INPUT
+
+
+Begin PROCESS PHASE NODEMERGE
+      14,113 records merged from NODEI[1]: hwy\FREEFLOW.NET
+      14,113 data base records.Page 4  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+
+Variable   Obs<>0              Total           Ave         Min         Max           RMS  
+--------   ------              -----           ---         ---         ---           ---  
+N          14,113                 --            --           1      20,539            --
+X          14,113   8,091,038,703.29    573,303.95     454,817     660,744    573,834.61
+Y          14,113  58,948,929,434.6   4,176,924.07   4,086,022   4,301,302  4,177,088.76
+
+      Obs = 0:  GGFARE
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE NODEMERGE
+
+
+Begin PROCESS PHASE LINKMERGE
+ROUTENUM update:    1668.00-   1673.00:          0 ->     160.00
+LANES    update:    1668.00-   1673.00:       7.00 ->       2.00
+FT       update:    1668.00-   1673.00:       6.00 ->       2.00
+ROUTENUM update:    1673.00-   1621.00:          0 ->     160.00
+ROUTENUM update:    1679.00-   1622.00:          0 ->     160.00
+LANES    update:    1679.00-   1622.00:       7.00 ->       2.00
+FT       update:    1679.00-   1622.00:       6.00 ->       2.00
+ROUTENUM update:    2784.00-   2802.00:          0 ->      80.00
+ROUTENUM update:    2786.00-   2803.00:          0 ->      80.00
+FT       update:    2786.00-   2803.00:       6.00 ->       2.00
+ROUTENUM update:    3642.00-   3649.00:          0 ->      92.00
+ROUTENUM update:    3663.00-   3650.00:          0 ->      92.00
+ROUTENUM update:    4844.00-   4849.00:       1.00 ->      92.00
+ROUTENUM update:    4849.00-   4844.00:       1.00 ->      92.00
+ROUTENUM update:    4849.00-   6215.00:       1.00 ->      92.00
+ROUTENUM update:    6215.00-   4849.00:       1.00 ->      92.00
+ROUTENUM update:    6445.00-   6456.00:          0 ->       1.00
+ROUTENUM update:    6455.00-   6445.00:          0 ->       1.00
+ROUTENUM update:    7315.00-   7339.00:          0 ->     101.00
+LANES    update:    7315.00-   7339.00:       7.00 ->       4.00
+FT       update:    7315.00-   7339.00:       6.00 ->       2.00
+ROUTENUM update:    7319.00-   7338.00:          0 ->     101.00
+ROUTENUM update:    8442.00-   8499.00:      12.00 ->          0
+ROUTENUM update:    8442.00-   8562.00:      12.00 ->          0
+ROUTENUM update:    8499.00-   8442.00:      12.00 ->          0
+ROUTENUM update:    8562.00-   8442.00:      12.00 ->          0
+ROUTENUM update:   10183.00-   3650.00:          0 ->      92.00
+ROUTENUM update:   10436.00-  11895.00:      12.00 ->      84.00
+ROUTENUM update:   11895.00-  10436.00:      12.00 ->      84.00
+      33,612 records merged from NETI[1]: hwy\FREEFLOW.NET
+       4,766 records merged from NETI[2]: L2.118394
+      33,612 data base records.Page 5  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+
+Variable     Obs<>0          Total       Ave       Min        Max       RMS  
+--------     ------          -----       ---       ---        ---       ---  
+A            33,612             --        --      1     20,539           --
+B            33,612             --        --      1     20,539           --
+DISTANCE     30,330      14,892.03      0.49      0.01      12.8       0.78
+SPDCLASS     33,612   1,235,456        36.76      4         76        38.48
+CAPCLASS     33,612   1,235,456        36.76      4         76        38.48
+LANES        33,612     104,838         3.12      1          7         3.94
+TSIN          8,670       8,670         1         1          1         1   
+GL           33,612     132,145         3.93      1         10         4.43
+USE          33,612      35,692         1.06      1         11         1.12
+OT            5,392       7,270.22      1.35      0.07      15         1.64
+CAP          24,942  28,859,050     1,157.05    600      2,250     1,240.2 
+AT           32,768     107,084         3.27      1          7         3.42
+FT           33,612     180,164         5.36      1          8         5.6 
+TOS           1,635       1,808         1.11      1          2         1.15
+AUX             331         340         1.03      1          2         1.04
+YEAR            334     673,400     2,016.17  2,010      2,035     2,016.17
+FFS          33,612   1,023,579        30.45     10        100        33.02
+FFT          30,328      29,477.62      0.97      0.02      19.37      1.42
+FT2000       33,610     179,264         5.33      1          7         5.58
+ROUTENUM      4,762     947,767       199.03      1        980       319.87
+HOT              20          20         1         1          1         1   
+TOLLCLASS        88       2,344        26.64      1         50        29.56
+STATE         7,097       7,097         1         1          1         1   
+CITYID       33,612   3,910,583       116.34      1        191       125.74
+CITYNAME     33,612                           (Alameda )  (Yountvil)
+REGFREIGHT    2,363       2,363         1         1          1         1   
+BRT             116         116         1         1          1         1   
+TOLLEA_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEA_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLAM_DA        77       7,738       100.49      2.22     446.94    175.53
+TOLLAM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLAM_S3        16       3,110.72    194.42    178.78     303.92    198.78
+TOLLAM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLAM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLMD_DA        67       6,225.03     92.91      1.14     446.94    177.2 
+TOLLMD_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLMD_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLPM_DA        77       7,147        92.82      1.14     446.94    174.96
+TOLLPM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLPM_S3        16       3,110.72    194.42    178.78     303.92    198.78Page 6  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+TOLLPM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLPM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLEV_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEV_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+_LANES        4,766      10,905         2.29      1          7         2.59
+_FT           4,766      17,235         3.62      1          8         4.25
+_ROUTENUM     4,762     947,767       199.03      1        980       319.87
+_ROUTEDIR     4,762                           (E       )  (W       )
+ROUTEDIR      4,762                           (E       )  (W       )
+
+      Obs = 0:  SIGCOR
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE LINKMERGE
+
+FILEO NETO=hwy\FREEFLOW_OUT.NET
+
+NET PGM=NETWORK (v.06/18/2018 [6.4.4 x64]) DATE=Wed Oct 17 17:44:03 2018
+ID= 
+PAR Zones=1475 Nodes=20539 Links=33612 NodeRecs=14113 
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=033
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=001
+
+
+NETWORK  ReturnCode = 1  Elapsed Time = 00:00:02
+################################################################################
+
+
+VOYAGER  ReturnCode = 1  Elapsed Time = 00:00:02
