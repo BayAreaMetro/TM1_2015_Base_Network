@@ -77,10 +77,6 @@ LINK NODES= 15542,15543, TIME = 5.0, DIST=150, ONEWAY=NO, MODES=120 ;SFOIA-Mlbre
 ;Oakland Airport Connector Links
 LINK NODES= 15000,15532, TIME = 8.2, DIST=320, ONEWAY=NO, MODES=121 ;Colis-Airpt 
 
-; EBART
-LINK NODES= 14235, 14245, TIME= 6.0, DIST= 300, ONEWAY=NO, MODES=136 ; BayPt-Railroad Ave. 
-LINK NODES= 14245, 14231, TIME= 7.0, DIST= 700, ONEWAY=NO, MODES=136 ; Railroad Ave-Hillcrest
-
 ;------------------- BART LINES--------------------------------------------------
 
 ; Millbrae - Richmond 
@@ -207,12 +203,7 @@ LINE NAME=120_GREEN, LONGNAME="Daly City - Fremont", ONEWAY=N,MODE=120,OWNER=2,C
 LINE NAME=121_OAKCON, LONGNAME="Oakland Airport Connector", ONEWAY=N,MODE=121,OWNER=2,COLOR=7,
      FREQ[1]=6, FREQ[2]=6, FREQ[3]=6, FREQ[4]=6, FREQ[5]=6,
      N= 15000 15532           
-     
-;;    EBART Baypoint - Railroad Ave. - Hillcrest 
-;LINE NAME=136_EBART,ONEWAY=N,MODE=136,OWNER=2,COLOR=7,
-;;     FREQ[1]=15, FREQ[2]=15, FREQ[3]=15, FREQ[4]=15, FREQ[5]=20,
-;     N= 14235, 14245, 14231         
- 
+
 ;;     Millbrae - SFO - Bay Point Evening Service
 ;LINE NAME=120_YELLOW1, ONEWAY=N,MODE=120,OWNER=2,COLOR=7,
 ;     FREQ[1]=0, FREQ[2]=0, FREQ[3]=0, FREQ[4]=0, FREQ[5]=20,

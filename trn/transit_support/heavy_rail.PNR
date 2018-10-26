@@ -55,8 +55,6 @@ PNR NODE=16227-14207 TIME=2.00 ZONES=1-1454          ;  Diridon BART
 PNR NODE=14228-14208 TIME=1.00 ZONES=1-1454          ;  Santa Clara BART
 
 ;PNR NODE=14250-14230 TIME=2.00 ZONES=1-1454          ;  E-BART Somersville Road Antioch [6/4/07]
-PNR NODE=14247-14245 TIME=2.00 ZONES=1-1454          ;  E-BART Railroad Ave.
-PNR NODE=14251-14231 TIME=2.00 ZONES=1-1454          ;  E-BART Hillcrest Avenue Antioch 
 
 ;PNR NODE=14252-14232 TIME=2.00 ZONES=1-1454          ;  E-BART Empire Avenue Oakley [6/4/07]
 ;PNR NODE=14253-14233 TIME=2.00 ZONES=1-1454          ;  E-BART Central Avenue Brentwood [6/4/07]

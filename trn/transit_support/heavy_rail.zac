@@ -175,9 +175,3 @@ ZONEACCESS link=14082-15535 mode=5
 
 ; Pittsburg/Baypoint BART
 ZONEACCESS link=14083-15536 mode=5
-
-; E-BART Railroad Ave.
-ZONEACCESS link=14246-14245 mode=5
-
-; E-BART Hillcrest Avenue Antioch
-ZONEACCESS link=14241-14231 mode=5
