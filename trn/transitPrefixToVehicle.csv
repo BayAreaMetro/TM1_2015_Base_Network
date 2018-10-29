@@ -1,0 +1,74 @@
+Prefix,System,VehicleType
+100_,BART,8 Car BART
+101,Caltrain,Caltrain
+102,Amtrak,Unknown Train
+103,Amtrak,Unknown Train
+104,ACE,Unknown Train
+105,Dumbarton,Unknown Train
+106,SMART,Unknown Train
+107_,OAC,LRV2
+108_,EBART,eBart
+10_,Berkeley,Motor Standard Bus
+11_,Broadway Shuttle,Motor Standard Bus
+12_,Shuttle,Motor Small Bus
+13_,Shuttle,Motor Small Bus
+14_,Caltrain shuttle,Motor Small Bus
+15_,Shuttle,Motor Small Bus
+16_,Shuttle,Motor Small Bus
+17_,Shuttle,Motor Small Bus
+18_,Shuttle,Motor Small Bus
+19_,Shuttle,Motor Small Bus
+26_,SamTrans,SamTrans Plus Bus
+27_,SamTrans,SamTrans Standard Bus
+28_,SamTrans,SamTrans Standard Bus
+29_,SamTrans,SamTrans Standard Bus
+30_,SamTrans,SamTrans Plus Bus
+31_,SCVTA,LRV2
+32_,SCVTA,Motor Standard Bus
+33_,SCVTA,Motor Standard Bus
+34_,SCVTA,Motor Standard Bus
+35_,SCVTA,Motor Standard Bus
+37_,AC Transit,AC Standard Bus
+38_,AC Transit,AC Standard Bus
+39_,AC Transit,AC Standard Bus
+40_,AC Transit,AC Standard Bus
+42_,LAVTA,Motor Standard Bus
+43_,LAVTA,Motor Standard Bus
+44_,LAVTA,Motor Standard Bus
+45_,LAVTA,Motor Standard Bus
+47_,Union City Transit,Motor Standard Bus
+49_,AirBART,Motor Standard Bus
+51_,CCCTA,Motor Standard Bus
+52_,CCCTA,Motor Standard Bus
+54_,Tri Delta Transit,Motor Standard Bus
+56_,WestCAT,Motor Standard Bus
+57_,WestCAT,Motor Standard Bus
+59_,Vallejo Transit,Motor Standard Bus
+60_,Vallejo Transit,Motor Standard Bus
+62_,FAST,Motor Standard Bus
+63_,FAST,Motor Standard Bus
+64_,FAST,Motor Standard Bus
+65_,American Canyon,Motor Standard Bus
+66_,Vacaville,Motor Standard Bus
+68_,Benicia,Motor Standard Bus
+70_,Napa Valley Transit,Motor Standard Bus
+71_,VINE,Motor Standard Bus
+73_,Sonoma County Transit,Motor Standard Bus
+74_,Sonoma County Transit,Motor Standard Bus
+76_,Santa Rosa,Motor Standard Bus
+78_,Petaluma,Motor Standard Bus
+80_,Golden Gate Transit,Motor Standard Bus
+82_,Golden Gate Transit,Motor Standard Bus
+83_,Golden Gate Transit,Motor Standard Bus
+84_,Golden Gate Transit,Motor Standard Bus
+90_,Ferry,Ferry
+91_,Ferry,Ferry
+92_,Ferry,Ferry
+93_,Ferry,Ferry
+94_,Ferry,Ferry
+95_,Ferry,Ferry
+EBA,EBART,eBart
+MUN,SF MUNI,Motor Standard Bus
+PRES,Presidigo,Motor Small Bus
+Prefix,System,VehicleType
+SFS,SFSU Shuttle,Motor Small Bus

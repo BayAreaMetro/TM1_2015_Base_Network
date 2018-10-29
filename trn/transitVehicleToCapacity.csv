@@ -1,0 +1,47 @@
+VehicleType,100%Capacity,85%Capacity,VehicleCategory,SimpleDelayPerStop,ConstDelayPerStop,DelayPerBoard,DelayPerAlight
+10 Car BART,945,803,10 Car BART,0.000,0.000,0.000,0.000
+10 Car BART RENOVATED,1134,963,10 Car BART RENOVATED,0.000,0.000,0.000,0.000
+7 Car BART,662,562,7 Car BART,0.000,0.000,0.000,0.000
+7 Car BART RENOVATED,794,674,7 Car BART RENOVATED,0.000,0.000,0.000,0.000
+8 Car BART,756,642,8 Car BART,0.000,0.000,0.000,0.000
+8 Car BART RENOVATED,907,770,8 Car BART RENOVATED,0.000,0.000,0.000,0.000
+8.5 Car BART,804,683,8.5 Car BART,0.000,0.000,0.000,0.000
+8.5 Car BART RENOVATED,964,819,8.5 Car BART RENOVATED,0.000,0.000,0.000,0.000
+9 Car BART,851,723,9 Car BART,0.000,0.000,0.000,0.000
+9 Car BART RENOVATED,1021,867,9 Car BART RENOVATED,0.000,0.000,0.000,0.000
+AC Plus Bus,50,42,AC Plus Bus,0.500,0.122,0.050,0.021
+AC Plus Bus TI,65,55,AC Plus Bus TI,0.500,0.122,0.050,0.021
+AC Standard Bus,40,34,AC Standard Bus,0.500,0.082,0.062,0.035
+Cable Car,63,53,Cable Car,0.400,0.000,0.062,0.035
+Caltrain,650,552,Caltrain,0.000,0.000,0.000,0.000
+Ferry,450,382,Ferry,0.000,0.000,0.000,0.000
+LRV1,119,101,LRV1,0.400,0.000,0.016,0.018
+LRV2,238,202,LRV2,0.400,0.000,0.008,0.009
+LRV2.5,297,252,LRV2.5,0.400,0.000,0.006,0.007
+LRV3,357,303,LRV3,0.400,0.000,0.005,0.006
+LRV4,476,404,LRV4,0.400,0.000,0.004,0.004
+Motor Articulated Bus,94,79,Motor Articulated Bus,0.500,0.122,0.050,0.021
+Motor Articulated Bus ALLDOOR,94,79,Motor Articulated Bus ALLDOOR,0.500,0.122,0.040,0.017
+Motor Articulated Bus ALLDOOR LOWFLOOR,94,79,Motor Articulated Bus ALLDOOR LOWFLOOR,0.500,0.122,0.032,0.013
+Motor Bus Mix of Standard and Artics,80,68,Motor Bus Mix of Standard and Artics,0.500,0.102,0.056,0.028
+Motor Bus Mix of Standard and Artics ALLDOOR,80,68,Motor Bus Mix of Standard and Artics ALLDOOR,0.500,0.102,0.045,0.022
+Motor Bus Mix of Standard and Artics ALLDOOR LOWFLOOR,80,68,Motor Bus Mix of Standard and Artics ALLDOOR LOWFLOOR,0.500,0.102,0.036,0.018
+Motor Small Bus,45,38,Motor Small Bus,0.500,0.082,0.062,0.035
+Motor Small Bus ALLDOOR,45,38,Motor Small Bus ALLDOOR,0.500,0.082,0.050,0.028
+Motor Small Bus ALLDOOR LOWFLOOR,45,38,Motor Small Bus ALLDOOR LOWFLOOR,0.500,0.082,0.040,0.022
+Motor Standard Bus,63,53,Motor Standard Bus,0.500,0.082,0.062,0.035
+Motor Standard Bus ALLDOOR,63,53,Motor Standard Bus ALLDOOR,0.500,0.082,0.050,0.028
+Motor Standard Bus ALLDOOR LOWFLOOR,63,53,Motor Standard Bus ALLDOOR LOWFLOOR,0.500,0.082,0.040,0.022
+SamTrans Plus Bus,75,63,SamTrans Plus Bus,0.500,0.122,0.050,0.021
+SamTrans Standard Bus,60,51,SamTrans Standard Bus,0.500,0.082,0.062,0.035
+Streetcar,70,59,Streetcar,0.400,0.000,0.062,0.035
+Trolley Articulated Bus,94,79,Trolley Articulated Bus,0.500,0.122,0.050,0.021
+Trolley Articulated Bus ALLDOOR,94,79,Trolley Articulated Bus ALLDOOR,0.500,0.122,0.040,0.017
+Trolley Articulated Bus ALLDOOR LOWFLOOR,94,79,Trolley Articulated Bus ALLDOOR LOWFLOOR,0.500,0.122,0.032,0.013
+Trolley Standard Bus,63,53,Trolley Standard Bus,0.500,0.082,0.062,0.035
+Trolley Standard Bus ALLDOOR,63,53,Trolley Standard Bus ALLDOOR,0.500,0.082,0.050,0.028
+Trolley Standard Bus ALLDOOR LOWFLOOR,63,53,Trolley Standard Bus ALLDOOR LOWFLOOR,0.500,0.082,0.040,0.022
+Unknown Train,800,680,Unknown Train,0.000,0.000,0.000,0.000
+Van,25,21,Van,0.500,0.000,0.062,0.070
+VanTI,28,23,VanTI,0.500,0.000,0.062,0.070
+eBart,350,297,eBart,0.000,0.000,0.000,0.000
