@@ -9,6 +9,7 @@
 2639 14649 0.05      ; Emeryville         
 2510 14650 0.05      ; Berkeley
 2329 14651 0.05      ; Richmond AMTRAK
+2390 14651 0.05      ; Richmond Amtrak
 2192 14654 0.05      ; Martinez
 11040 14655 0.05     ; Suisun City
 7783 14658 0.05      ; Antioch
@@ -16,7 +17,6 @@
 4067 14707 0.05      ; Livermore
 12170 14708 0.05      ; Vasco Road
 2225 14652 0.05      ; Hercules
-11122 14656 0.05     ; Fairfield/Vacaville
 
 ; Caltrain
 
