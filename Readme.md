@@ -7,6 +7,7 @@ This repository serves as the 2015 Base Networks for Travel Model 1.5
 * SR 84 Expressway widening (ALA050014) is included
 * SMART service from Sonoma County Airport to San Rafael (SON090002) is included
 * Telegraph Ave road diet from 29th to 45th (ALA150042) is included
+* Richmond/SF Ferry Building ferry service (CC-070062) is included
 
 ## Origins
 
