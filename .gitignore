@@ -6,3 +6,5 @@ shapefile/*.aprx
 shapefile/*.tbx
 TPPL.PRJ
 TPPL.VAR
+*.BAK
+Thumbs.db

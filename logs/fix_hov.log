@@ -1,0 +1,220 @@
+Page 1  (VOYAGER PILOT) 
+Metropolitan Transportation Commission
+--------------------------------------
+PILOT (v.06/18/2018 [6.4.4 x86]) Fri Nov 16 11:27:32 2018
+
+Args: fix_hov.s
+Input:   C:\Users\lzorn\Documents\scratch\net_hov\fix_hov.s
+
+RUN PGM=NETWORK,113
+
+PILOT Stack Size = 44 bytes.
+................................................................................
+Page 2  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+NETWORK (v.06/18/2018 [6.4.4 x86])  Fri Nov 16 11:27:32 2018
+
+  NETI[1] =hwy\FREEFLOW.NET
+  NETO    =hwy\FREEFLOW_OUT.NET
+
+  PHASE=LINKMERGE
+    ; all 101 HOV lanes are 2+
+    if ((LI.1.ROUTENUM=101) && (LI.1.USE==3)) USE=2
+
+    ; north point = 568688, 4223289
+    ; south point = 568478, 4222034
+
+    ; all 80 HOV lanes in Solano are 2+ except for bordering Contra Costa
+    if ((A.Y>4223290) && (LI.1.ROUTENUM=80) && (LI.1.GL=6) && (LI.1.USE=3)) USE=2
+
+    ; everything in Santa Clara
+    if ((LI.1.ROUTENUM>0) && (LI.1.USE==3) && (LI.1.GL=3)) USE=2
+
+    ; everything in San Mateo
+    if ((LI.1.ROUTENUM>0) && (LI.1.USE==3) && (LI.1.GL=2)) USE=2
+
+    ; everything in Sonoma
+    if ((LI.1.ROUTENUM>0) && (LI.1.USE==3) && (LI.1.GL=8)) USE=2
+
+    ; everything in Marin
+    if ((LI.1.ROUTENUM>0) && (LI.1.USE==3) && (LI.1.GL=9)) USE=2
+
+    ; 580 EB are not Express Lanes in 2015 -- make HOV2
+    ; TOLLCLASS 30, 50
+    if ((LI.1.ROUTENUM=580) && (LI.1.USE=4) && (LI.1.TOLLCLASS>0) && (LI.1.ROUTEDIR='E')) USE=2
+
+    ; 580 WB Express Lanes opened in 2016, no HOV in 2015 -- make LANES=0
+    ; TOLLCLASS=29
+    if ((LI.1.ROUTENUM=580) && (LI.1.USE=4) && (LI.1.TOLLCLASS>0) && (LI.1.ROUTEDIR='E')) LANES=0
+
+    ; 880 in Santa Clara is HOV2
+    IF ((LI.1.ROUTENUM=880) && (LI.1.USE=3) && (LI.1.GL=3)) USE=2
+
+    ; 880 in Alameda is HOV2 -- southern sections
+    IF ((A.Y<4180250) && (LI.1.ROUTENUM=880) && (LI.1.USE=3) && (LI.1.GL=4)) USE=2
+
+    ; 4 in Contra Costa is HOV2
+    IF ((LI.1.ROUTENUM=4) & (LI.1.USE=3) & (LI.1.GL=5)) USE=2
+
+    ; 680 in Contra Costa is HOV2 (one link in Alameda)
+    IF ((A.Y<4210052) && (LI.1.ROUTENUM=680) && (LI.1.USE=3) && (LI.1.GL=5)) USE=2
+    IF ((A.Y<4210052) && (LI.1.ROUTENUM=680) && (LI.1.USE=3) && (LI.1.GL=4)) USE=2
+
+  ENDPHASE
+
+
+
+NETWORK Stack Size = 3222 bytes.Page 3  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+................................................................................
+
+
+
+
+hwy\FREEFLOW.NET   (VOYAGER):
+
+NET PGM=CUBE   DATE=Thu Nov 15 10:50:54 2018
+ID= 
+PAR Zones=1475    Nodes=20576     Links=33622     NodeRecs=14123     
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=48
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=1
+
+
+
+Begin PROCESS PHASE NODEMERGE
+      14,123 records merged from NODEI[1]: hwy\FREEFLOW.NET
+      14,123 data base records.
+
+Variable   Obs<>0              Total           Ave         Min         Max           RMS  
+--------   ------              -----           ---         ---         ---           ---  
+N          14,123                 --            --           1      20,576            --
+X          14,123   8,096,801,041.02    573,306.03     454,817     660,744    573,836.41
+Y          14,123  58,990,944,111.91  4,176,941.45   4,086,022   4,301,302  4,177,106.15
+
+      Obs = 0:  GGFARE
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE NODEMERGE
+
+
+Begin PROCESS PHASE LINKMERGE
+      33,622 records merged from NETI[1]: hwy\FREEFLOW.NET
+      33,622 data base records.Page 4  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+
+Variable     Obs<>0          Total       Ave       Min        Max       RMS  
+--------     ------          -----       ---       ---        ---       ---  
+A            33,622             --        --      1     20,574           --
+B            33,622             --        --      1     20,574           --
+DISTANCE     30,340      14,892.22      0.49      0.01      12.8       0.78
+SPDCLASS     33,622   1,235,912        36.76      4         76        38.49
+CAPCLASS     33,622   1,235,912        36.76      4         76        38.49
+LANES        33,603     104,818         3.12      1          7         3.94
+TSIN          8,669       8,669         1         1          1         1   
+GL           33,622     132,186         3.93      1         10         4.43
+USE          33,622      35,011         1.04      1          4         1.07
+OT            5,391       7,269.89      1.35      0.07      15         1.64
+CAP          24,953  28,875,200     1,157.18    600      2,250     1,240.32
+AT           32,778     107,125         3.27      1          7         3.42
+FT           33,622     180,210         5.36      1          8         5.6 
+TOS           1,635       1,808         1.11      1          2         1.15
+AUX             331         340         1.03      1          2         1.04
+YEAR            334     673,400     2,016.17  2,010      2,035     2,016.17
+FFS          33,622   1,024,021        30.46     10        100        33.02
+FFT          30,338      29,478.65      0.97      0.02      19.37      1.42
+FT2000       33,618     179,296         5.33      1          7         5.58
+ROUTENUM      4,761     948,179       199.16      1        980       320.01
+HOT              20          20         1         1          1         1   
+TOLLCLASS        88       2,344        26.64      1         50        29.56
+STATE         7,111       7,111         1         1          1         1   
+CITYID       33,622   3,911,584       116.34      1        191       125.73
+CITYNAME     33,622                           (Alameda )  (Yountvil)
+REGFREIGHT    2,364       2,364         1         1          1         1   
+BRT             116         116         1         1          1         1   
+TOLLEA_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEA_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLAM_DA        77       7,738       100.49      2.22     446.94    175.53
+TOLLAM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLAM_S3        16       3,110.72    194.42    178.78     303.92    198.78
+TOLLAM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLAM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLMD_DA        67       6,225.03     92.91      1.14     446.94    177.2 
+TOLLMD_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLMD_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLPM_DA        77       7,147        92.82      1.14     446.94    174.96
+TOLLPM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLPM_S3        16       3,110.72    194.42    178.78     303.92    198.78Page 5  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+TOLLPM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLPM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLEV_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEV_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+ROUTEDIR      4,761                           (E       )  (W       )
+
+      Obs = 0:  SIGCOR
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE LINKMERGE
+
+FILEO NETO=hwy\FREEFLOW_OUT.NET
+
+NET PGM=NETWORK (v.06/18/2018 [6.4.4 x86]) DATE=Fri Nov 16 11:27:32 2018
+ID= 
+PAR Zones=1475 Nodes=20576 Links=33622 NodeRecs=14123 
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=048
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=001
+
+
+NETWORK  ReturnCode = 0  Elapsed Time = 00:00:00
+################################################################################
+
+
+VOYAGER  ReturnCode = 0  Elapsed Time = 00:00:00
