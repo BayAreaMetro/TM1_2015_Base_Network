@@ -33,7 +33,6 @@
     read  file = trn\SCVTA_Local.tpl
     read  file = trn\SCVTA_LRT.tpl
     read  file = trn\SCVTA_Shuttle.TPL
-    read  file = trn\SMART.tpl
     read  file = trn\Sonoma_Local.tpl
     read  file = trn\STANFORD_Shuttle.tpl
     read  file = trn\Tridelta.tpl
