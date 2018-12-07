@@ -1,5 +1,6 @@
 ; transit fare matrices to read (new mode codes)
 FAREMATI[120] = trn\BART.FAR
+FAREMATI[121] = trn\BART.FAR
 FAREMATI[130] = trn\CALTRAIN.FAR
 FAREMATI[131] = trn\AMTRAK.FAR
 FAREMATI[132] = trn\AMTRAK.FAR
