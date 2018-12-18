@@ -25,6 +25,8 @@ link nodes=14557,14600, time=25.0, dist=725, oneway=no, modes=100-105; Berkeley 
 link nodes=14567,14612, time=32.0, dist=960, oneway=no, modes=100-105; South San Francisco - Harbor Bay
 link nodes=14567,14600, time=30.0, dist=1025, oneway=no, modes=100-105; South San Francisco - SF Ferry
 link nodes=14601,14500, time=3.3, dist=840, oneway=no, modes=100-105; Fisherman's Wharf - Middle-of-Bay
+link nodes=14606,14613, time=3.3, dist=840, oneway=no, modes=100-105; Vallejo - Mare Island
+
 
 link nodes=14567,14605, time=35.0, dist=1300, oneway=no, modes=100-105; South San Francisco - Oakland
 link nodes=14577,14600, time=35.0, dist=920, oneway=no, modes=100-105; Richmond - SF Ferry
@@ -232,62 +234,45 @@ LINE NAME="103_FWTIB", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
      N=14601, 14608
 
 ;* Vallejo Ferry
-LINE NAME="104_VALFB", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
+LINE NAME="104_MIVALFB", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1, 
      FREQ[1]=200,
      FREQ[2]=60,
      FREQ[3]=0,
      FREQ[4]=80,
      FREQ[5]=0,
-     N=14606, -14607,
+     N=14613, 14606, -14607,
      -14500, 14600
 
-LINE NAME="104_FBVAL", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
+LINE NAME="104_FBVALMI", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1, 
      FREQ[1]=0,
      FREQ[2]=120,
      FREQ[3]=0,
      FREQ[4]=60,
      FREQ[5]=500,
-     N=14600, -14500, -14607, 14606
+     N=14600, -14500, -14607, 14606, 14613
       
-LINE NAME="104_FWFBVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
-     COLOR=1,  
-     FREQ[1]=0,
-     FREQ[2]=0,
-     FREQ[3]=0,
-     FREQ[4]=240,
-     FREQ[5]=500,
-     N=14601, -14602, 14600,
-     -14500, -14607, 14606
 
-LINE NAME="104_FBFWVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+LINE NAME="104_FBFWVALMI", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1,  
      FREQ[1]=0,
      FREQ[2]=0,
-     FREQ[3]=300,
-     FREQ[4]=0,
-     FREQ[5]=0,
+     FREQ[3]=120,
+     FREQ[4]=300,
+     FREQ[5]=160,
      N=14600, -14602, 14601,
-     -14500, -14607, 14606
+     -14500, -14607, 14606, 14613
 
-LINE NAME="104_VALFBFW", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+LINE NAME="104_MIVALFBFW", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1,  
      FREQ[1]=0,
      FREQ[2]=0,
      FREQ[3]=300,
-     FREQ[4]=0,
+     FREQ[4]=120,
      FREQ[5]=0,
-     N=14606, -14607, -14500, 14600, -14602, 14601
-     
-LINE NAME="104_VALFWFB", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
-     COLOR=1,  
-     FREQ[1]=0,
-     FREQ[2]=0,
-     FREQ[3]=300,
-     FREQ[4]=240,
-     FREQ[5]=0,
-     N=14606, -14607, -14500, 14601, -14602, 14600     
+     N=14613, 14606, -14607, -14500, 14600, -14602, 14601
+
      
  ; South San Francisco Ferry to Alameda and Oakland
 LINE NAME="100_SSFOAK", RUNTIME=35, ONEWAY=T, MODE=105, 
