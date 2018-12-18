@@ -68,6 +68,7 @@
 10311 14561 0.05  ; San Jose Airport
 5296 15590 0.05  ; Downtown Santa Clara
 4253 13800 0.05  ; Cisco Way
+4893 10922 0.05  ; Cisco Way
 
 7488 12401  0.05    ; Embarcadero  ---- MUNI METRO STREETCAR LINES J, K, L, M, N  ** 4 stops added to N line for 1998 extension to 4th and King
 7499 12401  0.05    ; **This file updated with new nodes for RVAL 2000. 8/22. SI.
