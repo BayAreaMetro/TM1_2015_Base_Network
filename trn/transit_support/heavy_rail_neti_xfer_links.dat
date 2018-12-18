@@ -10,7 +10,7 @@
 7509 15512 0.05      
 7488 15511 0.05      ; Embarcadero BART
 7499 15511 0.05      
-2813 15534 0.05      ; Lake Merritt BART
+2814 15534 0.05      ; Lake Merritt BART
 2782 15510 0.05      ; West Oakland BART
 2849 15509 0.05      ; 12th Street/Broadway BART
 2848 15509 0.05      ;
@@ -24,6 +24,7 @@
 2407 15521 0.05      ; El Cerrito Del Norte BART
 2412 15521 0.05      
 2329 15520 0.05      ; Richmond BART
+2390 15520 0.05
 3194 15533 0.05      ; Fruitvale BART
 3321 15532 0.05      ; Coliseum BART
 3371 15531 0.05      ; San Leandro BART
@@ -35,7 +36,9 @@
 3521 15529 0.05      ; Hayward BART
 3548 15528 0.05      ; South Hayward BART
 2931 15527 0.05      ; Union City BART
+3326 15527 0.05
 3942 15526 0.05      ; Fremont BART
+3938 15526 0.05
 2671 15506 0.05      ; Rockridge BART
 1834 15505 0.05      ; Orinda BART
 1848 15505 0.05      
@@ -50,6 +53,10 @@
 3996 15545 0.05      ; West Dublin BART
 2703 15545 0.05
 1756 14230 0.05      ; E-BART Somersville Road Antioch
+
+1623 14245 0.05      ; E-BART Railroad Ave.
+1633 14245 0.05      
+1700 14231 0.05      ; E-BART Hillcrest Avenue Antioch
 
 7755 14232 0.05      ; E-BART  Empire Avenue Oakley
 1720 14233 0.05      ; E-BART Central Avenue Brentwood
