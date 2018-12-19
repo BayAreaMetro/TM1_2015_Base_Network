@@ -44,6 +44,7 @@
     read  file = trn\WESTCAT.tpl
     read  file = trn\Wheels_ACE_Shuttles.tpl
     read  file = trn\WHEELS_Local.tpl
+    read  file = trn\bus_links.link
 
 
 

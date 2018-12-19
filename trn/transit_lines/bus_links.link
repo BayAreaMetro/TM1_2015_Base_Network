@@ -1,0 +1,21 @@
+;#### Bus-only links
+;#### See https://app.asana.com/0/741988522701299/951145667720440/f
+
+link nodes=8888,8887,   speed=25, dist=21,  oneway=y, modes=10-99  ; Outbound Bay Bridge Transbay Terminal Ramp
+link nodes=8888,7598,   speed=25, dist=7,   oneway=n, modes=10-99  ; Transbay Terminal Ramp
+link nodes=8887,7014,   speed=25, dist=19,  oneway=y, modes=10-99  ; Outbound Bay Bridge Transbay Terminal Ramp
+link nodes=7013,8888,   speed=25, dist=21,  oneway=y, modes=10-99  ; Inbound  Bay Bridge Transbay Terminal Ramp
+link nodes=7599,8888,   speed=25, dist=5,   oneway=y, modes=10-99  ; Transbay Terminal Ramp
+link nodes=7611,8888,   speed=25, dist=9,   oneway=n, modes=10-99  ; Transbay Terminal Ramp
+
+link nodes=13622,6970,  speed=25, dist=25,  oneway=y, modes=10-99  ; Treasure Island Ramp
+
+link nodes=9867,9869,   speed=45, dist=10,  oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
+link nodes=11123,10183, speed=45, dist=130, oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
+link nodes=9894,9895,   speed=45, dist=110, oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway
+link nodes=9865,9867,   speed=45, dist=48,  oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
+link nodes=9344,9345,   speed=45, dist=10,  oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
+
+link nodes=3147,12835,  speed=25, dist=2,   oneway=n, modes=10-99  ; Highway to park and ride pad
+link nodes=2283,12843,  speed=25, dist=3,   oneway=n, modes=10-99  ; Highway to park and ride pad
+
