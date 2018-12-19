@@ -1,5 +1,4 @@
 ;;<<Trnbuild>>;;
-link nodes=9344,9345,   speed=45, dist=10,  oneway=y, modes=93  ; Toll plaza bypass (not present in off-peak highway)
 ;LINE NAME="60_11EMID", RUNTIME=115, ONEWAY=T, MODE=60, OWNER="32",
 ;     COLOR=12, 
 ;     FREQ[1]=0, FREQ[2]=240, FREQ[3]=240,
