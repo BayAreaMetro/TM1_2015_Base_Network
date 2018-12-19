@@ -1,9 +1,4 @@
 ;;<<Trnbuild>>;;
-link nodes=8888,8887,   speed=25, dist=21,  oneway=y, modes=21  ; Outbound Bay Bridge Transbay Terminal Ramp
-link nodes=8887,7014,   speed=25, dist=19,  oneway=y, modes=21  ; Outbound Bay Bridge Transbay Terminal Ramp
-link nodes=7013,8888,   speed=25, dist=21,  oneway=y, modes=21  ; Inbound  Bay Bridge Transbay Terminal Ramp
-link nodes=7599,8888,   speed=25, dist=5,   oneway=y, modes=21  ; Transbay Terminal Ramp
-link nodes=13622,6970,   speed=25, dist=25,   oneway=y, modes=21  ; Treasure Island Ramp
 ; Reviewed on 8/12/216
 ;LINE NAME="21_9A", RUNTIME=47, ONEWAY=T, MODE=21,
 ;     OWNER="4", COLOR=8, FREQ[1]=45, N=6738, 7043, 6737,
