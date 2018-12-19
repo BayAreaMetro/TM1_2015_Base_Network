@@ -1,4 +1,13 @@
 ;;<<Trnbuild>>;;
+link nodes=7611,8888,  speed=25, dist=9,  oneway=no, modes=90  ; Transbay Terminal Ramp
+link nodes=8888,8887,  speed=25, dist=21, oneway=y,  modes=90  ; Outbound Bay Bridge Transbay Terminal Ramp
+link nodes=8887,7014,  speed=25, dist=19, oneway=y,  modes=90  ; Outbound Bay Bridge Transbay Terminal Ramp
+link nodes=7013,8888,  speed=25, dist=21, oneway=y,  modes=90  ; Inbound  Bay Bridge Transbay Terminal Ramp
+link nodes=9865,9867,  speed=45, dist=48, oneway=y,  modes=90  ; Toll plaza bypass (not present in off-peak highway)
+link nodes=9867,9869,  speed=45, dist=10, oneway=y,  modes=90  ; Toll plaza bypass (not present in off-peak highway)
+link nodes=3147,12835, speed=25, dist=2,  oneway=no, modes=90  ; Highway to park and ride pad
+link nodes=2283,12843, speed=25, dist=3,  oneway=no, modes=90  ; Highway to park and ride pad
+link nodes=8888,7598,  speed=25, dist=7,  oneway=no, modes=90  ; Transbay Terminal Ramp
 ;
 ;LINE NAME="46_19WC", RUNTIME=21, ONEWAY=F, MODE=46,
 ;     OWNER="12", COLOR=4, FREQ[1]=0, FREQ[2]=45,
