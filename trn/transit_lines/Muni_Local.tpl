@@ -1,9 +1,4 @@
 ;;<<Trnbuild>>;;
-link nodes=8888,8887,   speed=25, dist=21,  oneway=y, modes=21  ; Outbound Bay Bridge Transbay Terminal Ramp
-link nodes=8887,7014,   speed=25, dist=19,  oneway=y, modes=21  ; Outbound Bay Bridge Transbay Terminal Ramp
-link nodes=7013,8888,   speed=25, dist=21,  oneway=y, modes=21  ; Inbound  Bay Bridge Transbay Terminal Ramp
-link nodes=7599,8888,   speed=25, dist=5,   oneway=y, modes=21  ; Transbay Terminal Ramp
-link nodes=13622,6970,   speed=25, dist=25,   oneway=y, modes=21  ; Treasure Island Ramp
 ; Reviewed on 8/12/216
 ;LINE NAME="21_9A", RUNTIME=47, ONEWAY=T, MODE=21,
 ;     OWNER="4", COLOR=8, FREQ[1]=45, N=6738, 7043, 6737,
@@ -430,7 +425,7 @@ LINE NAME="21_28NB", LONGNAME="38 19th Avenue Northbound", ONEWAY=T,
      FREQ[3]=10, FREQ[4]=10, FREQ[5]=20, N=6712, -6702, -6915, 6891,
      6905, -6889, 6894, 6901, -13614, 6897, 7229, 7248, 7247, 7249,
      13527, 7252, 7257, 7285, 7286, 7344, 7345, 7346, 7391, 7347,
-     -7206, -7311, -7306, -7307, 7007, -7323, -7001, -7325, -7327,
+     -7206, -7311, -7306, -7307, 7007, -7001, -7325, -7327,
      -7331, -7333, 7334, 7712, 7711, 7710, 6887, 7709, -7708, 6801,
      7721, 6950
 LINE NAME="21_28SB", LONGNAME="28 19th Avenue Southbound", ONEWAY=T,
