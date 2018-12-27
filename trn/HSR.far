@@ -1,0 +1,6 @@
+13654   13661   1900 ;   San Fransisco Transit Center to Millbrae
+13654   13682   2400 ;   San Fransisco Transit Center to San Jose
+13654   13688   2600 ;   San Fransisco Transit Center to Gilroy
+13661   13682   2100 ;   Millbrae to San Jose
+13661   13688   2500 ;   Millbrae to Gilroy
+13682   13688   2000 ;   San Jose to Gilroy
