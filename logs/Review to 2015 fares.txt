@@ -1,0 +1,6 @@
+Changes to 2015 Fares (based on transit operators review located here https://app.asana.com/0/278666983498525/868343539442764):
+
+1- Modified the farelink of $3.00 on link 6734 - 6732. Added the farelink on link 6733-6736 (the NB direction) since local travel is allowed on the KX within San MAteo.
+2- Added fare for mode 95 of Napa Vine (line from Napa to Farifield). $1.60 for local. Added farelink to links 11069-11828 and 11828-11069 of $1.40 (to make the $3.00 total fare).
+3- Deleted farelinks within Napa for Vine. Cost is $1.60 throught the county. Also deleted the farelinks batween Napa and Vallejo (11784- 11029 and 11029- 11784) since the base fare for the Vine Express is $3.25.
+4- Changed the mode of CCTA lines 4,5 and 7 to mode 7 (free shuttles).
