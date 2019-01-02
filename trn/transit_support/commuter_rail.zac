@@ -25,7 +25,7 @@ ZONEACCESS link=14944-14644 mode=5
 ZONEACCESS link=14946-14646 mode=5
 
 ; Coliseum BART - not in 1998
-;ZONEACCESS link=14947-14647 mode=5
+ZONEACCESS link=14947-14647 mode=5
 
 ;Jack London Square
 ZONEACCESS link=14948-14648 mode=5
