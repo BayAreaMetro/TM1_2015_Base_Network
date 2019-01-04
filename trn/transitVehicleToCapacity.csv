@@ -45,3 +45,6 @@ Unknown Train,800,680,Unknown Train,0,0,0,0
 Van,25,21,Van,0,0,0.062,0.07
 VanTI,28,23,VanTI,0,0,0.062,0.07
 eBart,350,297,eBart,0,0,0,0
+HSR4,1800,1530,HSR 4 trains,0,0,0,0
+HSR6,2700,2295,HSR 6 trains,0,0,0,0
+HSR10,4500,3825,HSR 10 trains,0,0,0,0
