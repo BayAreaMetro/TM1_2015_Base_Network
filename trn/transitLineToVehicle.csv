@@ -235,8 +235,8 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 21_27OUT,SF MUNI,27OUT,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
 21_28NB,SF MUNI,28NB,28I,28 - 19th AVE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
 21_28SB,SF MUNI,28SB,28LI,28 - 19th AVE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_28RNB,SF MUNI,28RNB,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_28RSB,SF MUNI,28RSB,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_28RN,SF MUNI,28RN,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_28RS,SF MUNI,28RS,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
 21_29,SF MUNI,29,29,29 - SUNSET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
 21_29SHI,SF MUNI,29SHI,29,29 - SUNSET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
 21_29SHO,SF MUNI,29SHO,29,29 - SUNSET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
