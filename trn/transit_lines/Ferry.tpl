@@ -310,24 +310,6 @@ LINE NAME="100_SSFFB", RUNTIME=30, ONEWAY=T, MODE=105,
       FREQ[4]=240,
       FREQ[5]=0,
      N=14600, 14567
- 
-; Richmond-San Francisco Ferry Building
-LINE NAME="100_RCMFB", RUNTIME=35, ONEWAY=T, MODE=100, OWNER=25, COLOR=1,
-     FREQ[1]=0,
-     FREQ[2]=80,
-     FREQ[3]=0,
-     FREQ[4]=80,
-     FREQ[5]=0,
-     N=14577,14600 
-     
-; San Francisco-Richmond Ferry Building
-LINE NAME="100_FBRCM", RUNTIME=35, ONEWAY=T, MODE=100, OWNER=25, COLOR=1,
-     FREQ[1]=0,
-     FREQ[2]=120,
-     FREQ[3]=0,
-     FREQ[4]=60,
-     FREQ[5]=0,
-     N=14600,14577
   
 ; Hercules-San Francisco Ferry Building
 ;LINE NAME=100_HERSF,RUNTIME=41,ONEWAY=N,MODE=100,OWNER=25,COLOR=1,
