@@ -65,9 +65,9 @@
 
 ; SMART
 
-;8480 15800 0.05      ; Cloverdale
-;8784 10460 0.05      ; Healdsburg
-;8592 10461 0.05      ; Windsor
+8480 15800 0.05      ; Cloverdale
+8784 10460 0.05      ; Healdsburg
+8592 10461 0.05      ; Windsor
 8795  15870 0.05     ; irport Blvd
 8560 15805 0.05      ; Guerneville Road
 8061 10463 0.05      ; Railroad Square
