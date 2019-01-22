@@ -1,7 +1,25 @@
 Prefix,System,VehicleType
+100_,East Bay Ferries,Ferry
+101_,Golden Gate Ferry - Larkspur,Ferry GGT
+102_,Golden Gate Ferry - Sausalito,Ferry GGT
+103_,Tiburon Ferry,Ferry GGT
+104_,Vallejo Baylink Ferry,Ferry Vallejo
+105_,South City Ferry,Ferry
 10_,Berkeley,Motor Standard Bus
-11_,Broadway Shuttle,Motor Standard Bus
+110_,SF Muni Metro,LRV2
+111_,VTA LRT,VTA LRT2
+11_,Broadway Shuttle,Motor Small Bus
+120_,BART,8 Car BART
+121_,Oakland Airport Connector,OAC
 12_,Emery Go Round,Motor Small Bus
+130_,Caltrain,Caltrain
+131_,Amtrak Capitol Corridor,Unknown Train
+132_,Amtrak San Joaquin,Unknown Train
+133_,ACE,Unknown Train
+134_,Dumbarton Rail,Dumbarton Rail
+135_,SMART,SMART 2 car
+136_,EBART,eBart 2 car
+137_,High Speed Rail,HSR
 13_,Stanford Shuttle,Motor Small Bus
 14_,Caltrain Shuttle,Motor Small Bus
 15_,VTA Shuttle,Motor Small Bus
@@ -14,7 +32,7 @@ Prefix,System,VehicleType
 24_,SamTrans Local,Motor Standard Bus
 27_,VTA Community Bus,Motor Standard Bus
 28_,VTA Local,Motor Standard Bus
-30_,AC Transit Local,AC Standard Bus
+30_,AC Transit Local,Motor Standard Bus
 33_,Wheels Local,Motor Standard Bus
 38_,Union City Transit,Motor Standard Bus
 40_,AirBART,Motor Standard Bus
@@ -45,21 +63,4 @@ Prefix,System,VehicleType
 93_,VINE Express,Motor Standard Bus
 94_,SMART Temporary Express,Motor Standard Bus
 95_,VINE Express,Motor Standard Bus
-100_,East Bay Ferries,Ferry
-101_,Golden Gate Ferry - Larkspur,Ferry
-102_,Golden Gate Ferry - Sausalito,Ferry
-103_,Tiburon Ferry,Ferry
-104_,Vallejo Baylink Ferry,Ferry
-105_,South City Ferry,Ferry
-110_,SF Muni Metro,LRV2
-111_,VTA LRT,LRV2
-120_,BART,8 Car BART
-121_,Oakland Airport Connector,LRV2
-130_,Caltrain,Caltrain
-131_,Amtrak Capitol Corridor,Unknown Train
-132_,Amtrak San Joaquin,Unknown Train
-133_,ACE,Unknown Train
-134_,Dumbarton Rail,Unknown Train
-135_,SMART,Unknown Train
-136_,EBART,eBart
-137_,High Speed Rail,HSR
+Prefix,System,VehicleType

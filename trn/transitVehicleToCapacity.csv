@@ -14,10 +14,13 @@ AC Plus Bus TI,65,55,AC Plus Bus TI,0,0.122,0.05,0.021
 AC Standard Bus,40,34,AC Standard Bus,0,0.082,0.062,0.035
 Cable Car,63,53,Cable Car,0,0,0.062,0.035
 Caltrain,650,552,Caltrain,0,0,0,0
-Ferry,450,382,Ferry,0,0,0,0
+Ferry,400,340,Ferry,0,0,0,0
+Ferry GGT,450,383,Ferry,0,0,0,0
+Ferry small,250,213,Ferry,0,0,0,0
+Ferry Vallejo,275,234,Ferry,0,0,0,0
 LRV1,119,101,LRV1,0,0,0.016,0.018
 LRV2,238,202,LRV2,0,0,0.008,0.009
-LRV2.5,297,252,LRV2.5,0,0,0.006,0.007
+LRV2.5,298,253,LRV2.5,0,0,0.006,0.007
 LRV3,357,303,LRV3,0,0,0.005,0.006
 LRV4,476,404,LRV4,0,0,0.004,0.004
 Motor Articulated Bus,94,79,Motor Articulated Bus,0,0.122,0.05,0.021
@@ -45,6 +48,4 @@ Unknown Train,800,680,Unknown Train,0,0,0,0
 Van,25,21,Van,0,0,0.062,0.07
 VanTI,28,23,VanTI,0,0,0.062,0.07
 eBart,350,297,eBart,0,0,0,0
-HSR4,1800,1530,HSR 4 trains,0,0,0,0
-HSR6,2700,2295,HSR 6 trains,0,0,0,0
-HSR10,4500,3825,HSR 10 trains,0,0,0,0
+HSR,450,382.5,High Speed Rail Train,0,0,0,0
