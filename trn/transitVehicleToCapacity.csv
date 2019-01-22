@@ -47,5 +47,6 @@ Trolley Standard Bus ALLDOOR LOWFLOOR,63,53,Trolley Standard Bus ALLDOOR LOWFLOO
 Unknown Train,800,680,Unknown Train,0,0,0,0
 Van,25,21,Van,0,0,0.062,0.07
 VanTI,28,23,VanTI,0,0,0.062,0.07
-eBart,350,297,eBart,0,0,0,0
+eBart 1 car,200,170,eBart,0,0,0,0
+eBart 2 car,400,340,eBart,0,0,0,0
 HSR,450,382.5,High Speed Rail Train,0,0,0,0
