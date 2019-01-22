@@ -52,3 +52,6 @@ VanTI,28,23,VanTI,0,0,0.062,0.07
 eBart 1 car,200,170,eBart,0,0,0,0
 eBart 2 car,400,340,eBart,0,0,0,0
 HSR,450,382.5,High Speed Rail Train,0,0,0,0
+VTA LRT1,171,145,VTA Light Rail 1,0,0,0.016,0.018
+VTA LRT2,342,291,VTA Light Rail 2,0,0,0.008,0.009
+VTA LRT3,513,436,VTA Light Rail 3,0,0,0.005,0.006
