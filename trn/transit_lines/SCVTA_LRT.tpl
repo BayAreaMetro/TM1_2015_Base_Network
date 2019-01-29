@@ -246,7 +246,7 @@ LINE NAME="111_901SXLRT", LONGNAME="Santa Teresa to Alum Rock Express Southbound
 
 ; Express service from Civic Center to Santa Teresa Southbound
 ; Early AM Service
-LINE NAME="111_901EAMLRT", LONGNAME="Early AM Civic Center to Santa Teresa Southbound", ONEWAY=T, MODE=111, OWNER="27",
+LINE NAME="111_901EALRT", LONGNAME="Early AM Civic Center to Santa Teresa Southbound", ONEWAY=T, MODE=111, OWNER="27",
      COLOR=8, 
      FREQ[1]=45,
      FREQ[2]=240,
