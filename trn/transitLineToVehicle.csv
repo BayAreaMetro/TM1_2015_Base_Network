@@ -493,6 +493,3 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 111_902LRT,VTA LRT,902LRT,902,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
 111_LRTWCC,VTA LRT,LRTWCC,WCC,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
 Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle Type
-137_B,HSR,B,SFSJ,SF - SAN JOSE,HSR6,HSR6,HSR10
-137_C,HSR,C,SJG,SAM JOSE - GILROY,HSR4,HSR4,HSR10
-Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle Type
