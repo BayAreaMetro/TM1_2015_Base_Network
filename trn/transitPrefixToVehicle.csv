@@ -11,6 +11,7 @@ Prefix,System,VehicleType
 11_,Broadway Shuttle,Motor Small Bus
 120_,BART,8 Car BART
 121_,Oakland Airport Connector,OAC
+122_,EBART,eBart 2 car
 12_,Emery Go Round,Motor Small Bus
 130_,Caltrain,Caltrain
 131_,Amtrak Capitol Corridor,Unknown Train
@@ -18,7 +19,6 @@ Prefix,System,VehicleType
 133_,ACE,Unknown Train
 134_,Dumbarton Rail,Dumbarton Rail
 135_,SMART,SMART 2 car
-136_,EBART,eBart 2 car
 137_,High Speed Rail,HSR
 13_,Stanford Shuttle,Motor Small Bus
 14_,Caltrain Shuttle,Motor Small Bus
