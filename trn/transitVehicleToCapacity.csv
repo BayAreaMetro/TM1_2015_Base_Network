@@ -10,10 +10,10 @@ VehicleType,100%Capacity,85%Capacity,VehicleCategory,SimpleDelayPerStop,ConstDel
 8.5 Car BART,943,802,8.5 Car BART,0,0,0,0
 8.5 Car BART RENOVATED,952,809,8.5 Car BART RENOVATED,0,0,0,0
 9 Car BART,999,849,9 Car BART,0,0,0,0
-9 Car BART RENOVATED,1011,859,9 Car BART RENOVATED,0,0,0,0
-AC Plus Bus,50,42,AC Plus Bus,0,0.122,0.05,0.021
-AC Plus Bus TI,65,55,AC Plus Bus TI,0,0.122,0.05,0.021
-AC Standard Bus,40,34,AC Standard Bus,0,0.082,0.062,0.035
+9 Car BART RENOVATED,1008,857,9 Car BART RENOVATED,0,0,0,0
+AC Plus Bus,70,59.5,AC Plus Bus,0,0.122,0.05,0.021
+AC Plus Bus TI,70,59.5,AC Plus Bus TI,0,0.122,0.05,0.021
+AC Standard Bus,63,53.55,AC Standard Bus,0,0.082,0.062,0.035
 Cable Car,63,53,Cable Car,0,0,0.062,0.035
 Caltrain,650,552,Caltrain,0,0,0,0
 Ferry,400,340,Ferry,0,0,0,0
