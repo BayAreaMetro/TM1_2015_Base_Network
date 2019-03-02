@@ -15,7 +15,9 @@ AC Plus Bus,70,59.5,AC Plus Bus,0,0.122,0.05,0.021
 AC Plus Bus TI,70,59.5,AC Plus Bus TI,0,0.122,0.05,0.021
 AC Standard Bus,63,53.55,AC Standard Bus,0,0.082,0.062,0.035
 Cable Car,63,53,Cable Car,0,0,0.062,0.035
-Caltrain,650,552,Caltrain,0,0,0,0
+Caltrain,1444,1228,Caltrain,0,0,0,0
+Caltrain PCEP,1502,1276.7,Caltrain,0,0,0,0
+Caltrain PCBB,1841,1564.85,Caltrain,0,0,0,0
 Ferry,400,340,Ferry,0,0,0,0
 Ferry GGT,450,383,Ferry,0,0,0,0
 Ferry small,250,213,Ferry,0,0,0,0
