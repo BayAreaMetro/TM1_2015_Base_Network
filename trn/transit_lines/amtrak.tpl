@@ -26,46 +26,46 @@ LINE NAME="131_CAP1NB", LONGNAME=AMTRAK_Capitol_SanJose_to_Fairfield_Vacaville, 
      FREQ[2]=120,
      FREQ[3]=300,
      FREQ[4]=80,
-     FREQ[5]=300,
+     FREQ[5]=480,
      N=14641, 14642, 14643, 14644, 14646, 14647, 14648, 14649, 14650, 14651, -14652, 14654, 14655
 
 ; Amtrak Capitol from Suisun-Fairfield to San Jose
 ;
 LINE NAME="131_CAP1SB", LONGNAME=AMTRAK_Capitol_Fairfield_Vacaville_to_SanJose, ONEWAY=T, MODE=131, OWNER="6", COLOR=10,
-     FREQ[1]=0,
+     FREQ[1]=180,
      FREQ[2]=80,
-     FREQ[3]=120,
-     FREQ[4]=120,
-     FREQ[5]=0,
+     FREQ[3]=300,
+     FREQ[4]=80,
+     FREQ[5]=480,
      N=14655, 14654, -14652, 14651, 14650, 14649, 14648, 14647, 14646, 14644, 14643, 14642, 14641
 
 ; Amtrak Capitol from Coliseum to Suisun-Fairfield
 ;
 LINE NAME="131_CAP2NB", LONGNAME=AMTRAK_Capitol_Coliseum_to_Fairfield_Vacaville, ONEWAY=T, MODE=131, OWNER="6", COLOR=10,
      FREQ[1]=0,
-     FREQ[2]=300,
+     FREQ[2]=,
      FREQ[3]=0,
      FREQ[4]=0,
-     FREQ[5]=300,
+     FREQ[5]=480,
      N=14647, 14648, 14649, 14650, 14651, -14652, 14654, 14655
 
 ; Amtrak Capitol from Suisun-Fairfield to Coliseum
 ;
 LINE NAME="131_CAP2SB", LONGNAME=AMTRAK_Capitol_Fairfield_Vacaville_to_Coliseum, ONEWAY=T, MODE=131, OWNER="6", COLOR=10,
      FREQ[1]=0,
-     FREQ[2]=120,
+     FREQ[2]=240,
      FREQ[3]=300,
-     FREQ[4]=300,
-     FREQ[5]=0,
+     FREQ[4]=0,
+     FREQ[5]=480,
      N=14655, 14654, -14652, 14651, 14650, 14649, 14648, 14647
 
 ; Amtrak Capitol from Jack London Square to Suisun-Fairfield
 ;
 LINE NAME="131_CAP3NB", LONGNAME=AMTRAK_Capitol_JLS_to_Fairfield_Vacaville, ONEWAY=T, MODE=131, OWNER="6", COLOR=10,
-     FREQ[1]=00,
-     FREQ[2]=120,
-     FREQ[3]=300,
-     FREQ[4]=80,
+     FREQ[1]=180,
+     FREQ[2]=240,
+     FREQ[3]=150,
+     FREQ[4]=0,
      FREQ[5]=0,
      N=14648, 14649, 14650, 14651, -14652, 14654, 14655
 
@@ -73,19 +73,19 @@ LINE NAME="131_CAP3NB", LONGNAME=AMTRAK_Capitol_JLS_to_Fairfield_Vacaville, ONEW
 ;
 LINE NAME="131_CAP3SB", LONGNAME=AMTRAK_Capitol_Fairfield_Vacaville_to_JLS, ONEWAY=T, MODE=131, OWNER="6", COLOR=10,
      FREQ[1]=0,
-     FREQ[2]=300,
-     FREQ[3]=300,
-     FREQ[4]=300,
-     FREQ[5]=300,
+     FREQ[2]=240,
+     FREQ[3]=0,
+     FREQ[4]=120,
+     FREQ[5]=240,
      N=14655, 14654, -14652, 14651, 14650, 14649, 14648
 
 ; Amtrak San Joaquin from Jack London Square to Antioch
 ;
 LINE NAME="132_SJQNB", LONGNAME=AMTRAK_SanJoaquin_JLS_to_Antioch, ONEWAY=T, MODE=132, OWNER="6", COLOR=10, 
-     FREQ[1]=0,
-     FREQ[2]=300,
-     FREQ[3]=150,
-     FREQ[4]=300,
+     FREQ[1]=180,
+     FREQ[2]=120,
+     FREQ[3]=300,
+     FREQ[4]=240,
      FREQ[5]=0,
      N=14648, 14649, 14650, 14651, -14652, 14654, 14658
  
@@ -93,8 +93,8 @@ LINE NAME="132_SJQNB", LONGNAME=AMTRAK_SanJoaquin_JLS_to_Antioch, ONEWAY=T, MODE
 ;
 LINE NAME="132_SJQSB", LONGNAME=AMTRAK_SanJoaquin_Antioch_to_JLS, ONEWAY=T, MODE=132, OWNER="6", COLOR=10, 
      FREQ[1]=0,
-     FREQ[2]=300,
-     FREQ[3]=0,
-     FREQ[4]=120,
-     FREQ[5]=300,
+     FREQ[2]=240,
+     FREQ[3]=300,
+     FREQ[4]=240,
+     FREQ[5]=240,
      N=14658, 14654, -14652, 14651, 14650, 14649, 14648
