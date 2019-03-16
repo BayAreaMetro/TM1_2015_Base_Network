@@ -43,7 +43,7 @@ LINE NAME="131_CAP1SB", LONGNAME=AMTRAK_Capitol_Fairfield_Vacaville_to_SanJose, 
 ;
 LINE NAME="131_CAP2NB", LONGNAME=AMTRAK_Capitol_Coliseum_to_Fairfield_Vacaville, ONEWAY=T, MODE=131, OWNER="6", COLOR=10,
      FREQ[1]=0,
-     FREQ[2]=,
+     FREQ[2]=0,
      FREQ[3]=0,
      FREQ[4]=0,
      FREQ[5]=480,
