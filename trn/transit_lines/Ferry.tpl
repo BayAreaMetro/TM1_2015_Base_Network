@@ -206,22 +206,22 @@ LINE NAME="102_FBSAU", RUNTIME=30, ONEWAY=T, MODE=102, OWNER="3",
      N=14600, -14501, 14503
 
 ;LINE NAME="103_SAUFW", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
-;     COLOR=11, 
-;     FREQ[1]=0,
-;     FREQ[2]=0,
-;     FREQ[3]=100,
-;     FREQ[4]=120,
-;     FREQ[5]=240,
-;     N=14503, 14601
+     COLOR=11, 
+     FREQ[1]=0,
+     FREQ[2]=0,
+     FREQ[3]=0,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N=14503, 14601
 
 ;LINE NAME="103_FWSAU", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
-;     COLOR=11, 
-;     FREQ[1]=0,
-;     FREQ[2]=0,
-;     FREQ[3]=100,
-;     FREQ[4]=80,
-;     FREQ[5]=0,
-;     N= 14601, 14503
+     COLOR=11, 
+     FREQ[1]=0,
+     FREQ[2]=0,
+     FREQ[3]=0,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N= 14601, 14503
 
 ;* Blue & Gold: Tiburon - SF Ferry
 LINE NAME="103_TIBFB", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
@@ -231,6 +231,15 @@ LINE NAME="103_TIBFB", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
      FREQ[3]=0,
      FREQ[4]=120,
      FREQ[5]=500,
+     N=14608, 14600
+
+LINE NAME="103_TIBFBFW", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=80,
+     FREQ[3]=300,
+     FREQ[4]=0,
+     FREQ[5]=0,
      N=14608, 14600
      
 LINE NAME="103_FBTIB", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
@@ -246,18 +255,18 @@ LINE NAME="103_TIBFW", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
      COLOR=11, 
      FREQ[1]=0,
      FREQ[2]=0,
-     FREQ[3]=100,
+     FREQ[3]=150,
      FREQ[4]=120,
-     FREQ[5]=240,
+     FREQ[5]=0,
      N=14608, 14601
 
 LINE NAME="103_FWTIB", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
      COLOR=11, 
      FREQ[1]=0,
-     FREQ[2]=240,
-     FREQ[3]=150,
-     FREQ[4]=120,
-     FREQ[5]=240,
+     FREQ[2]=0,
+     FREQ[3]=100,
+     FREQ[4]=80,
+     FREQ[5]=0,
      N=14601, 14608
 
 ;* Vallejo Ferry
