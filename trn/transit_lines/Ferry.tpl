@@ -65,6 +65,33 @@ LINE NAME="100_FBOAKALA", RUNTIME=40, ONEWAY=T, MODE=100, OWNER="25",
      FREQ[4]=0,
      FREQ[5]=0,
      N=14600, 14605, 14604
+
+LINE NAME="100_FBALA", RUNTIME=40, ONEWAY=T, MODE=100, OWNER="25",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=240,
+     FREQ[3]=0,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N=14600, 14604
+
+LINE NAME="100_ALAFB", RUNTIME=40, ONEWAY=T, MODE=100, OWNER="25",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=240,
+     FREQ[3]=0,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N=14604, 14600
+
+LINE NAME="100_OAKFB", RUNTIME=40, ONEWAY=T, MODE=100, OWNER="25",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=240,
+     FREQ[3]=0,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N=14605, 14600
      
 LINE NAME="100_FWFBALOK", RUNTIME=45, ONEWAY=F, MODE=100, OWNER="25", 
      COLOR=1, 
@@ -234,6 +261,16 @@ LINE NAME="103_FWTIB", RUNTIME=20, ONEWAY=T, MODE=103, OWNER="26",
      N=14601, 14608
 
 ;* Vallejo Ferry
+LINE NAME="104_VALFB", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
+     COLOR=1, 
+     FREQ[1]=0,
+     FREQ[2]=60,
+     FREQ[3]=300,
+     FREQ[4]=120,
+     FREQ[5]=0,
+     N=14606, -14607,
+     -14500, 14600
+
 LINE NAME="104_MIVALFB", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1, 
      FREQ[1]=200,
@@ -264,6 +301,38 @@ LINE NAME="104_FBMILONG", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      N=14600, -14602, 14601,
      -14500, -14607, 14606, 14613
 
+; Ferry Building to Vallejo via Fisherman's Wharf
+LINE NAME="104_FBFWVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=0,
+     FREQ[3]=300,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N=14600, -14602, 14601,
+     -14500, -14607, 14606
+
+; Fisherman's Wharf to Vallejo via Ferry Building
+LINE NAME="104_FWFBVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=0,
+     FREQ[3]=0,
+     FREQ[4]=240,
+     FREQ[5]=480,
+     N=14601, -14602, 14600,
+     -14500, -14607, 14606
+
+; Ferry Building to Vallejo
+LINE NAME="104_FBVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=120,
+     FREQ[3]=300,
+     FREQ[4]=80,
+     FREQ[5]=0,
+     N=14600, -14500, -14607, 14606
+
 ; Mare Island to Ferry Building via Fisherman's Wharf
 LINE NAME="104_MIFBLONG", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1,  
@@ -274,18 +343,47 @@ LINE NAME="104_MIFBLONG", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      FREQ[5]=0,
      N=14613, 14606, -14607, -14500, 14600, -14602, 14601
 
+; Vallejo to Ferry Building via Fisherman's Wharf
+LINE NAME="104_VALFWFB", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=0,
+     FREQ[3]=300,
+     FREQ[4]=240,
+     FREQ[5]=0,
+     N=14606, -14607, -14500, 14601, -14602, 14600
+
+; Vallejo to Fisherman's Wharf via Ferry Building
+LINE NAME="104_VALFWFB", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
+     COLOR=1,  
+     FREQ[1]=0,
+     FREQ[2]=240,
+     FREQ[3]=0,
+     FREQ[4]=0,
+     FREQ[5]=0,
+     N=14606, -14607, -14500, 14600, -14602, 14601
+
      
  ; South San Francisco Ferry to Alameda and Oakland
-LINE NAME="100_SSFOAK", RUNTIME=35, ONEWAY=T, MODE=105, 
+LINE NAME="100_SSFOAKAL", RUNTIME=35, ONEWAY=T, MODE=105, 
      OWNER="25", COLOR=1, 
      FREQ[1]=0,
      FREQ[2]=0,
      FREQ[3]=0,
-     FREQ[4]=120,
-     FREQ[5]=500,
-     N=14567, 14605, 14604  
+     FREQ[4]=240,
+     FREQ[5]=480,
+     N=14567, 14605, 14604
+
+LINE NAME="100_SSFALOAK", RUNTIME=35, ONEWAY=T, MODE=105, 
+     OWNER="25", COLOR=1, 
+     FREQ[1]=0,
+     FREQ[2]=0,
+     FREQ[3]=0,
+     FREQ[4]=240,
+     FREQ[5]=0,
+     N=14567, 14604, 14605  
      
-LINE NAME="100_OAKSSF", RUNTIME=35, ONEWAY=T, MODE=105, 
+LINE NAME="100_ALOAKSSF", RUNTIME=35, ONEWAY=T, MODE=105, 
      OWNER="25", COLOR=1, 
      FREQ[1]=0,
      FREQ[2]=80,
