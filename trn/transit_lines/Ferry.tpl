@@ -29,6 +29,7 @@ link nodes=14606,14613, time=3.3, dist=840, oneway=no, modes=100-105; Vallejo - 
 
 
 link nodes=14567,14605, time=35.0, dist=1300, oneway=no, modes=100-105; South San Francisco - Oakland
+link nodes=14567,14604, time=35.0, dist=1300, oneway=no, modes=100-105; South San Francisco - Alameda
 link nodes=14577,14600, time=35.0, dist=920, oneway=no, modes=100-105; Richmond - SF Ferry
 link nodes=14100,14607, time=4.4, dist=360, oneway=no, modes=100-105; Hercules/Rodeo - Middle-of-Bay - leg 1
 link nodes=14110,14600, time=60.0, dist=2500, oneway=no, modes=100-105; Redwood City - SF Ferry
