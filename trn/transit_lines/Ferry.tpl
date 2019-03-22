@@ -34,7 +34,7 @@ link nodes=14577,14600, time=35.0, dist=920, oneway=no, modes=100-105; Richmond 
 link nodes=14100,14607, time=4.4, dist=360, oneway=no, modes=100-105; Hercules/Rodeo - Middle-of-Bay - leg 1
 link nodes=14110,14600, time=60.0, dist=2500, oneway=no, modes=100-105; Redwood City - SF Ferry
 link nodes=14120,14600, time=13.0, dist=225, oneway=no, modes=100-105; Treasure Island - SF Ferry
-
+link nodes=146503,14608, time=10, dist=180, oneway=no,modes=100-105; Tiburon - Sausalito
 
 ;*****************************************************************************
 ;*****************************************************************************
