@@ -290,36 +290,6 @@ LINE NAME="104_VALFB", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
      N=14606, -14607,
      -14500, 14600
 
-LINE NAME="104_MIVALFB", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
-     COLOR=1, 
-     FREQ[1]=0,
-     FREQ[2]=0,
-     FREQ[3]=0,
-     FREQ[4]=0,
-     FREQ[5]=0,
-     N=14613, 14606, -14607,
-     -14500, 14600
-
-LINE NAME="104_FBVALMI", RUNTIME=55, ONEWAY=T, MODE=104, OWNER="24",
-     COLOR=1, 
-     FREQ[1]=0,
-     FREQ[2]=0,
-     FREQ[3]=0,
-     FREQ[4]=0,
-     FREQ[5]=0,
-     N=14600, -14500, -14607, 14606, 14613
-      
-; Ferry Building to Mare Island via Fisherman's Wharf
-LINE NAME="104_FBMILONG", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
-     COLOR=1,  
-     FREQ[1]=0,
-     FREQ[2]=0,
-     FREQ[3]=0,
-     FREQ[4]=0,
-     FREQ[5]=0,
-     N=14600, -14602, 14601,
-     -14500, -14607, 14606, 14613
-
 ; Ferry Building to Vallejo via Fisherman's Wharf
 LINE NAME="104_FBFWVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      COLOR=1,  
@@ -351,16 +321,6 @@ LINE NAME="104_FBVAL", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      FREQ[4]=80,
      FREQ[5]=0,
      N=14600, -14500, -14607, 14606
-
-; Mare Island to Ferry Building via Fisherman's Wharf
-LINE NAME="104_MIFBLONG", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
-     COLOR=1,  
-     FREQ[1]=0,
-     FREQ[2]=0,
-     FREQ[3]=0,
-     FREQ[4]=0,
-     FREQ[5]=0,
-     N=14613, 14606, -14607, -14500, 14600, -14602, 14601
 
 ; Vallejo to Ferry Building via Fisherman's Wharf
 LINE NAME="104_VALFWFB", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
