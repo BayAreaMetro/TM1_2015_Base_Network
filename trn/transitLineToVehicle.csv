@@ -493,5 +493,5 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 111_LRCCW,VTA LRT,LRCCW,CCW,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
 111_902LRT,VTA LRT,902LRT,902,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
 111_LRTWCC,VTA LRT,LRTWCC,WCC,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
-122_EBART,BART,EBART,eBART,BART Yellow line extension,eBart 2 car,eBart 2 car,eBart 1 car
+120_EBART,BART,EBART,eBART,BART Yellow line extension,eBart 2 car,eBart 2 car,eBart 1 car
 Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle Type
