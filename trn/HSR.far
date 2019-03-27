@@ -1,6 +1,10 @@
-13655   13661   1245 ;   4th/Townsend to Millbrae
-13655   13682   1573 ;   4th/Townsend to San Jose
-13655   13688   1704 ;   4th/Townsend to Gilroy
-13661   13682   1376 ;   Millbrae to San Jose
-13661   13688   1639 ;   Millbrae to Gilroy
-13682   13688   1311 ;   San Jose to Gilroy
+13655   13661   1177 ;   4th/Townsend to Millbrae
+13655   13682   1482 ;   4th/Townsend to San Jose
+13655   13688   1753 ;   4th/Townsend to Gilroy
+13661   13682   1360 ;   Millbrae to San Jose
+13661   13688   1631 ;   Millbrae to Gilroy
+13682   13688   1325 ;   San Jose to Gilroy
+13654   13655   1697 ;   SFTC to 4th/Townsend
+13654   13661   1819 ;   SFTC to Millbrae
+13654   13682   2125 ;   SFTC to San Jose
+13654   13688   2395 ;   SFTC to Gilroy
