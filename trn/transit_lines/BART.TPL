@@ -62,6 +62,11 @@ LINK NODES= 15542,15543, TIME = 6.0, DIST=150, ONEWAY=NO, MODES=120 ;SFOIA-Mlbre
 ;Oakland Airport Connector Links
 LINK NODES= 15000,15532, TIME = 8.2, DIST=320, ONEWAY=NO, MODES=121 ;Colis-Airpt 
 
+; Zero transfer time at MacArthur
+factor MAXWAITTIME=0, NODES=15507
+; Zero transfer time at 19th St
+factor MAXWAITTIME=0, NODES=15508
+
 ;------------------- BART LINES--------------------------------------------------
 
 ; Millbrae - Richmond 
