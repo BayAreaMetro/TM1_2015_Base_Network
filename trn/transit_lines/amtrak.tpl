@@ -65,7 +65,7 @@ LINE NAME="131_CAP3NB", LONGNAME=AMTRAK_Capitol_JLS_to_Fairfield_Vacaville, ONEW
      FREQ[1]=180,
      FREQ[2]=240,
      FREQ[3]=150,
-     FREQ[4]=0,
+     FREQ[4]=80,
      FREQ[5]=0,
      N=14648, 14649, 14650, 14651, -14652, 14654, 14655
 
