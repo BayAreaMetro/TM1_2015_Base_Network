@@ -211,12 +211,6 @@ ZONEACCESS link=11425-13725 mode=5
 ; San Carlos Station      
 ZONEACCESS link=10922-10914 mode=5
 
-; Hacienda Station      
-ZONEACCESS link=15595-10912 mode=5
-
-; Vasona Junction Station     
-ZONEACCESS link=15593-10913 mode=5
-
 ;-------------------------------------------
 ; Capitol Extension
 ;-------------------------------------------
