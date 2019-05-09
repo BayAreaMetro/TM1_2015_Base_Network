@@ -193,12 +193,6 @@ ZONEACCESS link=16005-16000 mode=5
 Use ZONEACCESS control to create mode 5 walk access walk funnel links
 */
 
-; Cloverdale
-ZONEACCESS link=15801-15800 mode=5
-
-; Healdsburg
-ZONEACCESS link=11460-10460 mode=5
-
 ; Windsor
 ZONEACCESS link=11461-10461 mode=5
 
