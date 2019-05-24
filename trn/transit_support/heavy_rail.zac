@@ -137,21 +137,6 @@ ZONEACCESS link=16212-14202 mode=5
 ; Berryessa BART
 ZONEACCESS link=16213-14203 mode=5
 
-; Alum Rock BART
-ZONEACCESS link=16214-14204 mode=5
-
-; San Jose State Univ BART
-ZONEACCESS link=16215-14205 mode=5
-
-; San Jose Transit Mall BART
-ZONEACCESS link=16216-14206 mode=5
-
-; San Jose-Diridon BART
-ZONEACCESS link=16217-14207 mode=5
-
-; Santa Clara BART
-ZONEACCESS link=14217-14208 mode=5
-
 ; Rockridge BART
 ZONEACCESS link=14076-15506 mode=5
 
