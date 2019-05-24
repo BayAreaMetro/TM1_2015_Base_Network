@@ -54,3 +54,4 @@ PNR NODE=15093-15545 TIME=2.00 ZONES=1-1454          ;  West Dublin BART
 ;PNR NODE=14252-14232 TIME=2.00 ZONES=1-1454          ;  E-BART Empire Avenue Oakley [6/4/07]
 ;PNR NODE=14253-14233 TIME=2.00 ZONES=1-1454          ;  E-BART Central Avenue Brentwood [6/4/07]
 ;PNR NODE=14254-14234 TIME=2.00 ZONES=1-1454          ;  E-BART Downtown Byron  [6/4/07]
+PNR NODE=16222-14202 TIME=1.00 ZONES=1-1454          ;  Milpitas Capitol/Montague Rd BART
