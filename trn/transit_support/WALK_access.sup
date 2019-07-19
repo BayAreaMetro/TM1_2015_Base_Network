@@ -15,6 +15,7 @@ supplink mode=1 nodes= 189- 6897 dist= 38 speed=3 oneway=y ;
 supplink mode=1 nodes= 190- 7267 dist= 50 speed=3 oneway=y ;
 supplink mode=1 nodes= 200- 6638 dist= 50 speed=3 oneway=y ;
 supplink mode=1 nodes= 212- 6585 dist= 15 speed=3 oneway=y ;
+supplink mode=1 nodes= 212-14568 dist= 60 speed=3 oneway=y ;
 supplink mode=1 nodes= 227- 6498 dist= 50 speed=3 oneway=y ;
 supplink mode=1 nodes= 249- 6542 dist= 50 speed=3 oneway=y ;
 supplink mode=1 nodes= 250- 6536 dist= 38 speed=3 oneway=y ;
