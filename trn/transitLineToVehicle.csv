@@ -6,6 +6,19 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 *15,Transfer,,,,,,
 *16,Drive funnel,,,,,,
 *17,Walk Funnel,,,,,,
+100_FBHB,Ferry,FBHB,FBHB,San Francisco Ferry Building to Harbor Bay,Ferry small,Ferry small,Ferry small
+100_HBFB,Ferry,HBFB,HBFB,Harbor Bay - San Francisco Ferry Building,Ferry small,Ferry small,Ferry small
+100_SSFOAKAL,Ferry,SSFOAKAL,SSFOAKAL,SSF - Oak - Ala,Ferry small,Ferry small,Ferry small
+100_SSFALOAK,Ferry,SSFALOAK,SSFALOAK,SSF - Ala - Oak,Ferry small,Ferry small,Ferry small
+100_ALOAKSSF,Ferry,ALOAKSSF,ALOAKSSF,Ala - Oak - SSF,Ferry small,Ferry small,Ferry small
+100_RCMFB,Ferry,RCMFB,RCMFB,Richmond to San Francisco Ferry Building,Ferry small,Ferry small,Ferry small
+100_FBRCM,Ferry,FBRCM,FBRCM,San Francisco Ferry Building to Richmond,Ferry small,Ferry small,Ferry small
+104_MIVALFB,Ferry,MIVALFB,MIVALFB,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_FBVALMI,Ferry,FBVALMI,FBVALMI,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_FBVAL,Ferry,FBVAL,FBVAL,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_VALFB,Ferry,VALFB,VALFB,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_FBMILONG,Ferry,FBMILONG,FBMILONG,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_MIFBLONG,Ferry,MIFBLONG,MIFBLONG,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
 120_BLUE,BART,BLUE,BLUE,Blue Line,9 Car BART,9 Car BART,8 Car BART
 120_BLUE-,BART,BLUE-,BLUE-,Blue Line,9 Car BART,9 Car BART,8 Car BART
 120_GREEN,BART,GREEN,GREEN,Green Line,10 Car BART,10 Car BART,8 Car BART
