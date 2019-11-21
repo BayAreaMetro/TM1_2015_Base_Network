@@ -2,6 +2,8 @@
 
 This repository serves as the 2015 Base Networks for Travel Model 1.5
 
+For detail on the *TOLLCLASS* designations used in this network, please see https://github.com/BayAreaMetro/modeling-website/wiki/MasterNetworkLookupTables#toll-code-tollclass
+
 # Notes
 
 * SR 84 Expressway widening (ALA050014) is included
