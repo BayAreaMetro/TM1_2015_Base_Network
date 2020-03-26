@@ -1,0 +1,185 @@
+Page 1  (VOYAGER PILOT) 
+Metropolitan Transportation Commission
+--------------------------------------
+PILOT (v.06/18/2018 [6.4.4 x86]) Thu Mar 26 16:32:42 2020
+
+Args: logs\update280capclass.job
+Input:   M:...ne\Networks\TM1_2015_Base_Network\logs\update280capclass.job
+
+RUN PGM=HWYNET,72
+SYS=(move hwy\freeflow_280faster.net hwy\freeflow.net)
+
+PILOT Stack Size = 114 bytes.
+................................................................................
+Page 2  (VOYAGER HWYNET) 
+Metropolitan Transportation Commission
+--------------------------------------
+HWYNET (v.06/18/2018 [6.4.4 x86])  Thu Mar 26 16:32:43 2020
+
+  FILEI NETI="hwy\freeflow.net"
+  FILEO NETO="hwy\freeflow_280faster.net"
+
+  PHASE=LINKMERGE
+    IF ((ROUTENUM==280) && (AT>2))
+      CAPCLASS = 62
+      SPDCLASS = 62
+      FFS      = 70
+      CAP      = 2150
+      FFT      = (DISTANCE/FFS)*60
+    ENDIF
+  ENDPHASE
+
+HWYNET Stack Size = 578 bytes.
+................................................................................
+
+
+
+
+hwy\freeflow.net   (VOYAGER):
+
+NET PGM=CUBE   DATE=Fri Mar 06 14:54:36 2020
+ID= 
+PAR Zones=1475    Nodes=20614     Links=33789     NodeRecs=14171     
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=33
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=1
+
+
+
+Begin PROCESS PHASE NODEMERGE
+      14,171 records merged from NODEI[1]: hwy\freeflow.net
+      14,171 data base records.
+
+Variable   Obs<>0              Total           Ave         Min         Max           RMS  
+--------   ------              -----           ---         ---         ---           ---  
+N          14,171                 --            --           1      20,614            --
+X          14,171   8,124,578,599.31    573,324.3      454,817     660,744    573,853.26
+Y          14,171  59,191,453,053.18  4,176,942.56   4,086,022   4,301,302  4,177,106.85
+
+      Obs = 0:  GGFARE
+Page 3  (VOYAGER HWYNET) 
+Metropolitan Transportation Commission
+--------------------------------------
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE NODEMERGE
+
+
+Begin PROCESS PHASE LINKMERGE
+      33,789 records merged from NETI[1]: hwy\freeflow.net
+      33,789 data base records.Page 4  (VOYAGER HWYNET) 
+Metropolitan Transportation Commission
+--------------------------------------
+
+Variable     Obs<>0          Total       Ave       Min        Max       RMS  
+--------     ------          -----       ---       ---        ---       ---  
+A            33,789             --        --      1     20,614           --
+B            33,789             --        --      1     20,614           --
+DISTANCE     30,511      14,897.08      0.49      0.01      12.8       0.77
+SPDCLASS     33,789   1,246,845        36.9       4         76        38.64
+CAPCLASS     33,789   1,246,845        36.9       4         76        38.64
+LANES        33,789     105,964         3.14      1          7         3.96
+TSIN          8,838       8,838         1         1          1         1   
+GL           33,789     132,824         3.93      1         10         4.42
+USE          33,789      34,897         1.03      1          4         1.05
+OT            5,391       7,269.89      1.35      0.07      15         1.64
+CAP          24,951  28,872,750     1,157.18    600      2,250     1,240.37
+AT           32,945     107,684         3.27      1          7         3.42
+FT           33,789     180,177         5.33      1          7         5.58
+TOS           1,635       1,639         1         1          2         1   
+AUX             331         340         1.03      1          2         1.04
+YEAR            329     663,340     2,016.23  2,010      2,035     2,016.24
+FFS          33,789   1,028,218        30.43     10        100        33.04
+FFT          30,336      29,462.35      0.97      0.02      19.37      1.42
+FT2000       33,785     180,304         5.34      1          7         5.58
+ROUTENUM      4,761     948,082       199.14      1        980       320.01
+HOT              20          20         1         1          1         1   
+TOLLCLASS        49      18,194       371.31      1        888       488.38
+STATE         7,107       7,107         1         1          1         1   
+CITYID       33,789   3,932,238       116.38      1        191       125.73
+CITYNAME     33,789                           (Alameda )  (Yountvil)
+REGFREIGHT    2,360       2,360         1         1          1         1   
+BRT               8           8         1         1          1         1   
+TOLLEA_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEA_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLAM_DA        77       7,734.83    100.45      2.22     446.94    175.53
+TOLLAM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLAM_S3        16       3,110.72    194.42    178.78     303.92    198.78
+TOLLAM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLAM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLMD_DA        67       6,225.03     92.91      1.14     446.94    177.2 
+TOLLMD_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLMD_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLPM_DA        77       7,202.24     93.54      1.14     446.94    175.11
+TOLLPM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLPM_S3        16       3,110.72    194.42    178.78     303.92    198.78Page 5  (VOYAGER HWYNET) 
+Metropolitan Transportation Commission
+--------------------------------------
+TOLLPM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLPM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLEV_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEV_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+ROUTEDIR      4,761                           (E       )  (W       )
+
+      Obs = 0:  SIGCOR
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE LINKMERGE
+
+FILEO NETO=hwy\freeflow_280faster.net
+
+NET PGM=HWYNET (v.06/18/2018 [6.4.4 x86]) DATE=Thu Mar 26 16:32:43 2020
+ID= 
+PAR Zones=1475 Nodes=20614 Links=33789 NodeRecs=14171 
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=033
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=001
+
+
+HWYNET   ReturnCode = 0  Elapsed Time = 00:00:00
+################################################################################
+
+M(100): move hwy\freeflow_280faster.net hwy\freeflow.net
+
+VOYAGER  ReturnCode = 0  Elapsed Time = 00:00:01

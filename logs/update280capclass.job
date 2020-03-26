@@ -1,0 +1,19 @@
+;
+; update 280 (where AT>2) to special capclass with higher speeds
+;
+RUN PGM=HWYNET
+  FILEI NETI="hwy\freeflow.net"
+  FILEO NETO="hwy\freeflow_280faster.net"
+
+  PHASE=LINKMERGE
+    IF ((ROUTENUM==280) && (AT>2))
+      CAPCLASS = 62
+      SPDCLASS = 62
+      FFS      = 70
+      CAP      = 2150
+      FFT      = (DISTANCE/FFS)*60
+    ENDIF
+  ENDPHASE
+ENDRUN
+
+*move hwy\freeflow_280faster.net hwy\freeflow.net
