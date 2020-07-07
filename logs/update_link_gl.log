@@ -1,0 +1,379 @@
+Page 1  (VOYAGER PILOT) 
+Metropolitan Transportation Commission
+--------------------------------------
+PILOT (v.06/18/2018 [6.4.4 x86]) Tue Jul 07 10:55:19 2020
+
+Args: update_link_gl.s
+Input:   M:...del One\Networks\TM1_2015_Base_Network\logs\update_link_gl.s
+
+RUN PGM=network,107
+
+PILOT Stack Size = 44 bytes.
+................................................................................
+Page 2  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+NETWORK (v.06/18/2018 [6.4.4 x86])  Tue Jul 07 10:55:20 2020
+
+  NETI[1] = "M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net"
+  LINKI[2]= "M:\Application\Model One\Networks\TM1_2015_Base_Network\logs\update_link_gl.csv", VAR=A,B,GL_prev,GL_new, START=(substr(record,1,2)='A,B,')
+  NETO    = "M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow_out.net", EXCLUDE=GL_prev,GL_new
+
+  PHASE=LINKMERGE
+    IF (LI.2.GL_new > 0 )
+      ; update GL
+      PRINT LIST="GL update: ",LI.1.A,"-",LI.1.B,": ",LI.1.GL," -> ",LI.2.GL_new
+      GL = LI.2.GL_new
+    ENDIF
+  ENDPHASE
+
+NETWORK Stack Size = 870 bytes.
+................................................................................
+
+
+
+
+M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net   (VOYAGER):
+
+NET PGM=CUBE   DATE=Fri May 15 09:58:52 2020
+ID= 
+PAR Zones=1475    Nodes=20614     Links=33792     NodeRecs=14171     
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=33
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=1
+
+
+update_link_gl.csv:
+A          B          GL_PREV    GL_NEW     
+
+
+Begin PROCESS PHASE INPUT
+
+
+Reading LINKI[2]: update_link_gl.csv
+      0         1          
+      0....+....0....+....
+
+     1:A,B,GL_prev,GL_new
+W(626):A B Page 3  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+
+Reading LINKI[2]: update_link_gl.csv
+      0         1          
+      0....+....0....+....
+------------------------------------
+W      166 records read from LINKI[2]: update_link_gl.csv
+W        1 records contained errors
+         2 field errors
+End   PROCESS PHASE INPUT
+
+
+Begin PROCESS PHASE NODEMERGE
+      14,171 records merged from NODEI[1]: M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net
+      14,171 data base records.
+
+Variable   Obs<>0              Total           Ave         Min         Max           RMS  
+--------   ------              -----           ---         ---         ---           ---  
+N          14,171                 --            --           1      20,614            --
+X          14,171   8,124,578,599.31    573,324.3      454,817     660,744    573,853.26
+Y          14,171  59,191,453,053.18  4,176,942.56   4,086,022   4,301,302  4,177,106.85
+
+      Obs = 0:  GGFARE
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE NODEMERGE
+
+
+Begin PROCESS PHASE LINKMERGE
+GL update:    1471.00-   4150.00:       3.00 ->      10.00
+GL update:    1619.00-   2108.00:       6.00 ->       5.00
+GL update:    1726.00-   1611.00:       6.00 ->       5.00
+GL update:    1738.00-   2998.00:       4.00 ->       5.00
+GL update:    1738.00-   8303.00:       4.00 ->       5.00
+GL update:    2071.00-   2567.00:       4.00 ->       5.00
+GL update:    2130.00-   2142.00:       5.00 ->       6.00
+GL update:    2135.00-  10603.00:       6.00 ->       5.00
+GL update:    2314.00-   2481.00:       4.00 ->       5.00
+GL update:    2341.00-   2357.00:       5.00 ->      10.00
+GL update:    2419.00-   8972.00:       4.00 ->       5.00
+GL update:    2420.00-   8970.00:       4.00 ->       5.00
+GL update:    2442.00-  12060.00:       4.00 ->       5.00
+GL update:    2485.00-   2490.00:       4.00 ->       5.00
+GL update:    2488.00-   2419.00:       4.00 ->       5.00
+GL update:    2565.00-   9770.00:       5.00 ->       4.00
+GL update:    2567.00-   2071.00:       4.00 ->       5.00
+GL update:    2567.00-  11359.00:       4.00 ->       5.00
+GL update:    2727.00-   9790.00:       5.00 ->       4.00
+GL update:    2728.00-   9793.00:       5.00 ->       4.00
+GL update:    2805.00-   9807.00:       5.00 ->       4.00
+GL update:    2822.00-   9800.00:       5.00 ->       4.00Page 4  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+GL update:    2823.00-   9802.00:       5.00 ->       4.00
+GL update:    2826.00-   9806.00:       5.00 ->       4.00
+GL update:    2893.00-   9805.00:       5.00 ->       4.00
+GL update:    2894.00-   9804.00:       5.00 ->       4.00
+GL update:    2895.00-   9791.00:       5.00 ->       4.00
+GL update:    2932.00-   9792.00:       5.00 ->       4.00
+GL update:    2933.00-   9803.00:       5.00 ->       4.00
+GL update:    2998.00-   1738.00:       4.00 ->       5.00
+GL update:    2998.00-   3965.00:       4.00 ->       5.00
+GL update:    3707.00-  10301.00:       4.00 ->       5.00
+GL update:    3965.00-   2998.00:       4.00 ->       5.00
+GL update:    3972.00-   1741.00:       4.00 ->       5.00
+GL update:    3973.00-   9016.00:       5.00 ->       4.00
+GL update:    4110.00-   9816.00:       4.00 ->      10.00
+GL update:    4111.00-   9817.00:       4.00 ->      10.00
+GL update:    4150.00-   1471.00:       3.00 ->      10.00
+GL update:    4252.00-   9049.00:       4.00 ->       3.00
+GL update:    4485.00-   4464.00:       3.00 ->       4.00
+GL update:    5773.00-  10632.00:       4.00 ->       3.00
+GL update:    5774.00-   9272.00:       4.00 ->       3.00
+GL update:    5778.00-  10633.00:       4.00 ->       3.00
+GL update:    5812.00-   9046.00:       4.00 ->       3.00
+GL update:    5865.00-  11133.00:       2.00 ->       3.00
+GL update:    5866.00-   5965.00:       2.00 ->       3.00
+GL update:    5871.00-   5969.00:       2.00 ->       3.00
+GL update:    5908.00-   5916.00:       2.00 ->       3.00
+GL update:    5916.00-   5907.00:       2.00 ->       3.00
+GL update:    5918.00-   5907.00:       2.00 ->       3.00
+GL update:    5952.00-  20087.00:       2.00 ->       3.00
+GL update:    5965.00-   5866.00:       2.00 ->       3.00
+GL update:    5969.00-   5871.00:       2.00 ->       3.00
+GL update:    5986.00-   6623.00:       1.00 ->       2.00
+GL update:    6234.00-   6813.00:       1.00 ->       2.00
+GL update:    6623.00-   5986.00:       1.00 ->       2.00
+GL update:    6678.00-   6912.00:       2.00 ->       1.00
+GL update:    6733.00-   9681.00:       2.00 ->       1.00
+GL update:    6813.00-   6234.00:       1.00 ->       2.00
+GL update:    6843.00-   6851.00:       2.00 ->       1.00
+GL update:    6851.00-   6843.00:       2.00 ->       1.00
+GL update:    6904.00-   6905.00:       2.00 ->       1.00
+GL update:    6904.00-   6906.00:       2.00 ->       1.00
+GL update:    6912.00-   6678.00:       2.00 ->       1.00
+GL update:    6968.00-  20426.00:       4.00 ->       1.00
+GL update:    6970.00-  20427.00:       4.00 ->       1.00
+GL update:    6972.00-  20431.00:       4.00 ->       5.00
+GL update:    6976.00-  20430.00:       4.00 ->       1.00
+GL update:    7013.00-  20429.00:       4.00 ->       1.00
+GL update:    7016.00-  20428.00:       4.00 ->       1.00
+GL update:    7319.00-  10034.00:       1.00 ->      10.00
+GL update:    7322.00-  13822.00:       1.00 ->      10.00
+GL update:    8035.00-  12154.00:       4.00 ->       5.00
+GL update:    8202.00-   9666.00:       9.00 ->       8.00
+GL update:    8303.00-   1738.00:       4.00 ->       5.00
+GL update:    8671.00-   9983.00:       6.00 ->       7.00Page 5  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+GL update:    8671.00-  11807.00:       7.00 ->       6.00
+GL update:    8672.00-   9982.00:       6.00 ->       7.00
+GL update:    8675.00-  20418.00:       6.00 ->       7.00
+GL update:    8677.00-  20421.00:       6.00 ->       7.00
+GL update:    8678.00-  20422.00:       6.00 ->       7.00
+GL update:    8680.00-  20423.00:       6.00 ->       7.00
+GL update:    8760.00-  20420.00:       6.00 ->       7.00
+GL update:    8970.00-   2420.00:       4.00 ->       5.00
+GL update:    8972.00-   2419.00:       4.00 ->       5.00
+GL update:    9016.00-   3973.00:       5.00 ->       4.00
+GL update:    9046.00-   5812.00:       4.00 ->       3.00
+GL update:    9049.00-   4252.00:       4.00 ->       3.00
+GL update:    9049.00-   9202.00:       4.00 ->       3.00
+GL update:    9272.00-   5774.00:       4.00 ->       3.00
+GL update:    9549.00-   9017.00:       4.00 ->       5.00
+GL update:    9666.00-   8202.00:       9.00 ->       8.00
+GL update:    9681.00-   6733.00:       2.00 ->       1.00
+GL update:    9770.00-   2565.00:       5.00 ->       4.00
+GL update:    9790.00-   2727.00:       5.00 ->       4.00
+GL update:    9791.00-   2895.00:       5.00 ->       4.00
+GL update:    9792.00-   2932.00:       5.00 ->       4.00
+GL update:    9793.00-   2728.00:       5.00 ->       4.00
+GL update:    9800.00-   2822.00:       5.00 ->       4.00
+GL update:    9802.00-   2823.00:       5.00 ->       4.00
+GL update:    9803.00-   2933.00:       5.00 ->       4.00
+GL update:    9804.00-   2894.00:       5.00 ->       4.00
+GL update:    9805.00-   2893.00:       5.00 ->       4.00
+GL update:    9806.00-   2826.00:       5.00 ->       4.00
+GL update:    9807.00-   2805.00:       5.00 ->       4.00
+GL update:    9816.00-   4110.00:       4.00 ->      10.00
+GL update:    9817.00-   4111.00:       4.00 ->      10.00
+GL update:    9982.00-   8672.00:       6.00 ->       7.00
+GL update:    9983.00-   8671.00:       6.00 ->       7.00
+GL update:    9985.00-  11768.00:       6.00 ->       7.00
+GL update:   10034.00-   7319.00:       1.00 ->      10.00
+GL update:   10243.00-  10246.00:      10.00 ->       6.00
+GL update:   10246.00-  10243.00:      10.00 ->       6.00
+GL update:   10301.00-   3707.00:       4.00 ->       5.00
+GL update:   10495.00-  10496.00:       7.00 ->       6.00
+GL update:   10496.00-  10495.00:       7.00 ->       6.00
+GL update:   10496.00-  11826.00:       7.00 ->       6.00
+GL update:   10498.00-  11826.00:       7.00 ->       6.00
+GL update:   10574.00-  11918.00:       6.00 ->      10.00
+GL update:   10602.00-  10007.00:       5.00 ->       6.00
+GL update:   10603.00-   2135.00:       6.00 ->       5.00
+GL update:   10632.00-   5773.00:       4.00 ->       3.00
+GL update:   10633.00-   5778.00:       4.00 ->       3.00
+GL update:   11133.00-   5865.00:       2.00 ->       3.00
+GL update:   11337.00-  11340.00:       4.00 ->       5.00
+GL update:   11339.00-  11523.00:       4.00 ->       5.00
+GL update:   11340.00-  11337.00:       4.00 ->       5.00
+GL update:   11359.00-   2567.00:       4.00 ->       5.00
+GL update:   11359.00-  11523.00:       4.00 ->       5.00
+GL update:   11523.00-  11339.00:       4.00 ->       5.00Page 6  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+GL update:   11523.00-  11359.00:       4.00 ->       5.00
+GL update:   11590.00-  11591.00:       3.00 ->      10.00
+GL update:   11591.00-  11590.00:       3.00 ->      10.00
+GL update:   11683.00-   2131.00:       5.00 ->       6.00
+GL update:   11768.00-   9985.00:       6.00 ->       7.00
+GL update:   11802.00-  11809.00:       7.00 ->       6.00
+GL update:   11808.00-   8672.00:       7.00 ->       6.00
+GL update:   11808.00-  11802.00:       7.00 ->       6.00
+GL update:   11809.00-  11802.00:       7.00 ->       6.00
+GL update:   11809.00-  11807.00:       7.00 ->       6.00
+GL update:   11826.00-  10496.00:       7.00 ->       6.00
+GL update:   11826.00-  10498.00:       7.00 ->       6.00
+GL update:   11918.00-  10574.00:       6.00 ->      10.00
+GL update:   11918.00-  11915.00:       6.00 ->      10.00
+GL update:   12060.00-   2442.00:       4.00 ->       5.00
+GL update:   12154.00-   8035.00:       4.00 ->       5.00
+GL update:   13822.00-   7322.00:       1.00 ->      10.00
+GL update:   15855.00-  20419.00:       6.00 ->       7.00
+GL update:   20017.00-   8973.00:       5.00 ->       4.00
+GL update:   20022.00-   8972.00:       4.00 ->       5.00
+GL update:   20085.00-   9350.00:       2.00 ->       3.00
+GL update:   20087.00-   5952.00:       2.00 ->       3.00
+GL update:   20087.00-   9870.00:       3.00 ->       2.00
+GL update:   20418.00-   8675.00:       6.00 ->       7.00
+GL update:   20419.00-  15855.00:       6.00 ->       7.00
+GL update:   20420.00-   8760.00:       6.00 ->       7.00
+GL update:   20421.00-   8677.00:       6.00 ->       7.00
+GL update:   20422.00-   8678.00:       6.00 ->       7.00
+GL update:   20423.00-   8680.00:       6.00 ->       7.00
+GL update:   20426.00-   6968.00:       4.00 ->       1.00
+GL update:   20427.00-   6970.00:       4.00 ->       1.00
+GL update:   20428.00-   7016.00:       4.00 ->       1.00
+GL update:   20429.00-   7013.00:       4.00 ->       1.00
+GL update:   20430.00-   6976.00:       4.00 ->       1.00
+GL update:   20431.00-   6972.00:       4.00 ->       5.00
+      33,792 records merged from NETI[1]: M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net
+         165 records merged from NETI[2]: L2.131583
+      33,792 data base records.Page 7  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+
+Variable     Obs<>0          Total       Ave       Min        Max       RMS  
+--------     ------          -----       ---       ---        ---       ---  
+A            33,792             --        --      1     20,614           --
+B            33,792             --        --      1     20,614           --
+DISTANCE     30,514      14,897.81      0.49      0.01      12.8       0.77
+SPDCLASS     33,792   1,246,980        36.9       4         76        38.64
+CAPCLASS     33,792   1,246,980        36.9       4         76        38.64
+LANES        33,792     105,967         3.14      1          7         3.96
+TSIN          8,838       8,838         1         1          1         1   
+GL           33,792     132,910         3.93      1         10         4.43
+USE          33,792      34,900         1.03      1          4         1.05
+OT            5,391       7,269.89      1.35      0.07      15         1.64
+CAP          24,954  28,877,400     1,157.23    600      2,250     1,240.41
+AT           32,948     107,692         3.27      1          5         3.42
+FT           33,792     180,192         5.33      1          7         5.58
+TOS           1,635       1,639         1         1          2         1   
+AUX             331         340         1.03      1          2         1.04
+YEAR            329     663,340     2,016.23  2,010      2,035     2,016.24
+FFS          33,792   1,028,338        30.43     10        100        33.04
+FFT          30,339      29,463.25      0.97      0.02      19.37      1.42
+FT2000       33,788     180,319         5.34      1          7         5.58
+ROUTENUM      4,761     948,082       199.14      1        980       320.01
+HOT              20          20         1         1          1         1   
+TOLLCLASS        49      18,194       371.31      1        888       488.38
+STATE         7,110       7,110         1         1          1         1   
+CITYID       33,792   3,932,433       116.37      1        191       125.73
+CITYNAME     33,792                           (Alameda )  (Yountvil)
+REGFREIGHT    2,360       2,360         1         1          1         1   
+BRT               8           8         1         1          1         1   
+TOLLEA_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEA_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEA_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLAM_DA        77       7,734.83    100.45      2.22     446.94    175.53
+TOLLAM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLAM_S3        16       3,110.72    194.42    178.78     303.92    198.78
+TOLLAM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLAM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLAM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLMD_DA        67       6,225.03     92.91      1.14     446.94    177.2 
+TOLLMD_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLMD_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLMD_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLPM_DA        77       7,202.24     93.54      1.14     446.94    175.11
+TOLLPM_S2        16       5,327.55    332.97    178.78     446.94    346.26
+TOLLPM_S3        16       3,110.72    194.42    178.78     303.92    198.78Page 8  (VOYAGER NETWORK) 
+Metropolitan Transportation Commission
+--------------------------------------
+TOLLPM_VSM       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_SML       16       6,042.66    377.67    357.55     446.94    379.3 
+TOLLPM_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLPM_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+TOLLEV_DA        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S2        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_S3        16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_VSM       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_SML       16       5,756.62    359.79    286.04     446.94    362.05
+TOLLEV_MED       16      17,698.92  1,106.18  1,072.66   1,340.83  1,109.73
+TOLLEV_LRG       16      32,448.01  2,028     1,966.55   2,458.18  2,034.51
+ROUTEDIR      4,761                           (E       )  (W       )
+GL_PREV         165         729         4.42      1         10         4.74
+GL_NEW          165         803         4.87      1         10         5.43
+
+      Obs = 0:  SIGCOR
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE LINKMERGE
+
+FILEO NETO=M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow_out.net
+
+NET PGM=NETWORK (v.06/18/2018 [6.4.4 x86]) DATE=Tue Jul 07 10:55:20 2020
+ID= 
+PAR Zones=1475 Nodes=20614 Links=33792 NodeRecs=14171 
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=033
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=001
+
+
+NETWORK  ReturnCode = 1  Elapsed Time = 00:00:00
+################################################################################
+
+
+VOYAGER  ReturnCode = 1  Elapsed Time = 00:00:02
