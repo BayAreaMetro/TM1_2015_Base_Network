@@ -12,7 +12,7 @@ link nodes=13622,6970,  speed=25, dist=25,  oneway=y, modes=10-99  ; Treasure Is
 
 link nodes=9867,9869,   speed=45, dist=10,  oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
 link nodes=11123,10183, speed=45, dist=130, oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
-link nodes=9894,9895,   speed=45, dist=110, oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway
+link nodes=38710,9895,   speed=45, dist=110, oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway
 link nodes=9865,9867,   speed=45, dist=48,  oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
 link nodes=9344,9345,   speed=45, dist=10,  oneway=y, modes=10-99  ; Toll plaza bypass (not present in off-peak highway)
 
