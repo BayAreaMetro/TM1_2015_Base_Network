@@ -168,15 +168,6 @@ LINE NAME="100_ALAOAKFB", RUNTIME=35, ONEWAY=T, MODE=100,
      FREQ[5]=240,
      N=14604, 14605, 14600
 
-;LINE NAME="100_ALAOAKFW", RUNTIME=45, ONEWAY=T, MODE=100, 
-;     OWNER="25", COLOR=1,  
-;     FREQ[1]=0,
-;     FREQ[2]=0,
-;     FREQ[3]=0,
-;     FREQ[4]=240,
-;     FREQ[5]=500,
-;     N=14604, 14605, -14602, 14601
-
 ;* Golden Gate Ferry: Larkspur - SF
 LINE NAME="101_LARKS", RUNTIME=40, ONEWAY=T, MODE=101, OWNER="3",
      COLOR=1, 
@@ -325,7 +316,7 @@ LINE NAME="104_VALFBFW", RUNTIME=70, ONEWAY=T, MODE=104, OWNER="24",
      N=14606, -14607, -14500, 14600, -14602, 14601
 
      
- ; South San Francisco Ferry to Alameda and Oakland
+; South San Francisco Ferry to Alameda and Oakland
 LINE NAME="100_SSFOAKAL", RUNTIME=35, ONEWAY=T, MODE=100, 
      OWNER="25", COLOR=1, 
      FREQ[1]=0,
@@ -370,36 +361,4 @@ LINE NAME="100_SSFFB", RUNTIME=30, ONEWAY=T, MODE=100,
       FREQ[4]=240,
       FREQ[5]=0,
      N=14600, 14567
-  
-; Hercules-San Francisco Ferry Building
-;LINE NAME=100_HERSF,RUNTIME=41,ONEWAY=N,MODE=100,OWNER=25,COLOR=1,
-;     FREQ[1]=60,
-;     FREQ[2]=30,
-;     FREQ[3]=0,
-;     FREQ[4]=30,
-;     FREQ[5]=60,
-;     N= 14100,-14607,-14500,14600 
-     
-;;* Redwood Ctiy - Ferry Building
-;LINE NAME="100_REDCFB", RUNTIME=60, ONEWAY=F, MODE=100, 
-;     OWNER="25", COLOR=1, 
-;     FREQ[1]=0,
-;     FREQ[2]=35,
-;     FREQ[3]=0,
-;     FREQ[4]=35,
-;     FREQ[5]=0,
-;     N=14110, 14600         
-     
-;; Treasure Island-San Francisco Ferry Building
-;LINE NAME="100_TIFB",
-;    RUNTIME=10.00,
-;    ONEWAY=F,
-;    MODE=100,
-;    COLOR=1,
-;    FREQ[1]=15,
-;    FREQ[2]=15,
-;    FREQ[3]=15,
-;    FREQ[4]=15,
-;    FREQ[5]=15,
-;  N=14600,
-;    14120         
+
