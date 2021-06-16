@@ -1,6 +1,10 @@
 ## Transit Fares
 
-Transit fares are defined by operator and mode. The initial basic fare for each mode is shown on the following table
+
+Transit fares are defined by operator and mode. The initial basic fare for each mode is shown on the following table.
+
+For rail and ferries, the basic fare is the one-way fare between stations/terminals.  See [MODES_&amp;_FARES_2016.xls](MODES_&amp;_FARES_2016.xls) 
+for the basic fare by mode and the fare to transfer between modes (including the conversion of the fares to 2000 dollars).
                   
 | Service Modes   | Mode        | Operator  |   Basic Fare |   |
 |-----------------|-------------|-------------|----|------|    
@@ -62,4 +66,3 @@ Transit fares are defined by operator and mode. The initial basic fare for each 
 |   | 132 | Amtrak-SJQ || Station to station  Fares to Antioch based on one-way ticket [Amtrak San Joaquin](https://github.com/BayAreaMetro/TM1_2015_Base_Network/blob/master/trn/transit_fares/Amtrak%20Fares.xls)
 |   | 133 | ACE | | Station to station  One-way fare based on monthly pass. [ACE](https://github.com/BayAreaMetro/TM1_2015_Base_Network/blob/master/trn/transit_fares/ACE%20Fares.xls)
 
- >   For rail and ferries, the basic fare is the one-way fare between stations/terminals. The spreadsheets on this repository show the fare for the rail and ferry systems. The [“MODES_&amp;_FARES_2016.xls” file](https://github.com/BayAreaMetro/TM1_2015_Base_Network/blob/master/trn/transit_fares/MODES_&amp;_FARES_2016.xls) shows the basic fare by mode and the fare to transfer between modes. It also converts the fares to 2000 dollars
