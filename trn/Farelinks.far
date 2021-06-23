@@ -1,6 +1,6 @@
 ; ******************************** Farelinks.FAR ******************************
 ;                                RTP 2017 coding 
-;             (assumes 2015 fares in $ with deflation factor of )
+;             (assumes 2016 fares in $ with deflation factor of 0.6773)
 ;
 ; ************************************************************************
 
