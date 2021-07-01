@@ -3,7 +3,7 @@
 
 Transit fares are defined by operator and mode. The initial basic fare for each mode is shown on the following table.
 
-For rail and ferries, the basic fare is the one-way fare between stations/terminals.  See [MODES_&amp;_FARES_2016.xls](MODES_&amp;_FARES_2016.xls) 
+For rail and ferries, the basic fare is the one-way fare between stations/terminals.  See [MODES_&amp;_FARES_2016.xlsx](MODES_&amp;_FARES_2016.xlsx) 
 for the basic fare by mode and the fare to transfer between modes (including the conversion of the fares to 2000 dollars).
                   
 | Service Modes   | Mode        | Operator  |   Basic Fare |   |
