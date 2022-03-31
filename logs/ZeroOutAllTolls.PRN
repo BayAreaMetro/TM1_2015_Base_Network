@@ -1,0 +1,192 @@
+Page 1  (VOYAGER PILOT) Model Run
+Metropolitan Transportation Commission
+--------------------------------------
+PILOT (v.09/23/2016 [6.4.2 x64]) Thu Mar 31 09:57:51 2022
+
+Args: M:\Application\Model One\Networks\TM1_2015_Base_Network\logs\ZeroOutAllTolls.000 -SM:\Application\Model One\Networks\TM1_2015_Base_Network\logs -PTPPL -PH:58 -PW:80 -IModel Run
+Input:   M:... One\Networks\TM1_2015_Base_Network\logs\ZeroOutAllTolls.000
+
+RUN PGM=network,432
+
+PILOT Stack Size = 44 bytes.
+................................................................................
+Page 2  (VOYAGER NETWORK) Model Run
+Metropolitan Transportation Commission
+--------------------------------------
+NETWORK (v.09/23/2016 [6.4.2 x64])  Thu Mar 31 09:57:52 2022
+
+  NETI[1] = "M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net"
+  NETO    = "M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow_out.net"
+
+  PHASE=LINKMERGE
+
+        TOLLEA_DA = 0
+        TOLLAM_DA = 0
+        TOLLMD_DA = 0
+        TOLLPM_DA = 0
+        TOLLEV_DA = 0
+
+        TOLLEA_S2 = 0
+        TOLLAM_S2 = 0
+        TOLLMD_S2 = 0
+        TOLLPM_S2 = 0
+        TOLLEV_S2 = 0
+
+        TOLLEA_S3 = 0
+        TOLLAM_S3 = 0
+        TOLLMD_S3 = 0
+        TOLLPM_S3 = 0
+        TOLLEV_S3 = 0
+
+        TOLLEA_VSM = 0
+        TOLLAM_VSM = 0
+        TOLLMD_VSM = 0
+        TOLLPM_VSM = 0
+        TOLLEV_VSM = 0
+
+        TOLLEA_SML = 0
+        TOLLAM_SML = 0
+        TOLLMD_SML = 0
+        TOLLPM_SML = 0
+        TOLLEV_SML = 0
+
+        TOLLEA_MED = 0
+        TOLLAM_MED = 0
+        TOLLMD_MED = 0
+        TOLLPM_MED = 0
+        TOLLEV_MED = 0
+
+        TOLLEA_LRG = 0
+        TOLLAM_LRG = 0
+        TOLLMD_LRG = 0
+        TOLLPM_LRG = 0
+        TOLLEV_LRG = 0
+
+  ENDPHASE
+
+
+NETWORK Stack Size = 2490 bytes.Page 3  (VOYAGER NETWORK) Model Run
+Metropolitan Transportation Commission
+--------------------------------------
+................................................................................
+
+
+
+
+M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net   (VOYAGER):
+
+NET PGM=CUBE   DATE=Wed Jun 23 15:17:20 2021
+ID= 
+PAR Zones=1475    Nodes=38710     Links=33797     NodeRecs=14172     
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=33
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=1
+
+
+
+Begin PROCESS PHASE NODEMERGE
+      14,172 records merged from NODEI[1]: M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net
+      14,172 data base records.
+
+Variable   Obs<>0              Total           Ave         Min         Max           RMS  
+--------   ------              -----           ---         ---         ---           ---  
+N          14,172                 --            --           1      38,710            --
+X          14,172   8,125,158,984.45    573,324.79     454,817     660,744    573,853.72
+Y          14,172  59,195,607,534.14  4,176,940.98   4,086,022   4,301,302  4,177,105.26
+
+      Obs = 0:  GGFARE
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE NODEMERGE
+
+
+Begin PROCESS PHASE LINKMERGE
+      33,797 records merged from NETI[1]: M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow.net
+      33,797 data base records.Page 4  (VOYAGER NETWORK) Model Run
+Metropolitan Transportation Commission
+--------------------------------------
+
+Variable     Obs<>0          Total       Ave       Min        Max       RMS  
+--------     ------          -----       ---       ---        ---       ---  
+A            33,797             --        --      1     38,710           --
+B            33,797             --        --      1     38,710           --
+DISTANCE     30,521      14,892.84      0.49      0.01      12.8       0.77
+SPDCLASS     33,797   1,247,152        36.9       4         76        38.64
+CAPCLASS     33,797   1,247,152        36.9       4         76        38.64
+LANES        33,797     106,004         3.14      1          7         3.96
+TSIN          8,843       8,843         1         1          1         1   
+GL           33,797     132,927         3.93      1         10         4.43
+USE          33,797      35,151         1.04      1          4         1.07
+OT            5,391       7,269.89      1.35      0.07      15         1.64
+CAP          24,954  28,876,800     1,157.2     600      2,250     1,240.39
+AT           32,953     107,695         3.27      1          5         3.42
+FT           33,797     180,233         5.33      1          7         5.58
+TOS           1,635       1,639         1         1          2         1   
+AUX             331         340         1.03      1          2         1.04
+YEAR            331     667,360     2,016.19  2,010      2,035     2,016.2 
+FFS          33,797   1,028,413        30.43     10        100        33.04
+FFT          30,339      29,463.28      0.97      0.02      19.37      1.42
+FT2000       33,792     180,345         5.34      1          7         5.58
+ROUTENUM      4,762     947,609       198.99      1        980       319.83
+HOT              20          20         1         1          1         1   
+TOLLCLASS        49      18,194       371.31      1        888       488.38
+STATE         7,110       7,110         1         1          1         1   
+CITYID       33,797   3,933,260       116.38      1        191       125.74
+CITYNAME     33,797                           (Alameda )  (Yountvil)
+REGFREIGHT    2,359       2,359         1         1          1         1   
+BRT               8           8         1         1          1         1   
+ROUTEDIR      4,762                           (E       )  (W       )
+
+      Obs = 0:  SIGCOR  TOLLEA_DA  TOLLEA_S2  TOLLEA_S3  TOLLEA_VSM
+      Obs = 0:  TOLLEA_SML  TOLLEA_MED  TOLLEA_LRG  TOLLAM_DA  TOLLAM_S2
+      Obs = 0:  TOLLAM_S3  TOLLAM_VSM  TOLLAM_SML  TOLLAM_MED  TOLLAM_LRG
+      Obs = 0:  TOLLMD_DA  TOLLMD_S2  TOLLMD_S3  TOLLMD_VSM  TOLLMD_SML
+      Obs = 0:  TOLLMD_MED  TOLLMD_LRG  TOLLPM_DA  TOLLPM_S2  TOLLPM_S3
+      Obs = 0:  TOLLPM_VSM  TOLLPM_SML  TOLLPM_MED  TOLLPM_LRG  TOLLEV_DA
+      Obs = 0:  TOLLEV_S2  TOLLEV_S3  TOLLEV_VSM  TOLLEV_SML  TOLLEV_MED
+      Obs = 0:  TOLLEV_LRG
+
+_Variables with values:
+
+_ZONES            1,475      
+
+End   PROCESS PHASE LINKMERGEPage 5  (VOYAGER NETWORK) Model Run
+Metropolitan Transportation Commission
+--------------------------------------
+
+FILEO NETO=M:\Application\Model One\Networks\TM1_2015_Base_Network\hwy\freeflow_out.net
+
+NET PGM=NETWORK (v.09/23/2016 [6.4.2 x64]) DATE=Thu Mar 31 09:57:52 2022
+ID=Model Run
+PAR Zones=1475 Nodes=38710 Links=33797 NodeRecs=14172 
+NVR 4    N    X    Y    GGFARE
+LVR 64    A    B    DISTANCE    SPDCLASS    CAPCLASS    LANES    TSIN    GL
+    USE    OT    CAP    AT    FT    SIGCOR    TOS    AUX    YEAR    FFS    FFT
+    FT2000    ROUTENUM    HOT    TOLLCLASS    STATE    CITYID    CITYNAME=033
+    REGFREIGHT    BRT    TOLLEA_DA    TOLLEA_S2    TOLLEA_S3    TOLLEA_VSM
+    TOLLEA_SML    TOLLEA_MED    TOLLEA_LRG    TOLLAM_DA    TOLLAM_S2
+    TOLLAM_S3    TOLLAM_VSM    TOLLAM_SML    TOLLAM_MED    TOLLAM_LRG
+    TOLLMD_DA    TOLLMD_S2    TOLLMD_S3    TOLLMD_VSM    TOLLMD_SML
+    TOLLMD_MED    TOLLMD_LRG    TOLLPM_DA    TOLLPM_S2    TOLLPM_S3
+    TOLLPM_VSM    TOLLPM_SML    TOLLPM_MED    TOLLPM_LRG    TOLLEV_DA
+    TOLLEV_S2    TOLLEV_S3    TOLLEV_VSM    TOLLEV_SML    TOLLEV_MED
+    TOLLEV_LRG    ROUTEDIR=001
+
+
+NETWORK  ReturnCode = 0  Elapsed Time = 00:00:00
+################################################################################
+
+
+VOYAGER  ReturnCode = 0  Elapsed Time = 00:00:01
