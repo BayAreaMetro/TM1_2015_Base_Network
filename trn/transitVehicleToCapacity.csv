@@ -1,62 +1,62 @@
 VehicleType,100%Capacity,85%Capacity,VehicleCategory,SimpleDelayPerStop,ConstDelayPerStop,DelayPerBoard,DelayPerAlight
-10 Car BART,1110,943.5,10 Car BART,0,0,0,0
-10 Car BART RENOVATED,1120,952,10 Car BART RENOVATED,0,0,0,0
-5 Car BART,555,472,5 Car BART,0,0,0,0
-5 Car BART RENOVATED,560,476,5 Car BART RENOVATED,0,0,0,0
-7 Car BART,777,660,7 Car BART,0,0,0,0
-7 Car BART RENOVATED,784,666,7 Car BART RENOVATED,0,0,0,0
-8 Car BART,888,765,8 Car BART,0,0,0,0
-8 Car BART RENOVATED,900,770,8 Car BART RENOVATED,0,0,0,0
-8.5 Car BART,943,802,8.5 Car BART,0,0,0,0
-8.5 Car BART RENOVATED,952,809,8.5 Car BART RENOVATED,0,0,0,0
-9 Car BART,999,849,9 Car BART,0,0,0,0
-9 Car BART RENOVATED,1008,857,9 Car BART RENOVATED,0,0,0,0
-AC Plus Bus,70,59.5,AC Plus Bus,0,0.122,0.05,0.021
-AC Plus Bus TI,70,59.5,AC Plus Bus TI,0,0.122,0.05,0.021
-AC Standard Bus,63,53.55,AC Standard Bus,0,0.082,0.062,0.035
-Cable Car,63,53,Cable Car,0,0,0.062,0.035
-Caltrain,1444,1228,Caltrain,0,0,0,0
-Caltrain PCEP,1502,1276.7,Caltrain,0,0,0,0
-Caltrain PCBB,1841,1564.85,Caltrain,0,0,0,0
-Ferry,400,340,Ferry,0,0,0,0
-Ferry GGT,450,383,Ferry,0,0,0,0
-Ferry small,250,213,Ferry,0,0,0,0
-Ferry Vallejo,275,234,Ferry,0,0,0,0
-LRV1,119,101,LRV1,0,0,0.016,0.018
-LRV2,238,202,LRV2,0,0,0.008,0.009
-LRV2.5,298,253,LRV2.5,0,0,0.006,0.007
-LRV3,357,303,LRV3,0,0,0.005,0.006
-LRV4,476,404,LRV4,0,0,0.004,0.004
-Motor Articulated Bus,94,79,Motor Articulated Bus,0,0.122,0.05,0.021
-Motor Articulated Bus ALLDOOR,94,79,Motor Articulated Bus ALLDOOR,0,0.122,0.04,0.017
-Motor Articulated Bus ALLDOOR LOWFLOOR,94,79,Motor Articulated Bus ALLDOOR LOWFLOOR,0,0.122,0.032,0.013
-Motor Bus Mix of Standard and Artics,80,68,Motor Bus Mix of Standard and Artics,0,0.102,0.056,0.028
-Motor Bus Mix of Standard and Artics ALLDOOR,80,68,Motor Bus Mix of Standard and Artics ALLDOOR,0,0.102,0.045,0.022
-Motor Bus Mix of Standard and Artics ALLDOOR LOWFLOOR,80,68,Motor Bus Mix of Standard and Artics ALLDOOR LOWFLOOR,0,0.102,0.036,0.018
-Motor Small Bus,45,38,Motor Small Bus,0,0.082,0.062,0.035
-Motor Small Bus ALLDOOR,45,38,Motor Small Bus ALLDOOR,0,0.082,0.05,0.028
-Motor Small Bus ALLDOOR LOWFLOOR,45,38,Motor Small Bus ALLDOOR LOWFLOOR,0,0.082,0.04,0.022
-Motor Standard Bus,63,53,Motor Standard Bus,0,0.082,0.062,0.035
-Motor Standard Bus ALLDOOR,63,53,Motor Standard Bus ALLDOOR,0,0.082,0.05,0.028
-Motor Standard Bus ALLDOOR LOWFLOOR,63,53,Motor Standard Bus ALLDOOR LOWFLOOR,0,0.082,0.04,0.022
-SamTrans Plus Bus,75,63,SamTrans Plus Bus,0,0.122,0.05,0.021
-SamTrans Standard Bus,60,51,SamTrans Standard Bus,0,0.082,0.062,0.035
-Streetcar,70,59,Streetcar,0,0,0.062,0.035
-Trolley Articulated Bus,94,79,Trolley Articulated Bus,0,0.122,0.05,0.021
-Trolley Articulated Bus ALLDOOR,94,79,Trolley Articulated Bus ALLDOOR,0,0.122,0.04,0.017
-Trolley Articulated Bus ALLDOOR LOWFLOOR,94,79,Trolley Articulated Bus ALLDOOR LOWFLOOR,0,0.122,0.032,0.013
-Trolley Standard Bus,63,53,Trolley Standard Bus,0,0.082,0.062,0.035
-Trolley Standard Bus ALLDOOR,63,53,Trolley Standard Bus ALLDOOR,0,0.082,0.05,0.028
-Trolley Standard Bus ALLDOOR LOWFLOOR,63,53,Trolley Standard Bus ALLDOOR LOWFLOOR,0,0.082,0.04,0.022
-Unknown Train,800,680,Unknown Train,0,0,0,0
-Van,25,21,Van,0,0,0.062,0.07
-VanTI,28,23,VanTI,0,0,0.062,0.07
-eBart 1 car,200,170,eBart,0,0,0,0
-eBart 2 car,400,340,eBart,0,0,0,0
-HSR,450,382.5,High Speed Rail Train,0,0,0,0
-VTA LRT1,171,145,VTA Light Rail 1,0,0,0.016,0.018
-VTA LRT2,342,291,VTA Light Rail 2,0,0,0.008,0.009
-VTA LRT3,513,436,VTA Light Rail 3,0,0,0.005,0.006
-SR85 LRV,90,77,SR85 Light Rail Vehicle,0,0,0.016,0.018
-OAC,89,76,Airport Tram,0,0,0,0
-SMART 2 car,318,270,SMART 2 Car Train,0,0,0,0
+10 Car BART,1110,943,10 Car BART,0.000,0.000,0.000,0.000
+10 Car BART RENOVATED,1120,952,10 Car BART RENOVATED,0.000,0.000,0.000,0.000
+5 Car BART,555,471,5 Car BART,0.000,0.000,0.000,0.000
+5 Car BART RENOVATED,560,476,5 Car BART RENOVATED,0.000,0.000,0.000,0.000
+7 Car BART,777,660,7 Car BART,0.000,0.000,0.000,0.000
+7 Car BART RENOVATED,784,666,7 Car BART RENOVATED,0.000,0.000,0.000,0.000
+8 Car BART,888,754,8 Car BART,0.000,0.000,0.000,0.000
+8 Car BART RENOVATED,900,765,8 Car BART RENOVATED,0.000,0.000,0.000,0.000
+8.5 Car BART,943,801,8.5 Car BART,0.000,0.000,0.000,0.000
+8.5 Car BART RENOVATED,952,809,8.5 Car BART RENOVATED,0.000,0.000,0.000,0.000
+9 Car BART,999,849,9 Car BART,0.000,0.000,0.000,0.000
+9 Car BART RENOVATED,1008,856,9 Car BART RENOVATED,0.000,0.000,0.000,0.000
+AC Plus Bus,70,59,AC Plus Bus,0.000,0.122,0.050,0.021
+AC Plus Bus TI,70,59,AC Plus Bus TI,0.000,0.122,0.050,0.021
+AC Standard Bus,63,53,AC Standard Bus,0.000,0.082,0.062,0.035
+Cable Car,63,53,Cable Car,0.000,0.000,0.062,0.035
+Caltrain,1444,1227,Caltrain,0.000,0.000,0.000,0.000
+Caltrain PCBB,1841,1564,Caltrain PCBB,0.000,0.000,0.000,0.000
+Caltrain PCEP,1502,1276,Caltrain PCEP,0.000,0.000,0.000,0.000
+Ferry,400,340,Ferry,0.000,0.000,0.000,0.000
+Ferry GGT,450,382,Ferry GGT,0.000,0.000,0.000,0.000
+Ferry Vallejo,275,233,Ferry Vallejo,0.000,0.000,0.000,0.000
+Ferry small,250,212,Ferry small,0.000,0.000,0.000,0.000
+HSR,450,382,HSR,0.000,0.000,0.000,0.000
+LRV1,119,101,LRV1,0.000,0.000,0.016,0.018
+LRV2,238,202,LRV2,0.000,0.000,0.008,0.009
+LRV2.5,298,253,LRV2.5,0.000,0.000,0.006,0.007
+LRV3,357,303,LRV3,0.000,0.000,0.005,0.006
+LRV4,476,404,LRV4,0.000,0.000,0.004,0.004
+Motor Articulated Bus,94,79,Motor Articulated Bus,0.000,0.122,0.050,0.021
+Motor Articulated Bus ALLDOOR,94,79,Motor Articulated Bus ALLDOOR,0.000,0.122,0.040,0.017
+Motor Articulated Bus ALLDOOR LOWFLOOR,94,79,Motor Articulated Bus ALLDOOR LOWFLOOR,0.000,0.122,0.032,0.013
+Motor Bus Mix of Standard and Artics,80,68,Motor Bus Mix of Standard and Artics,0.000,0.102,0.056,0.028
+Motor Bus Mix of Standard and Artics ALLDOOR,80,68,Motor Bus Mix of Standard and Artics ALLDOOR,0.000,0.102,0.045,0.022
+Motor Bus Mix of Standard and Artics ALLDOOR LOWFLOOR,80,68,Motor Bus Mix of Standard and Artics ALLDOOR LOWFLOOR,0.000,0.102,0.036,0.018
+Motor Small Bus,45,38,Motor Small Bus,0.000,0.082,0.062,0.035
+Motor Small Bus ALLDOOR,45,38,Motor Small Bus ALLDOOR,0.000,0.082,0.050,0.028
+Motor Small Bus ALLDOOR LOWFLOOR,45,38,Motor Small Bus ALLDOOR LOWFLOOR,0.000,0.082,0.040,0.022
+Motor Standard Bus,63,53,Motor Standard Bus,0.000,0.082,0.062,0.035
+Motor Standard Bus ALLDOOR,63,53,Motor Standard Bus ALLDOOR,0.000,0.082,0.050,0.028
+Motor Standard Bus ALLDOOR LOWFLOOR,63,53,Motor Standard Bus ALLDOOR LOWFLOOR,0.000,0.082,0.040,0.022
+OAC,89,75,OAC,0.000,0.000,0.000,0.000
+SMART 2 car,318,270,SMART 2 car,0.000,0.000,0.000,0.000
+SR85 LRV,90,76,SR85 LRV,0.000,0.000,0.016,0.018
+SamTrans Plus Bus,75,63,SamTrans Plus Bus,0.000,0.122,0.050,0.021
+SamTrans Standard Bus,60,51,SamTrans Standard Bus,0.000,0.082,0.062,0.035
+Streetcar,70,59,Streetcar,0.000,0.000,0.062,0.035
+Trolley Articulated Bus,94,79,Trolley Articulated Bus,0.000,0.122,0.050,0.021
+Trolley Articulated Bus ALLDOOR,94,79,Trolley Articulated Bus ALLDOOR,0.000,0.122,0.040,0.017
+Trolley Articulated Bus ALLDOOR LOWFLOOR,94,79,Trolley Articulated Bus ALLDOOR LOWFLOOR,0.000,0.122,0.032,0.013
+Trolley Standard Bus,63,53,Trolley Standard Bus,0.000,0.082,0.062,0.035
+Trolley Standard Bus ALLDOOR,63,53,Trolley Standard Bus ALLDOOR,0.000,0.082,0.050,0.028
+Trolley Standard Bus ALLDOOR LOWFLOOR,63,53,Trolley Standard Bus ALLDOOR LOWFLOOR,0.000,0.082,0.040,0.022
+Unknown Train,800,680,Unknown Train,0.000,0.000,0.000,0.000
+VTA LRT1,171,145,VTA LRT1,0.000,0.000,0.016,0.018
+VTA LRT2,342,290,VTA LRT2,0.000,0.000,0.008,0.009
+VTA LRT3,513,436,VTA LRT3,0.000,0.000,0.005,0.006
+Van,25,21,Van,0.000,0.000,0.062,0.070
+VanTI,28,23,VanTI,0.000,0.000,0.062,0.070
+eBart 1 car,200,170,eBart 1 car,0.000,0.000,0.000,0.000
+eBart 2 car,400,340,eBart 2 car,0.000,0.000,0.000,0.000

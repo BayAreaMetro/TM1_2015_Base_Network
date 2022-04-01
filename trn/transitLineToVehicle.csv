@@ -6,29 +6,69 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 *15,Transfer,,,,,,
 *16,Drive funnel,,,,,,
 *17,Walk Funnel,,,,,,
-100_FBHB,Ferry,FBHB,FBHB,San Francisco Ferry Building to Harbor Bay,Ferry small,Ferry small,Ferry small
-100_HBFB,Ferry,HBFB,HBFB,Harbor Bay - San Francisco Ferry Building,Ferry small,Ferry small,Ferry small
-100_SSFOAKAL,Ferry,SSFOAKAL,SSFOAKAL,SSF - Oak - Ala,Ferry small,Ferry small,Ferry small
-100_SSFALOAK,Ferry,SSFALOAK,SSFALOAK,SSF - Ala - Oak,Ferry small,Ferry small,Ferry small
 100_ALOAKSSF,Ferry,ALOAKSSF,ALOAKSSF,Ala - Oak - SSF,Ferry small,Ferry small,Ferry small
-100_RCMFB,Ferry,RCMFB,RCMFB,Richmond to San Francisco Ferry Building,Ferry small,Ferry small,Ferry small
+100_FBHB,Ferry,FBHB,FBHB,San Francisco Ferry Building to Harbor Bay,Ferry small,Ferry small,Ferry small
 100_FBRCM,Ferry,FBRCM,FBRCM,San Francisco Ferry Building to Richmond,Ferry small,Ferry small,Ferry small
-104_MIVALFB,Ferry,MIVALFB,MIVALFB,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
-104_FBVALMI,Ferry,FBVALMI,FBVALMI,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
-104_FBVAL,Ferry,FBVAL,FBVAL,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
-104_VALFB,Ferry,VALFB,VALFB,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+100_HBFB,Ferry,HBFB,HBFB,Harbor Bay - San Francisco Ferry Building,Ferry small,Ferry small,Ferry small
+100_RCMFB,Ferry,RCMFB,RCMFB,Richmond to San Francisco Ferry Building,Ferry small,Ferry small,Ferry small
+100_SSFALOAK,Ferry,SSFALOAK,SSFALOAK,SSF - Ala - Oak,Ferry small,Ferry small,Ferry small
+100_SSFOAKAL,Ferry,SSFOAKAL,SSFOAKAL,SSF - Oak - Ala,Ferry small,Ferry small,Ferry small
 104_FBMILONG,Ferry,FBMILONG,FBMILONG,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_FBVAL,Ferry,FBVAL,FBVAL,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_FBVALMI,Ferry,FBVALMI,FBVALMI,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
 104_MIFBLONG,Ferry,MIFBLONG,MIFBLONG,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_MIVALFB,Ferry,MIVALFB,MIVALFB,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+104_VALFB,Ferry,VALFB,VALFB,Vallejo Baylink Ferry,Ferry Vallejo,Ferry Vallejo,Ferry Vallejo
+110_E_IN,SF MUNI,E_IN,E,E - EMBARCADERO,Streetcar,Streetcar,Streetcar
+110_E_OUT,SF MUNI,E_OUT,E,E - EMBARCADERO,Streetcar,Streetcar,Streetcar
+110_F_IN,SF MUNI,F_IN,F,F - MARKET,Streetcar,Streetcar,Streetcar
+110_F_INA,SF MUNI,F_INA,F,F - MARKET,Streetcar,Streetcar,Streetcar
+110_F_OUT,SF MUNI,F_OUT,F,F - MARKET,Streetcar,Streetcar,Streetcar
+110_F_OUTA,SF MUNI,F_OUTA,F,F - MARKET,Streetcar,Streetcar,Streetcar
+110_J,SF MUNI,J,J,J - CHURCH,LRV1,LRV1,LRV1
+110_J_INA,SF MUNI,J_INA,J,J - CHURCH,LRV1,LRV1,LRV1
+110_J_OUTA,SF MUNI,J_OUTA,J,J - CHURCH,LRV1,LRV1,LRV1
+110_KI,SF MUNI,KI,KI,KI,LRV1,LRV1,LRV1
+110_KO,SF MUNI,KO,KO,KO,LRV1,LRV1,LRV1
+110_KT,SF MUNI,KT,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_IN1,SF MUNI,KT_IN1,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_IN2,SF MUNI,KT_IN2,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_IN3,SF MUNI,KT_IN3,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_IN4,SF MUNI,KT_IN4,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_OUT1,SF MUNI,KT_OUT1,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_OUT2,SF MUNI,KT_OUT2,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_OUT3,SF MUNI,KT_OUT3,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_KT_OUT4,SF MUNI,KT_OUT4,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
+110_L,SF MUNI,L,L,L - TARAVAL,LRV2,LRV2,LRV2
+110_L_IN,SF MUNI,L_IN,L,L - TARAVAL,LRV2,LRV2,LRV2
+110_L_OUT,SF MUNI,L_OUT,L,L - TARAVAL,LRV2,LRV2,LRV2
+110_M,SF MUNI,M,M,M - OCEAN VIEW,LRV2,LRV2,LRV2
+110_M-,SF MUNI,M-,M,M - OCEAN VIEW,LRV2,LRV2,LRV2
+110_MPARKMI,SF MUNI,MPARKMI,MPARKM,M - OCEAN VIEW,LRV2,LRV2,LRV2
+110_MPARKMO,SF MUNI,MPARKMO,MPARKM,M - OCEAN VIEW,LRV2,LRV2,LRV2
+110_N,SF MUNI,N,N,N - JUDAH,LRV2,LRV2,LRV2
+110_N_IN1,SF MUNI,N_IN1,N,N - JUDAH,LRV2,LRV2,LRV2
+110_N_OUT1,SF MUNI,N_OUT1,N,N - JUDAH,LRV2,LRV2,LRV2
+110_S,SF MUNI,S,S,S - CASTRO SHUTTLE ,LRV1,LRV1,LRV1
+110_S-,SF MUNI,S-,S,S - CASTRO SHUTTLE ,LRV1,LRV1,LRV1
+110_STI,SF MUNI,STI,S,S - SHUTTLE ST FRANCIS TO CALTRAIN,LRV1,LRV1,LRV1
+110_STO,SF MUNI,STO,S,S - SHUTTLE ST FRANCIS TO CALTRAIN,LRV1,LRV1,LRV1
+110_TI,SF MUNI,TI,T,T - THIRD STREET,LRV2,LRV2,LRV2
+110_TO,SF MUNI,TO,T,T - THIRD STREET,LRV2,LRV2,LRV2
+110_TSHTI,SF MUNI,TSHTI,TSHT,T - THIRD STREET,LRV2,LRV2,LRV2
+110_TSHTO,SF MUNI,TSHTO,TSHT,T - THIRD STREET,LRV2,LRV2,LRV2
+111_902LRT,VTA LRT,902LRT,902,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
+111_LRCCW,VTA LRT,LRCCW,CCW,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
+111_LRTWCC,VTA LRT,LRTWCC,WCC,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
 120_BLUE,BART,BLUE,BLUE,Blue Line,9 Car BART,9 Car BART,8 Car BART
 120_BLUE-,BART,BLUE-,BLUE-,Blue Line,9 Car BART,9 Car BART,8 Car BART
+120_EBART,BART,EBART,eBART,BART Yellow line extension,eBart 2 car,eBart 2 car,eBart 1 car
 120_GREEN,BART,GREEN,GREEN,Green Line,10 Car BART,10 Car BART,8 Car BART
 120_GREEN-,BART,GREEN-,GREEN-,Green Line,10 Car BART,10 Car BART,8 Car BART
 120_ORANGE,BART,ORANGE,ORANGE,Orange Line,7 Car BART,7 Car BART,7 Car BART
 120_ORANGE-,BART,ORANGE-,ORANGE-,Orange Line,7 Car BART,7 Car BART,7 Car BART
 120_RED,BART,RED,RED,Red Line,9 Car BART,9 Car BART,8 Car BART
 120_RED-,BART,RED-,RED-,Red Line,9 Car BART,9 Car BART,8 Car BART
-120_YELLOWW,BART,YELLOW,YELLOW,Yellow Line,10 Car BART,10 Car BART,8 Car BART
-120_YELLOWE,BART,YELLOW,YELLOW,Yellow Line,10 Car BART,10 Car BART,8 Car BART
 120_YELLOW,BART,YELLOW,YELLOW,Yellow Line,10 Car BART,10 Car BART,8 Car BART
 120_YELLOW-,BART,YELLOW,YELLOW,Yellow Line,10 Car BART,10 Car BART,8 Car BART
 120_YELLOW1,BART,YELLOW1,YELLOW1,Yellow Line,10 Car BART,10 Car BART,8 Car BART
@@ -45,6 +85,350 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 120_YELLOW7,BART,YELLOW7,YELLOW7,Yellow Line,10 Car BART,10 Car BART,8 Car BART
 120_YELLOW8,BART,YELLOW8,YELLOW8,Yellow Line,10 Car BART,10 Car BART,8 Car BART
 120_YELLOW9,BART,YELLOW9,YELLOW9,Yellow Line,10 Car BART,10 Car BART,8 Car BART
+120_YELLOWE,BART,YELLOW,YELLOW,Yellow Line,10 Car BART,10 Car BART,8 Car BART
+120_YELLOWW,BART,YELLOW,YELLOW,Yellow Line,10 Car BART,10 Car BART,8 Car BART
+21_108,SF MUNI,108,108,108 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_108AM,SF MUNI,108AM,108,108 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_108I,SF MUNI,108I,108I,108I,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_108O,SF MUNI,108O,108O,108O,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_108PM,SF MUNI,108PM,108,108 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_109I,SF MUNI,109I,109,109 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_109O,SF MUNI,109O,109,109 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_10IN,SF MUNI,10IN,10I,10,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_10OUT,SF MUNI,10OUT,10O,10,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_11I,SF MUNI,11I,11,11 - DOWNTOWN CONNECTOR,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_11O,SF MUNI,11O,11,11 - DOWNTOWN CONNECTOR,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_12EVEI,SF MUNI,12EVEI,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_12EVEO,SF MUNI,12EVEO,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_12IN,SF MUNI,12IN,12,12 - FOLSOM/PACIFIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_12OUT,SF MUNI,12OUT,12,12 - FOLSOM/PACIFIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_12PACI,SF MUNI,12PACI,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_12PACO,SF MUNI,12PACO,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_12SHTI,SF MUNI,12SHTI,12SHT,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_12SHTO,SF MUNI,12SHTO,12SHT,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_14IN,SF MUNI,14IN,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14INA,SF MUNI,14INA,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14INB,SF MUNI,14INB,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14INC,SF MUNI,14INC,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14LI,SF MUNI,14LI,14LI,14LI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_14LO,SF MUNI,14LO,14LO,14LO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_14OUT,SF MUNI,14OUT,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14OUTA,SF MUNI,14OUTA,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14OUTB,SF MUNI,14OUTB,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14OUTC,SF MUNI,14OUTC,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14RIN,SF MUNI,14RIN,14R,14R - MISSION RAPID,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_14ROUT,SF MUNI,14ROUT,14R,14R - MISSION RAPID,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_14ROUTA,SF MUNI,14ROUTA,14R,14R - MISSION RAPID,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_14SHORTI,SF MUNI,14SHORTI,14SHORTI,14SHORTI,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14SHORTO,SF MUNI,14SHORTO,14SHORTO,14SHORTO,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_14XIN,SF MUNI,14XIN,14X,14X,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_14XOUT,SF MUNI,14XOUT,14X,14X,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_15I,SF MUNI,15I,15,15 - THIRD STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_15O,SF MUNI,15O,15,15 - THIRD STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_16AXI,SF MUNI,16AXI,16AX,16AX - NORIEGA 'A' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
+21_16AXO,SF MUNI,16AXO,16AX,16AX - NORIEGA 'A' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
+21_16BXI,SF MUNI,16BXI,16BX,16BX - NORIEGA 'B' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
+21_16BXO,SF MUNI,16BXO,16BX,16BX - NORIEGA 'B' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
+21_16XI,SF MUNI,16XI,16XI,16XI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_16XO,SF MUNI,16XO,16XO,16XO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_17I,SF MUNI,17I,17I,17I,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_17O,SF MUNI,17O,17O,17O,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_18,SF MUNI,18,18,18 - 46TH AVENUE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_18I,SF MUNI,18I,18,18 - 46TH AVENUE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_18O,SF MUNI,18O,18,18 - 46TH AVENUE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_19EVEI,SF MUNI,19EVEI,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_19EVEO,SF MUNI,19EVEO,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_19NB,SF MUNI,19NB,19,19 - POLK ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_19SB,SF MUNI,19SB,19,19 - POLK ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_19SHTI,SF MUNI,19SHTI,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_19SHTO,SF MUNI,19SHTO,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_1AXIN,SF MUNI,1AXIN,1AX,1AX - CALIFORNIA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_1AXOUT,SF MUNI,1AXOUT,1AX,1AX - CALIFORNIA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_1BXIN,SF MUNI,1BXIN,1BX,1BX - CALIFORNIA B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_1BXOUT,SF MUNI,1BXOUT,1BX,1BX - CALIFORNIA B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_1CRNI,SF MUNI,1CRNI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1CRNO,SF MUNI,1CRNO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1DPRSI,SF MUNI,1DPRSI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1DPRSO,SF MUNI,1DPRSO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1DRMI,SF MUNI,1DRMI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1DRMO,SF MUNI,1DRMO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1IN,SF MUNI,1IN,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1INA,SF MUNI,1INA,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1INB,SF MUNI,1INB,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1OUT,SF MUNI,1OUT,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1OUTA,SF MUNI,1OUTA,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1OUTB,SF MUNI,1OUTB,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1PRSI,SF MUNI,1PRSI,1PRS,1 - CALIFORNIA PRESDIO,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1PRSO,SF MUNI,1PRSO,1PRS,1 - CALIFORNIA PRESDIO,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1SHORTI,SF MUNI,1SHORTI,1SHORTI,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1SHORTO,SF MUNI,1SHORTO,1SHORTO,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_1STNI,SF MUNI,1STNI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_1STNO,SF MUNI,1STNO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_20I,SF MUNI,20I,20,20 - COLUMBUS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_20O,SF MUNI,20O,20,20 - COLUMBUS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_21IN,SF MUNI,21IN,21,21 - HAYES,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_21OUT,SF MUNI,21OUT,21,21 - HAYES,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_22,SF MUNI,22,22,22 - FILLMORE,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_22IN,SF MUNI,22IN,22I,22 - FILLMORE,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_22OUT,SF MUNI,22OUT,22O,22 - FILLMORE,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_22SHI,SF MUNI,22SHI,22SH,22 - FILLMORE,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
+21_22SHO,SF MUNI,22SHO,22SH,22 - FILLMORE,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
+21_23,SF MUNI,23,23I,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_23-,SF MUNI,23-,23I,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_23I,SF MUNI,23I,23I,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_23O,SF MUNI,23O,23O,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_24,SF MUNI,24,24,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_24-,SF MUNI,24-,24,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_24EAI,SF MUNI,24EAI,24EAI,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_24EAO,SF MUNI,24EAO,24EAO,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_24I,SF MUNI,24I,24I,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_24O,SF MUNI,24O,24O,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_25EB,SF MUNI,25EB,25,25 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_25WB,SF MUNI,25WB,25,25 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_26EVEI,SF MUNI,26EVEI,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_26EVEO,SF MUNI,26EVEO,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_26I,SF MUNI,26I,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_26O,SF MUNI,26O,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_27IN,SF MUNI,27IN,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_27INA,SF MUNI,27INA,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_27OUT,SF MUNI,27OUT,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_28NB,SF MUNI,28NB,28I,28 - 19th AVE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_28RN,SF MUNI,28RN,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_28RS,SF MUNI,28RS,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_28SB,SF MUNI,28SB,28LI,28 - 19th AVE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_29,SF MUNI,29,29,29 - SUNSET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_29SHI,SF MUNI,29SHI,29,29 - SUNSET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_29SHO,SF MUNI,29SHO,29,29 - SUNSET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_2IN,SF MUNI,2IN,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_2INA,SF MUNI,2INA,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_2INB,SF MUNI,2INB,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_2OUT,SF MUNI,2OUT,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_2OUTA,SF MUNI,2OUTA,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_30IN,SF MUNI,30IN,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30INA,SF MUNI,30INA,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30INB,SF MUNI,30INB,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30INC,SF MUNI,30INC,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30OUT,SF MUNI,30OUT,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30OUTA,SF MUNI,30OUTA,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30OUTB,SF MUNI,30OUTB,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30OUTC,SF MUNI,30OUTC,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_30XIN,SF MUNI,30XIN,30X,30X - MARINA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_30XOUT,SF MUNI,30XOUT,30X,30X - MARINA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_31AXIN,SF MUNI,31AXIN,31AX,31AX - BALBOA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_31AXOUT,SF MUNI,31AXOUT,31AX,31AX - BALBOA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_31BXIN,SF MUNI,31BXIN,31BX,31BX - BALBOA B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_31BXOUT,SF MUNI,31BXOUT,31BX,31BX - BALBOA B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_31IN,SF MUNI,31IN,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_31INA,SF MUNI,31INA,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_31OUT,SF MUNI,31OUT,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_31OUTA,SF MUNI,31OUTA,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_32I,SF MUNI,32I,32,32 - ROOSEVELT,Van,Van,Van
+21_32O,SF MUNI,32O,32,32 - ROOSEVELT,Van,Van,Van
+21_33,SF MUNI,33,33,33 - ASHBURY-18TH,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_33I,SF MUNI,33I,33,33 - ASHBURY-18TH,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_33O,SF MUNI,33O,33,33 - ASHBURY-18TH,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_35,SF MUNI,35,35,35 - EUREKA,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_35I,SF MUNI,35I,35,35 - EUREKA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_35O,SF MUNI,35O,35,35 - EUREKA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_36,SF MUNI,36,36,36 - TERESITA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_36I,SF MUNI,36I,36I,36 - TERESITA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_36O,SF MUNI,36O,36O,36 - TERESITA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_37,SF MUNI,37,37,37 - CORBETT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_37I,SF MUNI,37I,37,37 - CORBETT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_37O,SF MUNI,37O,37,37 - CORBETT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_38AXIN,SF MUNI,38AXIN,38AX,38AX - GEARY A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_38AXOUT,SF MUNI,38AXOUT,38AX,38AX - GEARY A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_38BXIN,SF MUNI,38BXIN,38BX,38BX - GEARY B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_38BXOUT,SF MUNI,38BXOUT,38BX,38BX - GEARY B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_38FTMI,SF MUNI,38FTMI,38FTMI,38FTMI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38FTMO,SF MUNI,38FTMO,38FTMO,38FTMO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38IN,SF MUNI,38IN,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38INA,SF MUNI,38INA,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38LI,SF MUNI,38LI,38LI,38LI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38LO,SF MUNI,38LO,38LO,38LO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38OUT,SF MUNI,38OUT,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38OUTA,SF MUNI,38OUTA,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38PTLI,SF MUNI,38PTLI,38PTLI,38PTLI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38PTLO,SF MUNI,38PTLO,38PTLO,38PTLO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38RIN,SF MUNI,38RIN,38,38R - GEARY RAPID,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38ROUT,SF MUNI,38ROUT,38,38R - GEARY RAPID,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38SHTI,SF MUNI,38SHTI,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38SHTO,SF MUNI,38SHTO,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38XI,SF MUNI,38XI,38X,38X - GEARY EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38XO,SF MUNI,38XO,38X,38X - GEARY EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_38_33RDI,SF MUNI,38_33RDI,38_33RDI,38_33RDI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_38_33RDO,SF MUNI,38_33RDO,38_33RDO,38_33RDO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_39IN,SF MUNI,39IN,39,39 - COIT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_39OUT,SF MUNI,39OUT,39,39 - COIT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_3IN,SF MUNI,3IN,3,3 - JACKSON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_3OUT,SF MUNI,3OUT,3,3 - JACKSON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_41IN,SF MUNI,41IN,41,41 - UNION,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_41OUT,SF MUNI,41OUT,41,41 - UNION,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_42I,SF MUNI,42I,42,42,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_42O,SF MUNI,42O,42,42,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_43,SF MUNI,43,43,43 - MASONIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_43I,SF MUNI,43I,43,43 - MASONIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_43O,SF MUNI,43O,43,43 - MASONIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_44,SF MUNI,44,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_44EVE,SF MUNI,44EVE,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_44I,SF MUNI,44I,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_44O,SF MUNI,44O,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_45IN,SF MUNI,45IN,45,45 - UNION - STOCKTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_45OUT,SF MUNI,45OUT,45,45 - UNION - STOCKTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_47NB,SF MUNI,47NB,47,47 - VAN NESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_47SB,SF MUNI,47SB,47,47 - VAN NESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_48EB,SF MUNI,48EB,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_48EB1,SF MUNI,48EB1,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_48EB2,SF MUNI,48EB2,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_48WB,SF MUNI,48WB,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_48WB1,SF MUNI,48WB1,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_48WB2,SF MUNI,48WB2,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_49LI,SF MUNI,49LI,49L,49L - VAN NESS/MISSION LIMITED,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
+21_49LO,SF MUNI,49LO,49L,49L - VAN NESS/MISSION LIMITED,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
+21_49NB,SF MUNI,49NB,49,49 - VAN NESS/MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_49SB,SF MUNI,49SB,49,49 - VAN NESS/MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
+21_4I,SF MUNI,4I,4,4 - SUTTER,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_4O,SF MUNI,4O,4,4 - SUTTER,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_52,SF MUNI,52,52,52 - EXCELSIOR,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_52I,SF MUNI,52I,52I,52 - EXCELSIOR,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_52O,SF MUNI,52O,52O,52 - EXCELSIOR,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_53I,SF MUNI,53I,53,53 - SOUTHERN HEIGHTS,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_53O,SF MUNI,53O,53,53 - SOUTHERN HEIGHTS,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_54EB,SF MUNI,54EB,54,54 - FELTON,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_54WB,SF MUNI,54WB,54,54 - FELTON,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_55,SF MUNI,55,55,55 - 16TH,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_55I,SF MUNI,55I,55,55 - 16TH,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_55O,SF MUNI,55O,55,55 - 16TH,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_56,SF MUNI,56,56,56 - RUTLAND,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_56CCW,SF MUNI,56CCW,56,56 - RUTLAND,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_57IN,SF MUNI,57IN,57,57 - PARK MERCED,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_57OUT,SF MUNI,57OUT,57,57 - PARK MERCED,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_58I,SF MUNI,58I,58,58 - 24 STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_58O,SF MUNI,58O,58,58 - 24 STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_59I,SF MUNI,59I,59,59 - POWELL/MASON,Cable Car,Cable Car,Cable Car
+21_59O,SF MUNI,59O,59,59 - POWELL/MASON,Cable Car,Cable Car,Cable Car
+21_5EAI,SF MUNI,5EAI,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5EAO,SF MUNI,5EAO,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5EVEI,SF MUNI,5EVEI,5,5 - FULTON,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_5EVEO,SF MUNI,5EVEO,5,5 - FULTON,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_5IN,SF MUNI,5IN,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5INA,SF MUNI,5INA,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5INB,SF MUNI,5INB,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5INC,SF MUNI,5INC,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5LI,SF MUNI,5LI,5L,5L - FULTON LIMITED,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5LO,SF MUNI,5LO,5L,5L - FULTON LIMITED,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5OUT,SF MUNI,5OUT,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5OUTA,SF MUNI,5OUTA,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5OUTB,SF MUNI,5OUTB,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5OUTC,SF MUNI,5OUTC,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_5RIN,SF MUNI,5RIN,5R,5R - FULTON RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_5ROUT,SF MUNI,5ROUT,5R,5R - FULTON RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_60I,SF MUNI,60I,60,60 - POWELL/HYDE,Cable Car,Cable Car,Cable Car
+21_60O,SF MUNI,60O,60,60 - POWELL/HYDE,Cable Car,Cable Car,Cable Car
+21_61,SF MUNI,61,61,61 - CALIFORNIA,Cable Car,Cable Car,Cable Car
+21_61-,SF MUNI,61-,61,61 - CALIFORNIA,Cable Car,Cable Car,Cable Car
+21_66,SF MUNI,66,66,66 - QUINTARA,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_66DTNI,SF MUNI,66DTNI,66,66 - QUINTARA,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_66DTNO,SF MUNI,66DTNO,66,66 - QUINTARA,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_66I,SF MUNI,66I,66,66 - QUINTARA,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_66O,SF MUNI,66O,66,66 - QUINTARA,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_67,SF MUNI,67,67,67 - BERNAL HEIGHTS,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_67I,SF MUNI,67I,67,67 - BERNAL HEIGHTS,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_67O,SF MUNI,67O,67,67 - BERNAL HEIGHTS,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_6IN,SF MUNI,6IN,6,6 - HAIGHT/PARNASSUS,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_6OUT,SF MUNI,6OUT,6,6 - HAIGHT/PARNASSUS,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_6OUTA,SF MUNI,6OUTA,6,6 - HAIGHT/PARNASSUS,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
+21_71EVEI,SF MUNI,71EVEI,71,71 - HAIGHT/NORIEGA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_71EVEO,SF MUNI,71EVEO,71,71 - HAIGHT/NORIEGA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_71I,SF MUNI,71I,71I,71I,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_71LI,SF MUNI,71LI,71LI,71LI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_71LO,SF MUNI,71LO,71LO,71LO,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_71O,SF MUNI,71O,71O,71O,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_7IN,SF MUNI,7IN,7,7 - HAIGHT /NORIEGA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_7OUT,SF MUNI,7OUT,7,7 - HAIGHT /NORIEGA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_7RIN,SF MUNI,7RIN,7R,7R - HAIGHT/NORIEGA RAPID,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_7ROUT,SF MUNI,7ROUT,7R,7R - HAIGHT/NORIEGA RAPID,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_7XIN,SF MUNI,7XIN,7X,7X - NORIEGA EXPRESS,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_7XOUT,SF MUNI,7XOUT,7X,7X - NORIEGA EXPRESS,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
+21_80XI,SF MUNI,80XI,80XI,80XI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_80XO,SF MUNI,80XO,80X,80X - GATEWAY EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_81XI,SF MUNI,81XI,81X,81X - CALTRAIN EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_81XO,SF MUNI,81XO,81X,81X - CALTRAIN EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_82XI,SF MUNI,82XI,82X,82X - LEVI PLAZA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_82XO,SF MUNI,82XO,82X,82X - LEVI PLAZA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_83I,SF MUNI,83I,83,83,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_83O,SF MUNI,83O,83,83,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_83XI,SF MUNI,83XI,83X,83X - MID MARKET EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_83XO,SF MUNI,83XO,83X,83X - MID MARKET EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_88IN,SF MUNI,88IN,88,88 - BART SHUTTLE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_88OUT,SF MUNI,88OUT,88,88 - BART SHUTTLE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_89,SF MUNI,89,89,89 - LAGUNA/HONDA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
+21_89-,SF MUNI,89-,89,89 - LAGUNA/HONDA,Motor Small Bus,Motor Small Bus,Motor Small Bus
+21_8AXIN,SF MUNI,8AXIN,8AX,8AX - BAYSHORE A EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8AXOUT,SF MUNI,8AXOUT,8AX,8AX - BAYSHORE A EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8BXIN,SF MUNI,8BXIN,8BX,8BX - BAYSHORE B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8BXOUT,SF MUNI,8BXOUT,8BX,8BX - BAYSHORE B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8IN,SF MUNI,8IN,8,8 - BAYSHORE,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8OUT,SF MUNI,8OUT,8,8 - BAYSHORE,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8XI,SF MUNI,8XI,8XI,8XI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_8XO,SF MUNI,8XO,8XO,8XO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
+21_9,SF MUNI,9,9,9 - SAN BRUNO ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_9-,SF MUNI,9-,9,9 - SAN BRUNO ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_90I,SF MUNI,90I,90I,90I,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_90O,SF MUNI,90O,90O,90O,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_91AI,SF MUNI,91AI,91A,91A - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_91AO,SF MUNI,91AO,91A,91A - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_91BI,SF MUNI,91BI,91B,91B - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_91BO,SF MUNI,91BO,91B,91B - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_91I,SF MUNI,91I,91,91 - 3RD STREET / 19TH AVE OWL,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_91O,SF MUNI,91O,91,91 - 3RD STREET / 19TH AVE OWL,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_94LI,SF MUNI,94LI,94LI,94LI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_94LO,SF MUNI,94LO,94LO,94LO,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_94NI,SF MUNI,94NI,94NI,94NI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_94NO,SF MUNI,94NO,94NO,94NO,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_9AXI,SF MUNI,9AXI,9AX,9AX - SAN BRUNO 'A' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9AXO,SF MUNI,9AXO,9AX,9AX - SAN BRUNO 'A' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9BXI,SF MUNI,9BXI,9BX,9BX - SAN BRUNO 'B' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9BXO,SF MUNI,9BXO,9BX,9BX - SAN BRUNO 'B' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9EVEI,SF MUNI,9EVEI,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9EVEO,SF MUNI,9EVEO,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9LI,SF MUNI,9LI,9L,9L - SAN BRUNO LIMITED,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_9LO,SF MUNI,9LO,9L,9L - SAN BRUNO LIMITED,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_9RAPID,SF MUNI,9Rapid,9,9R - SAN BRUNO RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_9RAPID-,SF MUNI,9Rapid-,9,9R - SAN BRUNO RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_9SHTI,SF MUNI,9SHTI,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9SHTO,SF MUNI,9SHTO,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9XI,SF MUNI,9XI,9X,9X - SAN BRUNO EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_9XO,SF MUNI,9XO,9X,9X - SAN BRUNO EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
+21_CPXI,SF MUNI,CPXI,CPX,CPX - CANDLESTICK POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_CPXO,SF MUNI,CPXO,CPX,CPX - CANDLESTICK POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_HPXI,SF MUNI,HPXI,HPX,HPX - HUNTERS POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_HPXO,SF MUNI,HPXO,HPX,HPX - HUNTERS POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_NXI,SF MUNI,NXI,NX,NX - N HJUDAH EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_NXO,SF MUNI,NXO,NX,NX - N HJUDAH EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
+21_TISH,SF MUNI,TISH,TISH,TI - TREASURE ISLAND SHUTTLE,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
+21_TISH1,SF MUNI,TISH1,TISH,TI - TREASURE ISLAND SHUTTLE,Van,Van,Van
+21_TISH2,SF MUNI,TISH2,TISH,TI - TREASURE ISLAND SHUTTLE,Van,Van,Van
+21_TISH3,SF MUNI,TISH3,TISH,TI - TREASURE ISLAND SHUTTLE,Van,Van,Van
+24_292N,SamTrans,292N,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_292NA,SamTrans,292NA,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_292S,SamTrans,292S,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_292SA,SamTrans,292SA,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_294EB,SamTrans,294EB,294,SamTrans Intercity 294,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_294WB,SamTrans,294WB,294,SamTrans Intercity 294,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_295NB,SamTrans,295NB,295,SamTrans Intercity 295,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_295SB,SamTrans,295SB,295,SamTrans Intercity 295,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_296NB,SamTrans,296NB,296,SamTrans Intercity 296,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_296SB,SamTrans,296SB,296,SamTrans Intercity 296,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_297NB,SamTrans,297NB,297,SamTrans Intercity 297,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_297SB,SamTrans,297SB,297,SamTrans Intercity 297,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_390A,SamTrans,390A,390,SamTrans Intercity 390,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_390X,SamTrans,390X,390,SamTrans Intercity 390,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_391NA,SamTrans,391NA,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_391NB,SamTrans,391NB,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_391NC,SamTrans,391NC,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_391SA,SamTrans,391SA,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
+24_391SC,SamTrans,391SC,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
 80_CXN,SamTrans,CXN,CX,SamTrans Express CX,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
 80_CXS,SamTrans,CXS,CX,SamTrans Express CX,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
 80_DXANB,SamTrans,DXANB,DX,SamTrans Express DX,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
@@ -65,25 +449,6 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 80_PXSB,SamTrans,PXSB,PX,SamTrans Express PX,SamTrans Standard Bus,SamTrans Standard Bus,SamTrans Standard Bus
 80_RXNB,SamTrans,RXNB,RX,SamTrans Express RX,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
 80_RXSB,SamTrans,RXSB,RX,SamTrans Express RX,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_292N,SamTrans,292N,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_292NA,SamTrans,292NA,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_292S,SamTrans,292S,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_292SA,SamTrans,292SA,292,SamTrans Intercity 292,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_294EB,SamTrans,294EB,294,SamTrans Intercity 294,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_294WB,SamTrans,294WB,294,SamTrans Intercity 294,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_295NB,SamTrans,295NB,295,SamTrans Intercity 295,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_295SB,SamTrans,295SB,295,SamTrans Intercity 295,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_296NB,SamTrans,296NB,296,SamTrans Intercity 296,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_296SB,SamTrans,296SB,296,SamTrans Intercity 296,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_297NB,SamTrans,297NB,297,SamTrans Intercity 297,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_297SB,SamTrans,297SB,297,SamTrans Intercity 297,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_390A,SamTrans,390A,390,SamTrans Intercity 390,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_390X,SamTrans,390X,390,SamTrans Intercity 390,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_391NA,SamTrans,391NA,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_391NB,SamTrans,391NB,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_391NC,SamTrans,391NC,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_391SA,SamTrans,391SA,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
-24_391SC,SamTrans,391SC,391,SamTrans Intercity 391,SamTrans Plus Bus,SamTrans Plus Bus,SamTrans Plus Bus
 84_BEB,AC Transit,BEB,B,AC Transbay B,AC Standard Bus,AC Standard Bus,AC Standard Bus
 84_BWB,AC Transit,BWB,B,AC Transbay B,AC Standard Bus,AC Standard Bus,AC Standard Bus
 84_CBEB,AC Transit,CBEB,CB,AC Transbay CB,AC Standard Bus,AC Standard Bus,AC Standard Bus
@@ -144,369 +509,4 @@ Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle 
 84_WWB,AC Transit,WWB,W,AC Transbay W,AC Standard Bus,AC Standard Bus,AC Standard Bus
 84_ZEB,AC Transit,ZEB,Z,AC Transbay Z,AC Standard Bus,AC Standard Bus,AC Standard Bus
 84_ZWB,AC Transit,ZWB,Z,AC Transbay Z,AC Standard Bus,AC Standard Bus,AC Standard Bus
-21_108,SF MUNI,108,108,108 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_108AM,SF MUNI,108AM,108,108 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_108I,SF MUNI,108I,108I,108I,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_108O,SF MUNI,108O,108O,108O,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_108PM,SF MUNI,108PM,108,108 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_109I,SF MUNI,109I,109,109 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_109O,SF MUNI,109O,109,109 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_10IN,SF MUNI,10IN,10I,10,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_10OUT,SF MUNI,10OUT,10O,10,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_11I,SF MUNI,11I,11,11 - DOWNTOWN CONNECTOR,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_11O,SF MUNI,11O,11,11 - DOWNTOWN CONNECTOR,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_12EVEI,SF MUNI,12EVEI,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_12EVEO,SF MUNI,12EVEO,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_12IN,SF MUNI,12IN,12,12 - FOLSOM/PACIFIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_12OUT,SF MUNI,12OUT,12,12 - FOLSOM/PACIFIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_12PACI,SF MUNI,12PACI,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_12PACO,SF MUNI,12PACO,12,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_12SHTI,SF MUNI,12SHTI,12SHT,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_12SHTO,SF MUNI,12SHTO,12SHT,12 - FOLSOM/PACIFIC,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_14IN,SF MUNI,14IN,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14INA,SF MUNI,14INA,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14INB,SF MUNI,14INB,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14INC,SF MUNI,14INC,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14OUT,SF MUNI,14OUT,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14OUTA,SF MUNI,14OUTA,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14OUTB,SF MUNI,14OUTB,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14OUTC,SF MUNI,14OUTC,14,14 - MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14LI,SF MUNI,14LI,14LI,14LI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_14LO,SF MUNI,14LO,14LO,14LO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_14SHORTI,SF MUNI,14SHORTI,14SHORTI,14SHORTI,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14SHORTO,SF MUNI,14SHORTO,14SHORTO,14SHORTO,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_14RIN,SF MUNI,14RIN,14R,14R - MISSION RAPID,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_14ROUT,SF MUNI,14ROUT,14R,14R - MISSION RAPID,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_14ROUTA,SF MUNI,14ROUTA,14R,14R - MISSION RAPID,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_14XIN,SF MUNI,14XIN,14X,14X,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_14XOUT,SF MUNI,14XOUT,14X,14X,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_15I,SF MUNI,15I,15,15 - THIRD STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_15O,SF MUNI,15O,15,15 - THIRD STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_16AXI,SF MUNI,16AXI,16AX,16AX - NORIEGA 'A' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
-21_16AXO,SF MUNI,16AXO,16AX,16AX - NORIEGA 'A' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
-21_16BXI,SF MUNI,16BXI,16BX,16BX - NORIEGA 'B' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
-21_16BXO,SF MUNI,16BXO,16BX,16BX - NORIEGA 'B' EXPRESS,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics,Motor Bus Mix of Standard and Artics
-21_16XI,SF MUNI,16XI,16XI,16XI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_16XO,SF MUNI,16XO,16XO,16XO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_17I,SF MUNI,17I,17I,17I,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_17O,SF MUNI,17O,17O,17O,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_18,SF MUNI,18,18,18 - 46TH AVENUE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_18I,SF MUNI,18I,18,18 - 46TH AVENUE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_18O,SF MUNI,18O,18,18 - 46TH AVENUE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_19EVEI,SF MUNI,19EVEI,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_19EVEO,SF MUNI,19EVEO,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_19NB,SF MUNI,19NB,19,19 - POLK ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_19SB,SF MUNI,19SB,19,19 - POLK ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_19SHTI,SF MUNI,19SHTI,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_19SHTO,SF MUNI,19SHTO,19,19 - POLK ,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_1AXIN,SF MUNI,1AXIN,1AX,1AX - CALIFORNIA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_1AXOUT,SF MUNI,1AXOUT,1AX,1AX - CALIFORNIA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_1BXIN,SF MUNI,1BXIN,1BX,1BX - CALIFORNIA B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_1BXOUT,SF MUNI,1BXOUT,1BX,1BX - CALIFORNIA B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_1CRNI,SF MUNI,1CRNI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1CRNO,SF MUNI,1CRNO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1DPRSI,SF MUNI,1DPRSI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1DPRSO,SF MUNI,1DPRSO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1DRMI,SF MUNI,1DRMI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1DRMO,SF MUNI,1DRMO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1IN,SF MUNI,1IN,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1INA,SF MUNI,1INA,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1INB,SF MUNI,1INB,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1OUT,SF MUNI,1OUT,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1OUTA,SF MUNI,1OUTA,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1OUTB,SF MUNI,1OUTB,1,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1PRSI,SF MUNI,1PRSI,1PRS,1 - CALIFORNIA PRESDIO,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1PRSO,SF MUNI,1PRSO,1PRS,1 - CALIFORNIA PRESDIO,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1SHORTI,SF MUNI,1SHORTI,1SHORTI,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1SHORTO,SF MUNI,1SHORTO,1SHORTO,1 - CALIFORNIA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_1STNI,SF MUNI,1STNI,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_1STNO,SF MUNI,1STNO,1,1 - CALIFORNIA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_20I,SF MUNI,20I,20,20 - COLUMBUS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_20O,SF MUNI,20O,20,20 - COLUMBUS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_21IN,SF MUNI,21IN,21,21 - HAYES,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_21OUT,SF MUNI,21OUT,21,21 - HAYES,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_22,SF MUNI,22,22,22 - FILLMORE,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_22IN,SF MUNI,22IN,22I,22 - FILLMORE,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_22OUT,SF MUNI,22OUT,22O,22 - FILLMORE,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_22SHI,SF MUNI,22SHI,22SH,22 - FILLMORE,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
-21_22SHO,SF MUNI,22SHO,22SH,22 - FILLMORE,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
-21_23,SF MUNI,23,23I,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_23-,SF MUNI,23-,23I,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_23I,SF MUNI,23I,23I,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_23O,SF MUNI,23O,23O,23 - MONTEREY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_24EAI,SF MUNI,24EAI,24EAI,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_24EAO,SF MUNI,24EAO,24EAO,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_24,SF MUNI,24,24,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_24-,SF MUNI,24-,24,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_24I,SF MUNI,24I,24I,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_24O,SF MUNI,24O,24O,24 - DIVISADERO,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_25EB,SF MUNI,25EB,25,25 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_25WB,SF MUNI,25WB,25,25 - TREASURE ISLAND,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_26EVEI,SF MUNI,26EVEI,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_26EVEO,SF MUNI,26EVEO,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_26I,SF MUNI,26I,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_26O,SF MUNI,26O,26,26 - VALENCIA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_27IN,SF MUNI,27IN,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_27INA,SF MUNI,27INA,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_27OUT,SF MUNI,27OUT,27,27 - BRYANT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_28NB,SF MUNI,28NB,28I,28 - 19th AVE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_28SB,SF MUNI,28SB,28LI,28 - 19th AVE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_28RN,SF MUNI,28RN,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_28RS,SF MUNI,28RS,28R,28R - 19TH AVENUE RAPID,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_29,SF MUNI,29,29,29 - SUNSET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_29SHI,SF MUNI,29SHI,29,29 - SUNSET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_29SHO,SF MUNI,29SHO,29,29 - SUNSET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_2IN,SF MUNI,2IN,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_2INA,SF MUNI,2INA,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_2INB,SF MUNI,2INB,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_2OUT,SF MUNI,2OUT,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_2OUTA,SF MUNI,2OUTA,2,2 - CLEMENT,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_30IN,SF MUNI,30IN,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30INA,SF MUNI,30INA,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30INB,SF MUNI,30INB,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30INC,SF MUNI,30INC,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30OUT,SF MUNI,30OUT,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30OUTA,SF MUNI,30OUTA,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30OUTB,SF MUNI,30OUTB,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30OUTC,SF MUNI,30OUTC,30,30 - STOCKTON,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_30XIN,SF MUNI,30XIN,30X,30X - MARINA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_30XOUT,SF MUNI,30XOUT,30X,30X - MARINA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_31AXIN,SF MUNI,31AXIN,31AX,31AX - BALBOA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_31AXOUT,SF MUNI,31AXOUT,31AX,31AX - BALBOA A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_31BXIN,SF MUNI,31BXIN,31BX,31BX - BALBOA B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_31BXOUT,SF MUNI,31BXOUT,31BX,31BX - BALBOA B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_31IN,SF MUNI,31IN,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_31INA,SF MUNI,31INA,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_31OUT,SF MUNI,31OUT,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_31OUTA,SF MUNI,31OUTA,31,31 - BALBOA,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_32I,SF MUNI,32I,32,32 - ROOSEVELT,Van,Van,Van
-21_32O,SF MUNI,32O,32,32 - ROOSEVELT,Van,Van,Van
-21_33,SF MUNI,33,33,33 - ASHBURY-18TH,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_33I,SF MUNI,33I,33,33 - ASHBURY-18TH,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_33O,SF MUNI,33O,33,33 - ASHBURY-18TH,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_35,SF MUNI,35,35,35 - EUREKA,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_35I,SF MUNI,35I,35,35 - EUREKA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_35O,SF MUNI,35O,35,35 - EUREKA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_36,SF MUNI,36,36,36 - TERESITA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_36I,SF MUNI,36I,36I,36 - TERESITA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_36O,SF MUNI,36O,36O,36 - TERESITA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_37,SF MUNI,37,37,37 - CORBETT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_37I,SF MUNI,37I,37,37 - CORBETT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_37O,SF MUNI,37O,37,37 - CORBETT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_38AXIN,SF MUNI,38AXIN,38AX,38AX - GEARY A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_38AXOUT,SF MUNI,38AXOUT,38AX,38AX - GEARY A EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_38BXIN,SF MUNI,38BXIN,38BX,38BX - GEARY B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_38BXOUT,SF MUNI,38BXOUT,38BX,38BX - GEARY B EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_38FTMI,SF MUNI,38FTMI,38FTMI,38FTMI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38FTMO,SF MUNI,38FTMO,38FTMO,38FTMO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38IN,SF MUNI,38IN,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38INA,SF MUNI,38INA,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38OUT,SF MUNI,38OUT,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38OUTA,SF MUNI,38OUTA,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38RIN,SF MUNI,38RIN,38,38R - GEARY RAPID,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38ROUT,SF MUNI,38ROUT,38,38R - GEARY RAPID,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38LI,SF MUNI,38LI,38LI,38LI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38LO,SF MUNI,38LO,38LO,38LO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38PTLI,SF MUNI,38PTLI,38PTLI,38PTLI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38PTLO,SF MUNI,38PTLO,38PTLO,38PTLO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38SHTI,SF MUNI,38SHTI,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38SHTO,SF MUNI,38SHTO,38,38 - GEARY,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38XI,SF MUNI,38XI,38X,38X - GEARY EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38XO,SF MUNI,38XO,38X,38X - GEARY EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_38_33RDI,SF MUNI,38_33RDI,38_33RDI,38_33RDI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_38_33RDO,SF MUNI,38_33RDO,38_33RDO,38_33RDO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_39IN,SF MUNI,39IN,39,39 - COIT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_39OUT,SF MUNI,39OUT,39,39 - COIT,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_3IN,SF MUNI,3IN,3,3 - JACKSON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_3OUT,SF MUNI,3OUT,3,3 - JACKSON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_41IN,SF MUNI,41IN,41,41 - UNION,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_41OUT,SF MUNI,41OUT,41,41 - UNION,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_42I,SF MUNI,42I,42,42,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_42O,SF MUNI,42O,42,42,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_43,SF MUNI,43,43,43 - MASONIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_43I,SF MUNI,43I,43,43 - MASONIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_43O,SF MUNI,43O,43,43 - MASONIC,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_44,SF MUNI,44,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_44EVE,SF MUNI,44EVE,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_44I,SF MUNI,44I,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_44O,SF MUNI,44O,44,44 - OSHAUGHNESSY,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_45IN,SF MUNI,45IN,45,45 - UNION - STOCKTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_45OUT,SF MUNI,45OUT,45,45 - UNION - STOCKTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_47NB,SF MUNI,47NB,47,47 - VAN NESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_47SB,SF MUNI,47SB,47,47 - VAN NESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_48EB,SF MUNI,48EB,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_48EB1,SF MUNI,48EB1,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_48EB2,SF MUNI,48EB2,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_48WB,SF MUNI,48WB,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_48WB1,SF MUNI,48WB1,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_48WB2,SF MUNI,48WB2,48,48 - QUINTARA/24TH STREET,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_49NB,SF MUNI,49NB,49,49 - VAN NESS/MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_49SB,SF MUNI,49SB,49,49 - VAN NESS/MISSION,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR,Trolley Articulated Bus ALLDOOR
-21_49LI,SF MUNI,49LI,49L,49L - VAN NESS/MISSION LIMITED,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
-21_49LO,SF MUNI,49LO,49L,49L - VAN NESS/MISSION LIMITED,Trolley Articulated Bus,Trolley Articulated Bus,Trolley Articulated Bus
-21_4I,SF MUNI,4I,4,4 - SUTTER,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_4O,SF MUNI,4O,4,4 - SUTTER,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_52,SF MUNI,52,52,52 - EXCELSIOR,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_52I,SF MUNI,52I,52I,52 - EXCELSIOR,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_52O,SF MUNI,52O,52O,52 - EXCELSIOR,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_53I,SF MUNI,53I,53,53 - SOUTHERN HEIGHTS,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_53O,SF MUNI,53O,53,53 - SOUTHERN HEIGHTS,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_54EB,SF MUNI,54EB,54,54 - FELTON,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_54WB,SF MUNI,54WB,54,54 - FELTON,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_55,SF MUNI,55,55,55 - 16TH,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_55I,SF MUNI,55I,55,55 - 16TH,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_55O,SF MUNI,55O,55,55 - 16TH,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_56CCW,SF MUNI,56CCW,56,56 - RUTLAND,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_56,SF MUNI,56,56,56 - RUTLAND,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_57IN,SF MUNI,57IN,57,57 - PARK MERCED,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_57OUT,SF MUNI,57OUT,57,57 - PARK MERCED,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_58I,SF MUNI,58I,58,58 - 24 STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_58O,SF MUNI,58O,58,58 - 24 STREET,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_59I,SF MUNI,59I,59,59 - POWELL/MASON,Cable Car,Cable Car,Cable Car
-21_59O,SF MUNI,59O,59,59 - POWELL/MASON,Cable Car,Cable Car,Cable Car
-21_5EAI,SF MUNI,5EAI,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5EAO,SF MUNI,5EAO,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5EVEI,SF MUNI,5EVEI,5,5 - FULTON,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_5EVEO,SF MUNI,5EVEO,5,5 - FULTON,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_5IN,SF MUNI,5IN,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5INA,SF MUNI,5INA,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5INB,SF MUNI,5INB,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5INC,SF MUNI,5INC,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5OUT,SF MUNI,5OUT,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5OUTA,SF MUNI,5OUTA,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5OUTB,SF MUNI,5OUTB,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5OUTC,SF MUNI,5OUTC,5,5 - FULTON,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5LI,SF MUNI,5LI,5L,5L - FULTON LIMITED,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5LO,SF MUNI,5LO,5L,5L - FULTON LIMITED,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_5RIN,SF MUNI,5RIN,5R,5R - FULTON RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_5ROUT,SF MUNI,5ROUT,5R,5R - FULTON RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_60I,SF MUNI,60I,60,60 - POWELL/HYDE,Cable Car,Cable Car,Cable Car
-21_60O,SF MUNI,60O,60,60 - POWELL/HYDE,Cable Car,Cable Car,Cable Car
-21_61,SF MUNI,61,61,61 - CALIFORNIA,Cable Car,Cable Car,Cable Car
-21_61-,SF MUNI,61-,61,61 - CALIFORNIA,Cable Car,Cable Car,Cable Car
-21_66DTNI,SF MUNI,66DTNI,66,66 - QUINTARA,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_66DTNO,SF MUNI,66DTNO,66,66 - QUINTARA,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_66,SF MUNI,66,66,66 - QUINTARA,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_66I,SF MUNI,66I,66,66 - QUINTARA,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_66O,SF MUNI,66O,66,66 - QUINTARA,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_67,SF MUNI,67,67,67 - BERNAL HEIGHTS,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_67I,SF MUNI,67I,67,67 - BERNAL HEIGHTS,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_67O,SF MUNI,67O,67,67 - BERNAL HEIGHTS,Motor Small Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_6IN,SF MUNI,6IN,6,6 - HAIGHT/PARNASSUS,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_6OUT,SF MUNI,6OUT,6,6 - HAIGHT/PARNASSUS,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_6OUTA,SF MUNI,6OUTA,6,6 - HAIGHT/PARNASSUS,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR,Trolley Standard Bus ALLDOOR
-21_71EVEI,SF MUNI,71EVEI,71,71 - HAIGHT/NORIEGA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_71EVEO,SF MUNI,71EVEO,71,71 - HAIGHT/NORIEGA,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_71I,SF MUNI,71I,71I,71I,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_71LI,SF MUNI,71LI,71LI,71LI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_71LO,SF MUNI,71LO,71LO,71LO,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_71O,SF MUNI,71O,71O,71O,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_7IN,SF MUNI,7IN,7,7 - HAIGHT /NORIEGA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_7OUT,SF MUNI,7OUT,7,7 - HAIGHT /NORIEGA,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_7RIN,SF MUNI,7RIN,7R,7R - HAIGHT/NORIEGA RAPID,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_7ROUT,SF MUNI,7ROUT,7R,7R - HAIGHT/NORIEGA RAPID,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_7XIN,SF MUNI,7XIN,7X,7X - NORIEGA EXPRESS,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_7XOUT,SF MUNI,7XOUT,7X,7X - NORIEGA EXPRESS,Trolley Standard Bus,Trolley Standard Bus,Trolley Standard Bus
-21_80XI,SF MUNI,80XI,80XI,80XI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_80XO,SF MUNI,80XO,80X,80X - GATEWAY EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_81XI,SF MUNI,81XI,81X,81X - CALTRAIN EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_81XO,SF MUNI,81XO,81X,81X - CALTRAIN EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_82XI,SF MUNI,82XI,82X,82X - LEVI PLAZA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_82XO,SF MUNI,82XO,82X,82X - LEVI PLAZA EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_83I,SF MUNI,83I,83,83,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_83O,SF MUNI,83O,83,83,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_83XI,SF MUNI,83XI,83X,83X - MID MARKET EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_83XO,SF MUNI,83XO,83X,83X - MID MARKET EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_88IN,SF MUNI,88IN,88,88 - BART SHUTTLE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_88OUT,SF MUNI,88OUT,88,88 - BART SHUTTLE,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_89,SF MUNI,89,89,89 - LAGUNA/HONDA,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR,Motor Small Bus ALLDOOR
-21_89-,SF MUNI,89-,89,89 - LAGUNA/HONDA,Motor Small Bus,Motor Small Bus,Motor Small Bus
-21_8IN,SF MUNI,8IN,8,8 - BAYSHORE,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8OUT,SF MUNI,8OUT,8,8 - BAYSHORE,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8AXIN,SF MUNI,8AXIN,8AX,8AX - BAYSHORE A EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8AXOUT,SF MUNI,8AXOUT,8AX,8AX - BAYSHORE A EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8BXIN,SF MUNI,8BXIN,8BX,8BX - BAYSHORE B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8BXOUT,SF MUNI,8BXOUT,8BX,8BX - BAYSHORE B EXPRESS,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8XI,SF MUNI,8XI,8XI,8XI,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_8XO,SF MUNI,8XO,8XO,8XO,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR,Motor Articulated Bus ALLDOOR
-21_90I,SF MUNI,90I,90I,90I,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_90O,SF MUNI,90O,90O,90O,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_91AI,SF MUNI,91AI,91A,91A - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_91AO,SF MUNI,91AO,91A,91A - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_91BI,SF MUNI,91BI,91B,91B - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_91BO,SF MUNI,91BO,91B,91B - OWL,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_91I,SF MUNI,91I,91,91 - 3RD STREET / 19TH AVE OWL,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_91O,SF MUNI,91O,91,91 - 3RD STREET / 19TH AVE OWL,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_94LI,SF MUNI,94LI,94LI,94LI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_94LO,SF MUNI,94LO,94LO,94LO,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_94NI,SF MUNI,94NI,94NI,94NI,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_94NO,SF MUNI,94NO,94NO,94NO,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9AXI,SF MUNI,9AXI,9AX,9AX - SAN BRUNO 'A' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9AXO,SF MUNI,9AXO,9AX,9AX - SAN BRUNO 'A' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9BXI,SF MUNI,9BXI,9BX,9BX - SAN BRUNO 'B' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9BXO,SF MUNI,9BXO,9BX,9BX - SAN BRUNO 'B' EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9EVEI,SF MUNI,9EVEI,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9EVEO,SF MUNI,9EVEO,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9SHTI,SF MUNI,9SHTI,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9SHTO,SF MUNI,9SHTO,9,9 - SAN BRUNO ,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9,SF MUNI,9,9,9 - SAN BRUNO ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9-,SF MUNI,9-,9,9 - SAN BRUNO ,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9Rapid,SF MUNI,9Rapid,9,9R - SAN BRUNO RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9Rapid-,SF MUNI,9Rapid-,9,9R - SAN BRUNO RAPID,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9LI,SF MUNI,9LI,9L,9L - SAN BRUNO LIMITED,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9LO,SF MUNI,9LO,9L,9L - SAN BRUNO LIMITED,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_9XI,SF MUNI,9XI,9X,9X - SAN BRUNO EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_9XO,SF MUNI,9XO,9X,9X - SAN BRUNO EXPRESS,Motor Articulated Bus,Motor Articulated Bus,Motor Articulated Bus
-21_CPXI,SF MUNI,CPXI,CPX,CPX - CANDLESTICK POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_CPXO,SF MUNI,CPXO,CPX,CPX - CANDLESTICK POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_HPXI,SF MUNI,HPXI,HPX,HPX - HUNTERS POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_HPXO,SF MUNI,HPXO,HPX,HPX - HUNTERS POINT EXPRESS,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_NXI,SF MUNI,NXI,NX,NX - N HJUDAH EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_NXO,SF MUNI,NXO,NX,NX - N HJUDAH EXPRESS,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR,Motor Standard Bus ALLDOOR
-21_TISH,SF MUNI,TISH,TISH,TI - TREASURE ISLAND SHUTTLE,Motor Standard Bus,Motor Standard Bus,Motor Standard Bus
-21_TISH1,SF MUNI,TISH1,TISH,TI - TREASURE ISLAND SHUTTLE,Van,Van,Van
-21_TISH2,SF MUNI,TISH2,TISH,TI - TREASURE ISLAND SHUTTLE,Van,Van,Van
-21_TISH3,SF MUNI,TISH3,TISH,TI - TREASURE ISLAND SHUTTLE,Van,Van,Van
-110_E_IN,SF MUNI,E_IN,E,E - EMBARCADERO,Streetcar,Streetcar,Streetcar
-110_E_OUT,SF MUNI,E_OUT,E,E - EMBARCADERO,Streetcar,Streetcar,Streetcar
-110_F_IN,SF MUNI,F_IN,F,F - MARKET,Streetcar,Streetcar,Streetcar
-110_F_INA,SF MUNI,F_INA,F,F - MARKET,Streetcar,Streetcar,Streetcar
-110_F_OUT,SF MUNI,F_OUT,F,F - MARKET,Streetcar,Streetcar,Streetcar
-110_F_OUTA,SF MUNI,F_OUTA,F,F - MARKET,Streetcar,Streetcar,Streetcar
-110_J,SF MUNI,J,J,J - CHURCH,LRV1,LRV1,LRV1
-110_J_INA,SF MUNI,J_INA,J,J - CHURCH,LRV1,LRV1,LRV1
-110_J_OUTA,SF MUNI,J_OUTA,J,J - CHURCH,LRV1,LRV1,LRV1
-110_KI,SF MUNI,KI,KI,KI,LRV1,LRV1,LRV1
-110_KO,SF MUNI,KO,KO,KO,LRV1,LRV1,LRV1
-110_KT,SF MUNI,KT,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_IN1,SF MUNI,KT_IN1,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_IN2,SF MUNI,KT_IN2,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_IN3,SF MUNI,KT_IN3,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_IN4,SF MUNI,KT_IN4,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_OUT1,SF MUNI,KT_OUT1,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_OUT2,SF MUNI,KT_OUT2,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_OUT3,SF MUNI,KT_OUT3,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_KT_OUT4,SF MUNI,KT_OUT4,KT,KT - INGLESIDE / THIRD,LRV2,LRV2,LRV2
-110_L,SF MUNI,L,L,L - TARAVAL,LRV2,LRV2,LRV2
-110_L_IN,SF MUNI,L_IN,L,L - TARAVAL,LRV2,LRV2,LRV2
-110_L_OUT,SF MUNI,L_OUT,L,L - TARAVAL,LRV2,LRV2,LRV2
-110_M,SF MUNI,M,M,M - OCEAN VIEW,LRV2,LRV2,LRV2
-110_M-,SF MUNI,M-,M,M - OCEAN VIEW,LRV2,LRV2,LRV2
-110_MPARKMI,SF MUNI,MPARKMI,MPARKM,M - OCEAN VIEW,LRV2,LRV2,LRV2
-110_MPARKMO,SF MUNI,MPARKMO,MPARKM,M - OCEAN VIEW,LRV2,LRV2,LRV2
-110_N,SF MUNI,N,N,N - JUDAH,LRV2,LRV2,LRV2
-110_N_IN1,SF MUNI,N_IN1,N,N - JUDAH,LRV2,LRV2,LRV2
-110_N_OUT1,SF MUNI,N_OUT1,N,N - JUDAH,LRV2,LRV2,LRV2
-110_S,SF MUNI,S,S,S - CASTRO SHUTTLE ,LRV1,LRV1,LRV1
-110_S-,SF MUNI,S-,S,S - CASTRO SHUTTLE ,LRV1,LRV1,LRV1
-110_STI,SF MUNI,STI,S,S - SHUTTLE ST FRANCIS TO CALTRAIN,LRV1,LRV1,LRV1
-110_STO,SF MUNI,STO,S,S - SHUTTLE ST FRANCIS TO CALTRAIN,LRV1,LRV1,LRV1
-110_TI,SF MUNI,TI,T,T - THIRD STREET,LRV2,LRV2,LRV2
-110_TO,SF MUNI,TO,T,T - THIRD STREET,LRV2,LRV2,LRV2
-110_TSHTI,SF MUNI,TSHTI,TSHT,T - THIRD STREET,LRV2,LRV2,LRV2
-110_TSHTO,SF MUNI,TSHTO,TSHT,T - THIRD STREET,LRV2,LRV2,LRV2
-111_LRCCW,VTA LRT,LRCCW,CCW,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
-111_902LRT,VTA LRT,902LRT,902,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
-111_LRTWCC,VTA LRT,LRTWCC,WCC,GREEN LINE,VTA LRT2,VTA LRT2,VTA LRT2
-120_EBART,BART,EBART,eBART,BART Yellow line extension,eBart 2 car,eBart 2 car,eBart 1 car
-Name,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle Type
+NAME,System,Stripped,Line,FullLineName,AM VehicleType,PM VehicleType,OP Vehicle Type

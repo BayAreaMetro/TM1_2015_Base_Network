@@ -1,0 +1,416 @@
+
+;######################### From: M:\\Application\\Model One\\Networks\\TM1_2015_Base_Network\trn\transit_support\commuter_rail_neti_xfer_links.dat
+
+    5175    14641     0.05 ; San Jose AMTRAK Depot  **15 Stations Updated for RTP01 NP25 with ACE**
+    5336    14642     0.05 ; Santa Clara
+    5679    14643     0.05 ; Great America **This file updated with new nodes for RVAL 2000. 8/22. SI.
+    3785    14644     0.05 ; Fremont
+    3221    14647     0.05 ; Coliseum
+    3609    14646     0.05 ; Hayward
+    2816    14648     0.05 ; Jack London Square
+    2639    14649     0.05 ; Emeryville
+    2510    14650     0.05 ; Berkeley
+    2329    14651     0.05 ; Richmond AMTRAK
+    2390    14651     0.05 ; Richmond Amtrak
+    2192    14654     0.05 ; Martinez
+   11040    14655     0.05 ; Suisun City
+    7783    14658     0.05 ; Antioch
+   12159    14706     0.05 ; Pleasanton
+    4067    14707     0.05 ; Livermore
+   12170    14708     0.05 ; Vasco Road
+    2225    14652     0.05 ; Hercules
+; Caltrain
+    7599    13654     0.05 ; TRANSBAY TERMINAL  **This file updated with new nodes for RVAL 2000. 8/22. SI.
+    7612    13654     0.05 ;
+    6989    13655     0.05 ; Fourth/Townsend Caltrain **note - stations added for 1998, 32 station system**
+    6939    13656     0.05 ; 23rd Street Caltrain
+    6785    13657     0.05 ; Paul Avenue Caltrain
+    6738    13658     0.05 ; Bayshore Caltrain
+    6585    13659     0.05 ; South San Francisco Caltrain
+    6519    13660     0.05 ; San Bruno Caltrain
+    6530    13661     0.05 ; Millbrae Caltrain
+    6536    13662     0.05 ; Broadway Caltrain
+    6410    13663     0.05 ; Burlingame Caltrain
+    6326    13664     0.05 ; San Mateo Caltrain
+    6342    13665     0.05 ; Hayward Park Caltrain
+    6366    13667     0.05 ; Hillsdale Caltrain
+    6186    13668     0.05 ; Belmont Caltrain
+    6165    13669     0.05 ; San Carlos Caltrain
+    6134    13670     0.05 ; Redwood City Caltrain
+    5992    13671     0.05 ; Atherton Caltrain
+    5976    13672     0.05 ; Menlo Park Caltrain
+    5886    13673     0.05 ; Palo Alto Caltrain
+    5887    13674     0.05 ; Stanford Stadium Caltrain
+    5878    13675     0.05 ; California Avenue Caltrain
+    5619    13676     0.05 ; San Antonio Caltrain
+    5639    13677     0.05 ; Mountain View Caltrain
+    5485    13678     0.05 ; Sunnyvale Caltrain
+    5456    13679     0.05 ; Lawrence Caltrain
+    5296    13680     0.05 ; Santa Clara Caltrain
+    5110    13681     0.05 ; College Park Caltrain
+    5106    13681     0.05 ;
+    5175    13682     0.05 ; San Jose Caltrain
+    4930    13683     0.05 ; Tamien Caltrain
+    4446    13684     0.05 ; Capitol Caltrain
+    5494    13685     0.05 ; Blossom Hill CalTrain
+    4212    13686     0.05 ; Morgan Hill CalTrain
+    4201    13687     0.05 ; San Martin CalTrain
+    4157    13688     0.05 ; Gilroy CalTrain
+    2931    15735     0.05 ; Union City
+    3917    15740     0.05 ; Newark
+    5928    15745     0.05 ; Chilco Rd.
+    3785    15750     0.05 ; Fremont
+    6784    16000     0.05 ; Oakdale
+; SMART
+    8592    10461     0.05 ; Windsor
+    8795    15870     0.05 ; irport Blvd
+    8560    15805     0.05 ; Guerneville Road
+    8061    10463     0.05 ; Railroad Square
+    8288    15812     0.05 ; Rohnert Park
+    8518    10466     0.05 ; Cotati
+    8582    15830     0.05 ; North Petaluma
+    8212    10467     0.05 ; Downtown Petaluma
+    8112    15825     0.05 ; Atherton
+    7969    10469     0.05 ; Hamilton
+    7938    10470     0.05 ; Marin Civic Center
+    7905    10471     0.05 ; San Rafael
+    7889    10471     0.05
+
+;######################### From: M:\\Application\\Model One\\Networks\\TM1_2015_Base_Network\trn\transit_support\express_bus_neti_xfer_links.dat
+
+   12831     3807     0.05 ; Fremont: Mission @ I-580 ** Service for 2000 RVAL00. SI. 8/23/03
+   12832     3557     0.05 ; Fremont: Rte 84 @ Newark
+   12834     8323     0.05 ; Livermore: Airway @ Ruttan
+   12885     4075     0.05 ; Livermore: Portola @ P St.
+   12835     3147     0.05 ; Oakland: I-580 @ Fruitvale
+   12839     1700     0.05 ; Antioch: SR 4 @ Hillcrest
+   12840     8134     0.05 ; Walnut Creek: Mitchell @ Oak Grove
+   12841     2213     0.05 ; Herclues: I-80 @ Willow
+   12842     1720     0.05 ; Brentwood: Dainty @ Walnut
+   12886     1779     0.05 ; Danville: I-680 @ Sycamore Valley
+   12843     2283     0.05 ; Richmond: I-80 @ Hilltop
+   12883     8471     0.05 ; Healdsburg: Healdsburg and Grant Ave.
+   12844     7821     0.05 ; Mill Valley: Manzanitas Bus Pad
+   12844     7823     0.05 ; Mill Valley: Manzanitas Bus Pad
+   12880     7834     0.05 ; Mill Valley: Strawberry & Seminary
+   12880    20244     0.05 ; Mill Valley: Strawberry & Seminary
+   12871     8065     0.05 ; Novato: Atherton Bus Pad
+   12872     7982     0.05 ; Novato: Rowland Blvd
+;12845 	8189 0.05  ; Novato: Alameda del Prado Bus Pad
+   12845     7969     0.05 ; Novato: Alameda del Prado Bus Pad
+   16320     7891     0.05 ; San Rafael: Hetherton & Irwin
+   12847     7889     0.05 ; San Rafael: 4th and Heatherton
+   12847     7905     0.05 ; San Rafael: 4th and Heatherton
+   12848     7967     0.05 ; San Rafael: Lucas Valley Road Bus Pad
+;12848 	7955 0.05  ; San Rafael: Lucas Valley Road Bus Pad
+   12874     8201     0.05 ; Petaluma: Fairgrounds Drive
+   12882     8200     0.05 ; Petaluma: US 101 & Rte 116 @ Lakeville
+   12849     8260     0.05 ; Cotati: US 101 @ Gravenstein
+   12881     8260     0.05 ; Cotati: Old Redwood Hwy @ St. Josephs
+   12851    20320     0.05 ; Rohnert Park: Roberts Lake and Golf Course Drive
+   12852     8526     0.05 ; Rohnert Park: Rohnert Park Expressway
+   12852     8418     0.05 ; Rohnert Park: Rohnert Park Expressway
+   12853     8407     0.05 ; Santa Rosa: Rte 12 @ Brookwood
+   12873     8369     0.05 ; Santa Rosa: GGT Piner & Industrial
+   12854     6691     0.05 ; Colma: D St. @ Junipero Serra Blvd.
+   12855     6465     0.05 ; Pacifica: Rte 1 @ Linda Mar
+   12856     6356     0.05 ; San Mateo: US 101 @ SR 92
+   12876     6082     0.05 ; Crystal Springs Reservoir: Hwy 92 @ Ralston
+   12877     6116     0.05 ; Redwood City: US 101 @ Whipple
+   12878     5894     0.05 ; Palo Alto: Oregon Expwy @ El Camino Real
+   12879     6718     0.05 ; Brisbane: Bayshore Blvd. @ Tunnel Ave.
+   12857     4299     0.05 ; Milpitas: Weller @ Main
+   12858     4295     0.05 ; San Jose: Almaden @ Camden
+   12859     4522     0.05 ; San Jose: Camden @ Branham
+   12860     4402     0.05 ; San Jose: Eastridge Mall
+   12884    11934     0.05 ; Dixon: B St. and Jefferson St.
+   12865    11926     0.05 ; Vallejo: Curtola @ Lemon
+   15902    11792     0.05 ; Vallejo: Waterfront Parking
+   12867    11789     0.05 ; Vacaville: Marshall @ Alamo
+   12875     8839     0.05 ; Vacaville: Davis St.
+   12868    11042     0.05 ; Fairfield: Solano Mall
+   12869    11870     0.05 ; Fairfield: Magellan Rd
+   12870    11040     0.05 ; Suisun: Florida @ Main
+   15731     2225     0.05 ; Hercules: San Pablo, Sycamore & John Muir Pkwy
+   12838    11507     0.05 ; Richmond PNR: I-80 @ Richmond Parkway
+   12887    11430     0.05 ; Dixon: Merchant St.
+   12889     7806     0.05 ; Sausalito Spencer Ave. PNR
+   12889     7807     0.05 ; Sausalito Spencer Ave. PNR
+   16500     2146     0.05 ; Pacheco Blvd. Transit Hub
+   17000     8847     0.05 ; Vacaville Transportation Center
+   15989     2447     0.05 ; Oakley PNR
+   15999     8645     0.05 ; Trancas Intermodal
+   16010     1633     0.05 ; Pittsburg PNR
+   16015     1713     0.05 ; Byron PNR
+   16300     8109     0.05 ; Delong Ave. Bus Pad
+   16305     7969     0.05 ; Hamilton Theater PNR
+   16310     7869     0.05 ; Greenbrae PNR's
+   16315     7996     0.05 ; San Rafael: Lincoln & Prospect
+   16325     7852     0.05 ; Corte Madera: Redwood & Montecito PNR
+   17010    11631     0.05 ; Benicia Bus Hub
+   17020     2223     0.05 ; Hercules Transit Center
+   17030     7870     0.05 ; Greenbrae Sir Francis Drake Blvd at Drakes Lading Office Park
+   17035     7828     0.05 ; Mill Valley: Miller Ave at Evergreen Ave
+   17040     8239     0.05 ; Petaluma: South Petaluma Blvd at Hwy 101
+
+;######################### From: M:\\Application\\Model One\\Networks\\TM1_2015_Base_Network\trn\transit_support\FERRY_neti_xfer_links.dat
+
+    7624    14600     0.05 ; SF FERRY BUILDING  **This file updated with new nodes for RVAL 2000. 8/22. SI.
+    7605    14601     0.05 ; FISHERMAN'S WARF FERRY PIER
+    3221    14604     0.05 ; ALAMEDA FERRY TERMINAL
+    2815    14605     0.05 ; JACK LONDON SQUARE FERRY TERMINAL
+   11792    14606     0.05 ; VALLEJO FERRY TERMINAL
+    7809    14608     0.05 ; TIBURON FERRY TERMINAL
+    7855    14502     0.05 ; LARKSPUR FERRY TERMINAL
+    7808    14503     0.05 ; SAUSALITO FERRY TERMINAL
+    3264    14612     0.05 ; HARBOR BAY TERMINAL
+   11574    14577     0.05 ; RICHMOND FERRY TERMINAL
+    2225    14100     0.05 ; HERCULES FERRY TERMINAL
+   10455    14567     0.05 ; OYSTER POINT FERRY TERMINAL
+   13621    14120     0.05 ; TREASURE ISLAND FERRY TERMINAL
+    6007    14110     0.05 ; REDWOOD CITY FERRY TERMINAL
+   11720    14613     0.05 ; MARE ISLAND FERRY
+
+;######################### From: M:\\Application\\Model One\\Networks\\TM1_2015_Base_Network\trn\transit_support\heavy_rail_neti_xfer_links.dat
+
+    6638    15539     0.05 ; Colma BART    **note - stations added for 1998, 39 station system**
+    6712    15519     0.05 ; Daly City BART
+    6847    15518     0.05 ; Balboa Park BART
+    6837    15517     0.05 ; Glen Park BART
+    7143    15516     0.05 ; 24th/Mission BART
+    7120    15515     0.05 ; 16th/Mission BART
+    7628    15514     0.05 ; Civic Center BART
+    7518    15513     0.05 ; Powell Street BART
+    7507    15512     0.05 ; Montgomery Street BART
+    7509    15512     0.05
+    7488    15511     0.05 ; Embarcadero BART
+    7499    15511     0.05
+    2814    15534     0.05 ; Lake Merritt BART
+    2782    15510     0.05 ; West Oakland BART
+    2849    15509     0.05 ; 12th Street/Broadway BART
+    2848    15509     0.05 ;
+    2868    15508     0.05 ; 19th Street/Broadway BART
+    2689    15507     0.05 ; MacArthur BART
+    2688    15507     0.05
+    2588    15525     0.05 ; Ashby BART
+    2550    15523     0.05 ; Berkeley BART
+    2534    15524     0.05 ; North Berkeley BART
+    2429    15522     0.05 ; El Cerrito Plaza BART
+    2407    15521     0.05 ; El Cerrito Del Norte BART
+    2412    15521     0.05
+    2329    15520     0.05 ; Richmond BART
+    2390    15520     0.05
+    3194    15533     0.05 ; Fruitvale BART
+    3321    15532     0.05 ; Coliseum BART
+    3371    15531     0.05 ; San Leandro BART
+    3367    15531     0.05
+    3386    15530     0.05 ; Bay Fair BART
+    3507    15537     0.05 ; Castro Valley BART
+    3951    15538     0.05 ; Dublin/Pleasanton BART
+    3941    15538     0.05
+    3521    15529     0.05 ; Hayward BART
+    3548    15528     0.05 ; South Hayward BART
+    2931    15527     0.05 ; Union City BART
+    3326    15527     0.05
+    3942    15526     0.05 ; Fremont BART
+    3938    15526     0.05
+    2671    15506     0.05 ; Rockridge BART
+    1834    15505     0.05 ; Orinda BART
+    1848    15505     0.05
+    1823    15504     0.05 ; Lafayette BART
+    1908    15504     0.05
+    1956    15503     0.05 ; Walnut Creek BART
+    2087    15502     0.05 ; Pleasant Hill BART
+    2007    15501     0.05 ; Concord BART
+    7945    15535     0.05 ; North Concord BART
+    1616    15536     0.05 ; Pittsburg/Baypoint BART
+    3272    15000     0.05 ; Oakland Airport BART
+    3996    15545     0.05 ; West Dublin BART
+    2703    15545     0.05
+    1756    14230     0.05 ; E-BART Somersville Road Antioch
+    1616    14235     0.05 ; E-BART Pittsburg/Baypoint
+    1623    14245     0.05 ; E-BART Railroad Ave.
+    1633    14245     0.05
+    1700    14231     0.05 ; E-BART Hillcrest Avenue Antioch
+    7755    14232     0.05 ; E-BART  Empire Avenue Oakley
+    1720    14233     0.05 ; E-BART Central Avenue Brentwood
+    1713    14234     0.05 ; E-BART Downtown Byron
+    3882    15544     0.05 ; Warm Springs BART
+    5722    14203     0.05 ; Berryessa BART
+    6530    15543     0.05 ; Millbrae BART
+    6565    15542     0.05 ; SFO BART
+    6690    15541     0.05 ; San Bruno BART
+    6698    15540     0.05 ; South SF BART
+    8769    16410     0.05 ; Portola
+    3811    15549     0.05 ; Irvington
+    5784    14202     0.05 ; Montague BART
+
+;######################### From: M:\\Application\\Model One\\Networks\\TM1_2015_Base_Network\trn\transit_support\light_rail_neti_xfer_links.dat
+
+   12567    13700     0.05 ; Old Ironsides LRT Station
+    5437    13701     0.05 ; Great America LRT Station
+    5679    13702     0.05 ; Lick Mill LRT Station
+    5793    13703     0.05 ; Tasman LRT Station
+    4257    13704     0.05 ; River Oaks LRT Station
+    4258    13705     0.05 ; Orchard LRT Station
+    5705    13706     0.05 ; Bonaventura LRT Station
+    4277    13707     0.05 ; Component LRT Station
+    5693    13708     0.05 ; Karina LRT Station
+    5267    13709     0.05 ; Metro/Airport LRT Station
+    5289    13710     0.05 ; Gish LRT Station
+    5067    13711     0.05 ; Civic Center LRT Station
+    5069    13712     0.05 ; Ayer Street/Japantown LRT Station
+    4982    13713     0.05 ; St. James LRT Station
+    4968    13714     0.05 ; Santa Clara LRT Station
+    4956    13715     0.05 ; Paseo de San Antonio LRT Station
+    5171    13716     0.05 ; Convention Center LRT Station
+    5188    13717     0.05 ; Children's Discovery Museum LRT Station
+    4912    13718     0.05 ; Virginia LRT Station
+    4930    13719     0.05 ; Tamien LRT Light Rail/Caltrain Station
+    4490    13720     0.05 ; Curtner LRT Station
+    4352    13721     0.05 ; Capitol LRT Station
+    5554    13722     0.05 ; Branham LRT Station
+    4656    13723     0.05 ; Ohlone/Chynoweth LRT Station
+    4709    13724     0.05 ; Oakridge LRT Station
+    5375    13725     0.05 ; Almaden LRT Station
+    4427    13726     0.05 ; Blossom Hill LRT Station
+    4312    13727     0.05 ; Snell LRT Station
+    4628    13728     0.05 ; Cottle LRT Station
+    6033    13729     0.05 ; Santa Teresa LRT Station
+    5234    10910     0.05 ; Alum Rock LRT Station
+    5232    10909     0.05 ; McKee LRT Station
+    5221    10908     0.05 ; Penitencia Creek LRT Station
+    4786    10911     0.05 ; Winchester LRT Station
+   12550    10912     0.05 ; Hacienda LRT Station
+    4805    10913     0.05 ; Vasona Junction
+    4788    10907     0.05 ; Campbell LRT Station
+    4828    10906     0.05 ; Hamilton LRT Station
+    4855    10905     0.05 ; Bascom LRT Station
+    4859    10904     0.05 ; Fruitdale LRT Station
+    4895    10903     0.05 ; Race Street LRT Station
+    5175    10901     0.05 ; San Jose Diridon LRT Station
+    5179    10900     0.05 ; San Fernando LRT Station
+    5745    13782     0.05 ; Berryessa LRT Station
+    5742    13788     0.05 ; Hostetter LRT Station
+    5758    13787     0.05 ; Cropley LRT Station
+    5784    13786     0.05 ; Montague Station LRT Station
+    4371    13785     0.05 ; Great Mall/Main St. Station
+    5097    13784     0.05 ; I-880/Milpitas Station
+    4251    13783     0.05 ; Baypointe LRT Station
+    5793    13789     0.05 ; Champion LRT Station
+    4195    13699     0.05 ; Reamwood LRT Station
+    5651    13698     0.05 ; Vienna LRT STation
+    5652    13697     0.05 ; Fair Oaks LRT Station
+    4190    13696     0.05 ; Crossman LRT Station
+    4191    13695     0.05 ; Borregas LRT Station
+    5833    13694     0.05 ; Lockheed LRT
+    4148    13693     0.05 ; Bayshore/NASA LRT
+    5509    13692     0.05 ; Middlefield LRT
+    5582    13691     0.05 ; Whisman LRT Station
+    5593    13690     0.05 ; Evelyn LRT Station
+    5524    13690     0.05 ; Evelyn LRT Station
+    5639    13689     0.05 ; Mt. View LRT Station
+    5208    13795     0.05 ; Story
+    4740    13796     0.05 ; Ocala
+    4385    13798     0.05 ; Eastridge
+    5828    13805     0.05 ; Moffett Park
+   10311    14561     0.05 ; San Jose Airport
+    5296    15590     0.05 ; Downtown Santa Clara
+    4253    13800     0.05 ; Cisco Way
+    4893    10922     0.05 ; Cisco Way
+    7488    12401     0.05 ; Embarcadero  ---- MUNI METRO STREETCAR LINES J, K, L, M, N  ** 4 stops added to N line for 1998 extension to 4th and King
+    7499    12401     0.05 ; **This file updated with new nodes for RVAL 2000. 8/22. SI.
+    7507    12402     0.05 ; Montgomery Street
+    7509    12402     0.05
+    7518    12403     0.05 ; Powell Street
+    7628    12404     0.05 ; Civic Center
+    7556    12405     0.05 ; Van Ness Muni Metro
+    7199    12460     0.05 ; Duboce/Church Muni Metro  ---- MUNI METRO STREETCAR LINES J and N
+   13561    12484     0.05 ; Church/Market Muni Metro  ---- MUNI METRO STREETCAR LINE J
+   13562    12485     0.05 ; Church/16th Muni Metro
+   13563    12487     0.05 ; ROW/18th Street Muni Metro
+   13564    12490     0.05 ; ROW/21st Street Muni Metro
+    7152    12495     0.05 ; Church/24th Street Muni Metro
+    7150    12491     0.05 ; Church/Clipper Muni Metro
+    7308    12492     0.05 ; Church/27th Street Muni Metro
+   13582    12493     0.05 ; Church/29th Street Muni Metro
+    7159    12494     0.05 ; Church/30th Street Muni Metro
+   13561    12406     0.05 ; Church Street Muni Metro Station  ---- MUNI METRO STREETCAR LINES K, L, M
+    7201    12407     0.05 ; Castro Street Muni Metro Station
+    7238    12408     0.05 ; Forest Hill Muni Metro Station
+    7242    12409     0.05 ; West Portal/Ulloa Muni Metro Station
+    7243    12410     0.05 ; West Portal/14th Avenue Muni Metro Stop  ---- MUNI METRO STREETCAR LINES K and M
+    7244    12411     0.05 ; St. Francis Circle Muni Metro Stop
+    6898    12428     0.05 ; Junipero Serra/Ocean Ave. Muni Metro Stop  ---- MUNI METRO STREETCAR LINE K
+    6888    12431     0.05 ; Ocean Avenue/Cerritos Muni Metro Stop
+    7230    12432     0.05 ; Ocean Avenue/Victoria Muni Metro Stop
+    7225    12434     0.05 ; (Western) Ocean/Plymouth Muni Metro Stop
+    6884    12435     0.05 ; (Eastern) Ocean/Plymouth Muni Metro Stop
+    6883    12436     0.05 ; Ocean/Phelan Muni Metro Stop
+    6846    12437     0.05 ; Ocean/San Jose Muni Metro Stop
+    6847    12438     0.05 ; Balboa Park Muni Metro Stop (/BART Stn)
+    7248    12415     0.05 ; ROW/Sloat Muni Metro Stop  ---- MUNI METRO STREETCAR LINE M
+    7229    12416     0.05 ; ROW/Ocean Muni Metro Stop
+    6897    12417     0.05 ; 19th Avenue/Winston Muni Metro Stop
+    6901    12419     0.05 ; 19th Avenue/Holloway Muni Metro Stop
+    6894    12421     0.05 ; 19th Avenue/Junipero Serra Muni Metro Stop
+    7236    12423     0.05 ; Randolph/Arch Muni Metro Stop
+    7235    12424     0.05 ; Broad/Orizaba Muni Metro Stop
+   13647    12427     0.05 ; Broad/Plymouth Muni Metro Stop
+   13648    12425     0.05 ; San Jose/Farallones Muni Metro Stop
+    6847    12426     0.05 ; San Jose/Ocean Avenue Muni Metro Stop
+    7243    12439     0.05 ; Uloa/Forestside Muni Metro Stop  ---- MUNI METRO STREETCAR LINE L
+    7247    12440     0.05 ; 19th Avenue/Vicente Muni Metro Stop
+    7249    12441     0.05 ; Taraval/19th Avenue Muni Metro Stop
+    7448    12442     0.05 ; Taraval/24th Avenue Muni Metro Stop
+   13538    12443     0.05 ; Taraval/28th Avenue Muni Metro Stop
+    7250    12444     0.05 ; Taraval/32nd Avenue Muni Metro Stop
+    7263    12445     0.05 ; Taraval/Sunset Blvd Muni Metro Stop
+    7271    12446     0.05 ; Taraval/40th Muni Metro Stop
+    7269    12447     0.05 ; Taraval/46th Avenue Muni Metro Stop
+    7266    12448     0.05 ; Wawona/46th Avenue Muni Metro Stop
+    6982    12398     0.05 ; Folsom & Embarcadero Stop   added for 98  ---- MUNI METRO STREETCAR LINE N
+    7446    12396     0.05 ; Brannan & Embarcadero Stop  added for 98
+    7409    12394     0.05 ; Second & King Stop          added for 98
+    6963    12392     0.05 ; Fourth $ King Stop          added for 98
+    6952    12710     0.05 ; Mission Bay                         added 2025 NP RTP01
+    6953    12711     0.05 ; UCSF                                added 2025 NP RTP01
+    6936    12712     0.05 ; Mariposa                            added 2025 NP RTP01
+    6941    12713     0.05 ; 20th Street                         added 2025 NP RTP01
+    6937    12714     0.05 ; 23th Street                         added 2025 NP RTP01
+    6753    12715     0.05 ; Cesar Chavez                        added 2025 NP RTP01
+    6755    12716     0.05 ; Evans                               added 2025 NP RTP01
+   13510    12717     0.05 ; Hudson/Lasalle (2 station stops)    added 2025 NP RTP01
+    6758    12718     0.05 ; Palou                               added 2025 NP RTP01
+    6795    12719     0.05 ; Williams/Van Dyke                   added 2025 NP RTP01
+   13632    12720     0.05 ; Carroll                             added 2025 NP RTP01
+    6785    12721     0.05 ; Gillman/Paul Ave                    added 2025 NP RTP01
+    6782    12722     0.05 ; Jamestown                           added 2025 NP RTP01
+    6738    12723     0.05 ; Arleta                              added 2025 NP RTP01
+    6740    12724     0.05 ; Sunnydale                           added 2025 NP RTP01
+    6738    12725     0.05 ; Bayshore CalTrain - terminus        added 2025 NP RTP01
+    7200    12461     0.05 ; Tunnel East Muni Metro Stop
+   13553    12462     0.05 ; Carl/Cole Muni Metro Stop
+    7175    12463     0.05 ; Carl/Stanyan Muni Metro Stop
+    7176    12466     0.05 ; Carl/Hillway Muni Metro Stop
+    7233    12469     0.05 ; Irving/7th Avenue Muni Metro Stop
+    7232    12472     0.05 ; Judah/16th Avenue Muni Metro Stop
+    7257    12473     0.05 ; Judah/19th Avenue Muni Metro Stop
+   13519    12475     0.05 ; Judah/23rd Avenue Muni Metro Stop
+   13536    12476     0.05 ; Judah/28th Avenue Muni Metro Stop
+   13520    12478     0.05 ; Judah/Sunset Blvd. Muni Metro Stop
+   13524    12480     0.05 ; Judah/40th Avenue Muni Metro Stop
+   13521    12482     0.05 ; Judah/46th Avenue Muni Metro Stop
+   13522    12483     0.05 ; Judah/La Playa Muni Metro Stop
+    7599     8888     0.05 ; Transbay Terminal
+    7612     8888     0.05 ; Transbay Terminal
+;7636 12739  0.05    ; Portsmouth SQ     
+;13639 12737 0.05    ; Kearny & Sacramento
+;7526 12735  0.05    ; Kearny & Sutter
+;7510 12733  0.05    ; Market & Geary
+;7585 12731  0.05    ; 3rd & Mission
+;7065 12729  0.05    ; 3rd & Folsom
+;7051 12727  0.05    ; 3rd & Brannan
+    7544    12739     0.05 ; Chinatown
+    7513    12735     0.05 ; Union Square/Market
+    7064    12729     0.05 ; Moscone
