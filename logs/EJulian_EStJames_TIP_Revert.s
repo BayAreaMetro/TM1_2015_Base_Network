@@ -6,8 +6,8 @@ RUN PGM=network
   NETO    = freeflow_temp.net, EXCLUDE=_PROJ_LANES, _PROJECT
   
   PHASE=LINKMERGE
-    IF (LI.2._PROJECT == 'Base_year_fix' )
-      ; change the number of lanes to 2 (from 3 in the original 2015 network)
+    IF (LI.2._PROJECT == 'SCL210026' )
+      ; change the number of lanes to 3 (2 in the original modification)
       LANES = LI.2._PROJ_LANES
   
       _LINKS_MOD = _LINKS_MOD + 1
