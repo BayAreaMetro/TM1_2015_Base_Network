@@ -4860,10 +4860,10 @@ LINE NAME="84_LAWB",
 
 LINE NAME="84_NLWB",
     COLOR=4,
-    FREQ[1]=60,
-    FREQ[2]=15,
-    FREQ[3]=20,
-    FREQ[4]=15,
+    FREQ[1]=30,
+    FREQ[2]=21,
+    FREQ[3]=30,
+    FREQ[4]=18,
     FREQ[5]=30,
     LONGNAME="AC Transbay NL Westbound",
     MODE=84,
@@ -5964,10 +5964,10 @@ LINE NAME="84_MWB",
 LINE NAME="84_NLEB",
     COLOR=4,
     FREQ[1]=0,
-    FREQ[2]=15,
-    FREQ[3]=20,
-    FREQ[4]=15,
-    FREQ[5]=30,
+    FREQ[2]=24,
+    FREQ[3]=30,
+    FREQ[4]=17,
+    FREQ[5]=22,
     LONGNAME="AC Transbay NL Eastbound",
     MODE=84,
     ONEWAY=T,
@@ -7129,7 +7129,7 @@ LINE NAME="84_EWBLoc",
 LINE NAME="84_NX",
     COLOR=4,
     FREQ[1]=0,
-    FREQ[2]=20,
+    FREQ[2]=26,
     FREQ[3]=0,
     FREQ[4]=0,
     FREQ[5]=0,
@@ -8358,9 +8358,9 @@ LINE NAME="120_OR_YER",
 
 ;######################### From: M:\\Application\\Model One\\Networks\\TM1_2015_Base_Network\trn\transit_lines\CALTRAIN.tpl
 ;****************************************************************
-;*    Northbound Trains         
+;*    Northbound Trains
 ;****************************************************************
-      
+
 ; Caltrain from San Jose to San Francisco
 ; skips College Park station
 ;
@@ -8651,7 +8651,7 @@ LINE NAME="130_GILSF2NB",
     13655
 
 ; Caltrain from Gilroy to San Francisco
-; skips San Carlos, Belmont, Hayward Park, San Mateo, Burlingame, 
+; skips San Carlos, Belmont, Hayward Park, San Mateo, Burlingame,
 ; San Bruno, Bayshore, 22nd Street
 ;
 LINE NAME="130_GILSF3NB",
@@ -8737,7 +8737,7 @@ LINE NAME="130_TAMSF3NB",
     13655
 
 ; Caltrain from Tamien to San Francisco
-; skips College Park, Belmont, Hillsdale, Hayward Park, 
+; skips College Park, Belmont, Hillsdale, Hayward Park,
 ; Burlingame, San Bruno, South San Francisco, Bayshore
 ;
 LINE NAME="130_TAMSF4NB",
@@ -8940,7 +8940,7 @@ LINE NAME="130_SJSF5NB",
     13655
 
 ;****************************************************************
-;*    Southbound Trains         
+;*    Southbound Trains
 ;****************************************************************
 
 ; Caltrain from San Francisco to San Jose
@@ -9219,7 +9219,7 @@ LINE NAME="130_SFSJ3SB",
     13682
 
 ; Caltrain from San Francisco to Tamien
-; Skips 22nd St, Bayshore, South San Francisco,  
+; Skips 22nd St, Bayshore, South San Francisco,
 ; Hayward Park, College Park
 LINE NAME="130_SFTAM5SB",
     COLOR=10,
@@ -9336,7 +9336,7 @@ LINE NAME="130_SFSJ5SB",
     13682
 
 ; Caltrain from San Francisco to Gilroy
-; Skips 22nd Street, Bayshore, San Bruno, Burlingame, San Mateo, 
+; Skips 22nd Street, Bayshore, San Bruno, Burlingame, San Mateo,
 ; Hayward Park, Belmont, San Carlos, College Park
 LINE NAME="130_SFGIL1SB",
     COLOR=10,
@@ -9643,7 +9643,7 @@ LINE NAME="130_SBBB2",
     13677,
     13682
 
-; SB Baby Bullet trains 
+; SB Baby Bullet trains
 ;
 LINE NAME="130_SBBB3",
     COLOR=10,
@@ -31369,28 +31369,28 @@ LINE NAME="110_KT",
    -6735,
     6738
 
-;LINE NAME="110_T_Long", ONEWAY=F, MODE=110, OWNER="4", 
-;     COLOR=11, 
+;LINE NAME="110_T_Long", ONEWAY=F, MODE=110, OWNER="4",
+;     COLOR=11,
 ;     FREQ[1]=60,
-;     FREQ[2]=7.5, 
-;     FREQ[3]=10, 
+;     FREQ[2]=7.5,
+;     FREQ[3]=10,
 ;     FREQ[4]=7.5,
 ;     FREQ[5]=15,
 ;     RUNTIME=42,
 ;	 N=12739, 12735, 12729, 7050, 6989,
 ;	   -6963, 7066, -7503, 6952, 6953, 6936
 
-;LINE NAME="110_T_Short", ONEWAY=F, MODE=110, OWNER="4", 
-;     COLOR=11, 
+;LINE NAME="110_T_Short", ONEWAY=F, MODE=110, OWNER="4",
+;     COLOR=11,
 ;     FREQ[1]=60,
-;     FREQ[2]=7.5, 
-;     FREQ[3]=10, 
+;     FREQ[2]=7.5,
+;     FREQ[3]=10,
 ;     FREQ[4]=7.5,
 ;     FREQ[5]=15,
 ;     RUNTIME=42,
 ;	 N=12739, 12735, 12729, 7050, 6989,
 ;	   -6963, 7066, -7503, 6952, 6953, 6936, 6941, 6937, 6753, -6754,
-;	    6755, 13510, 6758, 6795, 13632, 6785, 6782, -6779, 6789, 
+;	    6755, 13510, 6758, 6795, 13632, 6785, 6782, -6779, 6789,
 ;	    6735, 6738, -6739, 6740
 LINE NAME="110_KT_IN1",
     COLOR=11,
@@ -31526,16 +31526,16 @@ LINE NAME="110_KT_IN3",
     6941,
     6937
 
-;LINE NAME="110_KT_IN5", ONEWAY=T, MODE=110, OWNER="4", 
-;     COLOR=11, 
+;LINE NAME="110_KT_IN5", ONEWAY=T, MODE=110, OWNER="4",
+;     COLOR=11,
 ;     FREQ[1]=0,
-;     FREQ[2]=0, 
-;     FREQ[3]=0, 
+;     FREQ[2]=0,
+;     FREQ[3]=0,
 ;     FREQ[4]=0,
 ;     FREQ[5]=160,
 ;     RUNTIME=42,
 ;	 N=6847, -6846, -6823, -6862, 6883, -6884, 7225, 7230, 6888,
-;	 6898, -13611, 7244, 7243, 12409,  
+;	 6898, -13611, 7244, 7243, 12409,
 ;	 12408, 12407, 12406, 12405, 12404, 12403, 12402, 12401,
 ;	 6982, -6977, -7434, 7446, -7447, 7409, -7057,
 ;	 6989, -6963, 7066, -7503, 6952, 6953, 6936, 6941
@@ -31645,7 +31645,7 @@ LINE NAME="110_KT_OUT4",
     6753,
     6937
 
-;LINE NAME="110_K_1", ONEWAY=T, MODE=110, OWNER="4", 
+;LINE NAME="110_K_1", ONEWAY=T, MODE=110, OWNER="4",
 ;     COLOR=11,  FREQ[1]=36, RUNTIME=19,
 ;	 N=6847, -6846, -6823, -6862, 6883, -6884, 7225, 7230, 6888,
 ;	 6898, -13611, 7244, 7243, 7242
@@ -31850,7 +31850,7 @@ LINE NAME="110_N_OUT1",
     13521,
     13522
 
-;LINE NAME="110_N_IN2", ONEWAY=T, MODE=110, OWNER="4", COLOR=11, 
+;LINE NAME="110_N_IN2", ONEWAY=T, MODE=110, OWNER="4", COLOR=11,
 ;     FREQ[1]=0,
 ;     FREQ[2]=0,
 ;     FREQ[3]=0,
@@ -31858,19 +31858,19 @@ LINE NAME="110_N_OUT1",
 ;     FREQ[5]=240,
 ;     RUNTIME=52,
 ;     N=12405, 12404, 12403, 12402, 12401
-     
 
-;LINE NAME="110_S_Cast", ONEWAY=F, MODE=110, OWNER="4", COLOR=11,  
+
+;LINE NAME="110_S_Cast", ONEWAY=F, MODE=110, OWNER="4", COLOR=11,
 ;     FREQ[1]=0,
-;     FREQ[2]=9, 
-;     FREQ[3]=0, 
+;     FREQ[2]=9,
+;     FREQ[3]=0,
 ;     FREQ[4]=0,
 ;     FREQ[5]=0,
 ;     RUNTIME=12,
 ;     N=12407, 12406, 12405, 12404, 12403, 12402, 12401
-	
 
-	 	    
+
+
 
 ; Line E  Caltrain Terminal at 4th & King to Jones & Beach
 LINE NAME="110_E_IN",
@@ -34385,7 +34385,7 @@ LINE NAME="24_274",
     FREQ[3]=30,
     FREQ[4]=30,
     FREQ[5]=120,
-    LONGNAME="SamTrans 274 Redwood City Transit Center - Cañada College",
+    LONGNAME="SamTrans 274 Redwood City Transit Center - Caï¿½ada College",
     MODE=24,
     ONEWAY=F,
     OWNER="5",
@@ -43091,14 +43091,14 @@ LINE NAME="111_LRCCW",
 
 ;; San Jose Airport People Mover
 ;LINE NAME="111_SJAIRPM", ONEWAY=F, MODE=111, OWNER="27",
-;     COLOR=8,  
+;     COLOR=8,
 ;     FREQ[1]=5,
 ;     FREQ[2]=5,
 ;     FREQ[3]=5,
 ;     FREQ[4]=5,
 ;     FREQ[5]=5,
 ;     N=13709, 14561, 15590
-     
+
 ; Express service from Santa Teresa to Tasman Northbound
 ; (Non-stop weekday service between the Ohlone/Chynoweth and Convention Center)
 LINE NAME="111_901NXLRT",
@@ -51040,4 +51040,3 @@ LINE NAME="33_580XWB",
    -4073,
    -12230,
     3941
-
