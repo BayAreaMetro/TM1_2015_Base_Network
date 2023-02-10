@@ -7,6 +7,7 @@ shapefile/*.tbx
 TPPL.PRJ
 TPPL.VAR
 *.BAK
+.DS_Store
 Thumbs.db
 Node Description.xls
 trn/transit_fares/MODES_&_FARES_2016.xls
