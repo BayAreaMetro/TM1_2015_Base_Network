@@ -25,7 +25,7 @@ PNR NODE=11488-13788 TIME=2.00 ZONES=1-1454             ; Hostetter
 PNR NODE=10808-10908 TIME=2.00 ZONES=1-1454             ; Glenfirth
 ;PNR NODE=10809-10909 TIME=2.00 ZONES=1-1454             ; McKee
 PNR NODE=10810-10910 TIME=2.00 ZONES=1-1454             ; Alum Rock 
-PNR NODE=10801-10901 TIME=2.00 ZONES=1-1454             ; San Jose Amtrak Depot
+PNR NODE=14216-10901 TIME=2.00 ZONES=1-1454             ; San Jose Amtrak Depot
 ;PNR NODE=10802-10902 TIME=2.00 ZONES=1-1454             ; San Carlos
 ;PNR NODE=10804-10904 TIME=2.00 ZONES=1-1454             ; Fruitdale
 PNR NODE=10805-10905 TIME=2.00 ZONES=1-1454             ; Bascom   
