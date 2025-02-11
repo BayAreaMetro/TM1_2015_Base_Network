@@ -39,9 +39,6 @@ ZONEACCESS link=14950-14650 mode=5
 ;Richmond AMTRAK
 ZONEACCESS link=14951-14651 mode=5
 
-;Hercules
-ZONEACCESS link=14952-14652 mode=5
-
 ;Martinez
 ZONEACCESS link=14954-14654 mode=5
 

@@ -24,7 +24,6 @@ PNR NODE=14862-14706 TIME=2.00 ZONES=1-1454                    	  ; Pleasanton
 PNR NODE=14863-14707 TIME=2.00 ZONES=1-1454                    	  ; Livermore
 PNR NODE=14864-14708 TIME=2.00 ZONES=1-1454              	  ; Vasco Road
 ;PNR NODE=14729-14529 TIME=2.00 ZONES=1-1454                   	  ; Central Valley
-PNR NODE=14852-14652 TIME=2.00 ZONES=1-1454                       ; Hercules
 PNR NODE=14856-14656 TIME=3.00 ZONES=1-1454                       ; Fairfield/Vacaville
 
 ;**********************

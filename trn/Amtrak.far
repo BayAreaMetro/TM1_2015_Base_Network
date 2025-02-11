@@ -65,23 +65,12 @@
 14654    14658    455    ;  Martinez            to Antioch
 14655    14658    1224   ;  Suisun-Fairfield    to Antioch
 
-14655    14652    769    ;  Suisun-Fairfield    to Hercules
-14654    14652    399    ;  Martinez            to Hercules
-14652    14651    346    ;  Hercules            to Richmond
-14652    14650    427    ;  Hercules            to Berkeley
-14652    14649    480    ;  Hercules            to Emeryville
-14652    14648    497    ;  Hercules            to Oakland Jack London
-14652    14647    586    ;  Hercules            to Oakland Coliseum
-14652    14646    616    ;  Hercules            to Hayward
-14652    14644    799    ;  Hercules            to Fremont
-14652    14643    853    ;  Hercules            to Great America
-14652    14641    906    ;  Hercules            to San Jose Diridon
-14652    14658    560    ;  Hercules            to Antioch
+
+
 
 14642    14656    1652   ;  Santa Clara         to Fairfield-Vacaville
 14642    14655    1652   ;  Santa Clara         to Suisun/Fairfield  to
 14642    14654    1332   ;  Santa Clara         to Martinez to
-14642    14652    842    ;  Santa Clara         to Hercules
 14642    14651    1036   ;  Santa Clara         to Richmond
 14642    14650    983    ;  Santa Clara         to Berkeley
 14642    14649    983    ;  Santa Clara         to Emeryville
