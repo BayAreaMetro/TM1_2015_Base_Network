@@ -8,6 +8,7 @@
 ## For Next Generation Freeway Study Round 2
 
 - RouteNum × 10000 + CountyNum × 100 + SegmentNum
+  
 where:
 - RouteNum → Represents the route number of the freeway.  
 - CountyNum → Represents the county code:
