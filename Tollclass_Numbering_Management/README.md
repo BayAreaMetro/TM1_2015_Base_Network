@@ -24,5 +24,6 @@ where:
   - 10 = External  
   (Note: CountyNum has the same coding as the `GL` variable in the [travel model highway network](https://github.com/BayAreaMetro/modeling-website/wiki/HighwayNetworkCoding))
 - SegmentNum → A number chosen by the coder to uniquely identify segments.
+  Moving forward, we would ideally adopt an improve convention for SegmentNum: odd numbers for NB and EB, and even numbers for SB and WB.
 	
 
