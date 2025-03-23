@@ -64,7 +64,7 @@ The modeling implementation of “T5 all-lane tolling" has the following key ele
 5.	50% HOV2+ discounts
 6.	Toll caps for low-income groups 
 
-### Implementation Details of “T5 all-lane tolling"
+### Implementation Details
 
 - **Elements #1–3** are implemented via code in the `apply.s` script within the `FBP_T5_All_Lane_Tolling` NetworkProject.
 - **Element #4** is implemented through the `apply.s` script in the same NetworkProject. Selected links are assigned tollclass numbers corresponding to either $0.30 or $0.10 per-mile tolls (2023$) in the `tolls.csv`. For the purposes of PBA50+, this element can be simplified to use only two toll classes. However, the current T5 implementation retains the toll class numbering from Next Generation Freeways Round 2 for expediency.
