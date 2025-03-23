@@ -71,10 +71,3 @@ The modeling implementation of “T5 all-lane tolling" has the following key ele
 - **Element #5** is implemented via the `tolls.csv` file in the same NetworkProject.
 - **Element #6** (toll caps for low-income travelers) is not implemented as a network edit. Instead, it will be committed via:  
   [travel-model-one v1.6.1_MaxVtoll on GitHub](https://github.com/BayAreaMetro/travel-model-one/tree/v1.6.1_MaxVtoll)
-
-### How is TOLLCLASS_Designations.csv used?
-- `TOLLCLASS_Designations.csv` is not directly used by T5. It serves only as a reference, as T5 inherits the toll class numbering from the Next Generation Freeways Round 2 project.
-- The predecessor of this file, `TOLLCLASS_Designations.xlsx`, was used in several ways by the Next Generation Freeways Round 2 project:
-  - The toll calibration process relied on this file, as it provided inputs including: `THRESHOLD_SPEED`, `MAX_TOLL`, `MIN_TOLL`, and `s2toll_mandatory`. Moving forward, the toll calibration process should be updated to use the `.csv` version of the file.  
-  - Generating a toll plan: The script `Create_simple_toll_plan.py` uses information from the `"Grouping minor"` and `"Grouping major"` fields.
-  - It is also used for generating summary metrics by corridor
