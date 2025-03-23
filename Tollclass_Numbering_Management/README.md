@@ -1,4 +1,28 @@
-# **Tollclass Numbering Convention**
+# **Purpose**
+`TOLLCLASS_Designations.csv` serves as a tollclass number registry, with the primary goal of ensuring that each specific road segment is uniquely identified by a distinct toll class number.
+
+# **Field Definitions**
+`project`: Project Name, indicating the name of the project when the tollclass was introduced. It is not used in scripts.
+
+`facility_name`: Descriptive name of the facility, to help analysts easily identify it within the network. It does not affect scripts functionality/operations. 
+
+`tollclass`: Tollclass number. Please refer to the section below on the numbering conventions used in past and current projects.	
+
+`PBA2050_RTP_ID`: This ID was used to facilitate network QA during Next Generation Freeway Study Round 2. (However, during PBA50+ work, it transpires that this ID is not stable across RTP, so this field may not have as much long term value as previuosly thought.)
+
+`s2toll_mandatory`: Indicates whether vehicles with two occupants (S2) are required to pay a toll. A value of 1 means S2 vehicles must pay, while 0 means the express lane is free for them. 
+
+`THRESHOLD_SPEED`: Threshold speed for toll calibration. The toll optimization procedure aims to simulate express lanes dynamic pricing. The procedure runs CTRAMP and highway assignment iteratively until the input toll rates produce a desired level of express lane system performance, i.e. an average speed exceeding a threshold speed (e.g., 45 mph) for each toll class within the time period.
+
+`MAX_TOLL`: Maximum toll per mile for the tollclass. Used in the toll calibration process.
+
+`MIN_TOLL`: Maximum toll per mile for the tollclass. Used in the toll calibration process.
+
+`Grouping major`: Indicates how tollclasses are grouped. Used in the toll setting process in Next Generation Freeway Study Round 1 and result summarization in Next Generation Freeway Study Round 2.
+
+`Grouping minor`: Indicates how tollclasses are grouped. Used in the toll setting process in Next Generation Freeway Study Round 1 and result summarization in Next Generation Freeway Study Round 2.	
+
+# **Tollclass Numbering Conventions in Past and Current projects**
 
 ## For Next Generation Freeway Study Round 1
 
