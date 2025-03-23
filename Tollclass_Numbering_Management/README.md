@@ -8,7 +8,7 @@
 
 `tollclass`: Tollclass number. Please refer to the section below on the numbering conventions used in past and current projects.	
 
-`PBA2050_RTP_ID`: This ID was used to facilitate network QA during Next Generation Freeway Study Round 2. (However, during PBA50+ work, it transpires that this ID is not stable across RTP, so this field may not have as much long term value as previuosly thought.)
+`PBA2050_RTP_ID`: This ID was used to facilitate network QA during Next Generation Freeway Study Round 2. (However, during PBA50+ work, it transpires that this ID is not stable across RTPs, so this field may not have as much long term value as previuosly thought.)
 
 `s2toll_mandatory`: Indicates whether vehicles with two occupants (S2) are required to pay a toll. A value of 1 means S2 vehicles must pay, while 0 means the express lane is free for them. 
 
