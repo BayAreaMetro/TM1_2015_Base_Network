@@ -51,12 +51,12 @@ where:
   Moving forward, we would ideally adopt an improve convention for SegmentNum: odd numbers for NB and EB, and even numbers for SB and WB.
 	
 ## Plan Bay Area 2050+
-Plan Bay Area 2050+ T5 does not introduce any new toll classes; it inherits the toll class numbering from the Next Generation Freeways Round 2 project. However, the implementation details of Plan Bay Area 2050+ T5 are provided below for reference.
+Plan Bay Area 2050+ “T5 all-lane tolling" does not introduce any new toll classes; it inherits the toll class numbering from the Next Generation Freeways Round 2 project. However, the implementation details of Plan Bay Area 2050+ T5 are provided below for reference.
 
 Asana task: https://app.asana.com/0/1204959680579890/1208629862862977/f
 
 ### Key elements
-The modeling implementation of “T5 all-lane tolling implementation” has the following key elements:
+The modeling implementation of “T5 all-lane tolling" has the following key elements:
 1.	All-lane tolling on all highways
 2.	Existing express lanes are converted to tolled HOV2 lanes 
 3.	Existing HOV3 lanes are converted to tolled HOV2
