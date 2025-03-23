@@ -51,6 +51,8 @@ where:
   Moving forward, we would ideally adopt an improve convention for SegmentNum: odd numbers for NB and EB, and even numbers for SB and WB.
 	
 ## Plan Bay Area 2050+
+Plan Bay Area 2050+ T5 does not introduce any new toll classes; it inherits the toll class numbering from the Next Generation Freeways Round 2 project. However, the implementation details of Plan Bay Area 2050+ T5 are provided below for reference.
+
 Asana task: https://app.asana.com/0/1204959680579890/1208629862862977/f
 
 ### Key elements
@@ -75,4 +77,4 @@ The modeling implementation of “T5 all-lane tolling implementation” has the 
 - The predecessor of this file, `TOLLCLASS_Designations.xlsx`, was used in several ways by the Next Generation Freeways Round 2 project:
   - The toll calibration process relied on this file, as it provided inputs including: `THRESHOLD_SPEED`, `MAX_TOLL`, `MIN_TOLL`, and `s2toll_mandatory`. Moving forward, the toll calibration process should be updated to use the `.csv` version of the file.  
   - Generating a toll plan: The script `Create_simple_toll_plan.py` uses information from the `"Grouping minor"` and `"Grouping major"` fields.
-  - It is also used for generating summary metrics by corridor (details to be provided later)
+  - It is also used for generating summary metrics by corridor
