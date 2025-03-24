@@ -67,7 +67,7 @@ The modeling implementation of “T5 all-lane tolling" has the following key ele
 ### Implementation Details
 
 - **Elements #1–3** are implemented via code in the `apply.s` script within the `FBP_T5_All_Lane_Tolling` NetworkProject.
-- **Element #4** is implemented through the `apply.s` script in the same NetworkProject. Selected links are assigned tollclass numbers corresponding to either $0.30 or $0.10 per-mile tolls (in 2023\$) in the `tolls.csv`. For the purposes of PBA50+, this element can be simplified to use only two toll classes. However, the current T5 implementation retains the toll class numbering from Next Generation Freeways Round 2 for expediency.
+- **Element #4** is implemented through the `apply.s` script in the same NetworkProject. Selected links are assigned tollclass numbers corresponding to either $0.30 or $0.10 per-mile tolls (in '2023$') in the `tolls.csv`. For the purposes of PBA50+, this element can be simplified to use only two toll classes. However, the current T5 implementation retains the toll class numbering from Next Generation Freeways Round 2 for expediency.
 - **Element #5** is implemented via the `tolls.csv` file in the same NetworkProject.
 - **Element #6** (toll caps for low-income travelers) is not implemented as a network edit. Instead, it will be committed via:  
   [travel-model-one v1.6.1_MaxVtoll on GitHub](https://github.com/BayAreaMetro/travel-model-one/tree/v1.6.1_MaxVtoll)
