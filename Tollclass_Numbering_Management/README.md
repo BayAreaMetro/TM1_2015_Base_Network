@@ -57,7 +57,7 @@ Asana task: https://app.asana.com/0/1204959680579890/1208629862862977/f
 
 ### Key elements
 The modeling implementation of “T5 all-lane tolling" has the following key elements:
-1.	All-lane tolling on all highways
+1.	All-lane tolling on all highways, excluding bridge spans
 2.	Existing express lanes are converted to tolled HOV2 lanes 
 3.	Existing HOV3 lanes are converted to tolled HOV2
 4.	Peak period only tolls: 30 cents for congested corridors and 10 cents other corridors (2023$)
